@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Academic</title>
+    <link>https://subodhvsharma.github.io/publication/</link>
+      <atom:link href="https://subodhvsharma.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Nov 2020 21:38:57 +0530</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://subodhvsharma.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Security Types for Synchronous Data Flow Systems</title>
+      <link>https://subodhvsharma.github.io/publication/memocode20/</link>
+      <pubDate>Tue, 10 Nov 2020 21:38:57 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/memocode20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verifying and Testing Concurrent Programs using Constraint Solver based Approaches</title>
+      <link>https://subodhvsharma.github.io/publication/icsme20/</link>
+      <pubDate>Tue, 10 Nov 2020 21:34:27 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/icsme20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy concerns with Aadhaar</title>
+      <link>https://subodhvsharma.github.io/publication/cacm19/</link>
+      <pubDate>Tue, 10 Nov 2020 21:24:53 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/cacm19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Symbolic Verification of MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/fm18/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fm18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zeus: Analyzing Safety of Smart Contracts</title>
+      <link>https://subodhvsharma.github.io/publication/ndss18/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ndss18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/toplas17/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/toplas17/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+ &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+    <item>
+      <title>POLLUX: Safely Upgrading Dependent Application Libraries</title>
+      <link>https://subodhvsharma.github.io/publication/fse16/</link>
+      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fse16/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+ &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+    <item>
+      <title>From Traces to Proofs: Proving Concurrent Programs Safe</title>
+      <link>https://subodhvsharma.github.io/publication/tase16/</link>
+      <pubDate>Sun, 17 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/tase16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Verification of Concurrent Programs over TSO Memory Model</title>
+      <link>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unfolding-based Partial Order Reduction</title>
+      <link>https://subodhvsharma.github.io/publication/concur15/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/concur15/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+ &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Accelerated Test Execution using GPUs</title>
+      <link>https://subodhvsharma.github.io/publication/ase14/</link>
+      <pubDate>Mon, 15 Sep 2014 17:06:05 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ase14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/fm14/</link>
+      <pubDate>Mon, 12 May 2014 17:01:26 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fm14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAPPED: Predictive Dynamic Analysis Tool for MPI Applications</title>
+      <link>https://subodhvsharma.github.io/publication/sc12/</link>
+      <pubDate>Sat, 10 Nov 2012 16:03:56 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/sc12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Sound Reduction of Persistent-Sets for Deadlock Detection in MPI Applications</title>
+      <link>https://subodhvsharma.github.io/publication/sbmf12/</link>
+      <pubDate>Wed, 12 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/sbmf12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Verification Solutions for Message Passing Systems</title>
+      <link>https://subodhvsharma.github.io/publication/ipdps11/</link>
+      <pubDate>Mon, 16 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ipdps11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MCC: A runtime verification tool for MCAPI user applications</title>
+      <link>https://subodhvsharma.github.io/publication/fmcad09/</link>
+      <pubDate>Sun, 15 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fmcad09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic verification of Multicore Communication applications in MCAPI</title>
+      <link>https://subodhvsharma.github.io/publication/hldvt09/</link>
+      <pubDate>Wed, 04 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/hldvt09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Some resources for teaching concurrency</title>
+      <link>https://subodhvsharma.github.io/publication/padtad09/</link>
+      <pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/padtad09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Formal Approach to Detect Functionally Irrelevant Barriers in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/eurompi08/</link>
+      <pubDate>Sun, 07 Sep 2008 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/eurompi08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISP: a tool for model checking MPI programs</title>
+      <link>https://subodhvsharma.github.io/publication/ppopp08/</link>
+      <pubDate>Sat, 23 Feb 2008 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ppopp08/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

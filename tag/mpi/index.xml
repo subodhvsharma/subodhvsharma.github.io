@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MPI | Academic</title>
+    <link>https://subodhvsharma.github.io/tag/mpi/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/mpi/index.xml" rel="self" type="application/rss+xml" />
+    <description>MPI</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Nov 2020 18:32:22 +0530</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>MPI</title>
+      <link>https://subodhvsharma.github.io/tag/mpi/</link>
+    </image>
+    
+    <item>
+      <title>Verification of Message Passing Systems</title>
+      <link>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</link>
+      <pubDate>Tue, 10 Nov 2020 18:32:22 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</guid>
+      <description>&lt;p&gt;Message passing is pervasive &amp;ndash; from inter processs communication in multicores to high performance computing, message passing plays a central role. In this project, we envison to create a&lt;br&gt;
+framework to analyse message passing systems. In particular:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create efficient dynamic symbolic encodings for VCs in message passing programs&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exploit the symmetry and parametricity to scale up the verification problem.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:slateblue&#34;&gt;The project is funded by the DST-ECRA grant &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Symbolic Verification of MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/fm18/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fm18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/toplas17/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/toplas17/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+ &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/fm14/</link>
+      <pubDate>Mon, 12 May 2014 17:01:26 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fm14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAPPED: Predictive Dynamic Analysis Tool for MPI Applications</title>
+      <link>https://subodhvsharma.github.io/publication/sc12/</link>
+      <pubDate>Sat, 10 Nov 2012 16:03:56 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/sc12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Sound Reduction of Persistent-Sets for Deadlock Detection in MPI Applications</title>
+      <link>https://subodhvsharma.github.io/publication/sbmf12/</link>
+      <pubDate>Wed, 12 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/sbmf12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Verification Solutions for Message Passing Systems</title>
+      <link>https://subodhvsharma.github.io/publication/ipdps11/</link>
+      <pubDate>Mon, 16 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ipdps11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Formal Approach to Detect Functionally Irrelevant Barriers in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/eurompi08/</link>
+      <pubDate>Sun, 07 Sep 2008 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/eurompi08/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

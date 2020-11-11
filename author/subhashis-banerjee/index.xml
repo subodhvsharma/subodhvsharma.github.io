@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Subhashis Banerjee | Academic</title>
+    <link>https://subodhvsharma.github.io/author/subhashis-banerjee/</link>
+      <atom:link href="https://subodhvsharma.github.io/author/subhashis-banerjee/index.xml" rel="self" type="application/rss+xml" />
+    <description>Subhashis Banerjee</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Nov 2020 10:37:59 +0530</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Subhashis Banerjee</title>
+      <link>https://subodhvsharma.github.io/author/subhashis-banerjee/</link>
+    </image>
+    
+    <item>
+      <title>Privacy and Digitisation</title>
+      <link>https://subodhvsharma.github.io/project/privacy-and-digitisation/</link>
+      <pubDate>Wed, 11 Nov 2020 10:37:59 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/privacy-and-digitisation/</guid>
+      <description>&lt;p&gt;India is arguably the biggest deployer of digitization in public life with large public service applications (in-use or contemplated) like national identity, electronic voting, health registry, national population and voter registries, public credit registry, income and other tax registries, face recognition based access control to airports and other facilities, bluetooth based contact tracing and a national intelligence grid.&lt;/p&gt;
+&lt;p&gt;In this project, we are investigating the core privacy requirements in large public service
+applications (such as eVoting, Aadhaar, etc.). In particular the two focussed activities under the project are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Design of an end-to-end individually verifiable DRE voting protocol&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Designing a privacy-centric architecture for digital applications where the focus is to address privacy violation &lt;em&gt;ex-ante&lt;/em&gt; rather than &lt;em&gt;ex-post&lt;/em&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy concerns with Aadhaar</title>
+      <link>https://subodhvsharma.github.io/publication/cacm19/</link>
+      <pubDate>Tue, 10 Nov 2020 21:24:53 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/cacm19/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eric Mercer | Academic</title>
+    <link>https://subodhvsharma.github.io/author/eric-mercer/</link>
+      <atom:link href="https://subodhvsharma.github.io/author/eric-mercer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Eric Mercer</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Nov 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Eric Mercer</title>
+      <link>https://subodhvsharma.github.io/author/eric-mercer/</link>
+    </image>
+    
+    <item>
+      <title>MCC: A runtime verification tool for MCAPI user applications</title>
+      <link>https://subodhvsharma.github.io/publication/fmcad09/</link>
+      <pubDate>Sun, 15 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fmcad09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic verification of Multicore Communication applications in MCAPI</title>
+      <link>https://subodhvsharma.github.io/publication/hldvt09/</link>
+      <pubDate>Wed, 04 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/hldvt09/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
