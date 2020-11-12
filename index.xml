@@ -56,6 +56,23 @@
     </item>
     
     <item>
+      <title>Assignment 1</title>
+      <link>https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/assign1/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/assign1/</guid>
+      <description>&lt;h4 id=&#34;1-spanning-tree&#34;&gt;1. Spanning Tree&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a predicate that takes a binary relation as input (on &lt;strong&gt;univ&lt;/strong&gt; set) and tests whether or not the relation is a &lt;em&gt;tree&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Create a predicate that takes two binary relations as input and constrains one to be a spanning tree of the other. Use this predicate to give an example of a graph with two distinct spanning trees. Note that the versions of the predicate may be different for directed or undirected graphs. Specify both the versions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-report&#34;&gt;2. Report&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a report in latex clear.y explaining how you iteratively refined your model and how did Alloy help you to indentify counter-examples in your modeling process.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Assignment 2 (due date Jan 17)</title>
       <link>https://subodhvsharma.github.io/teaching/col100/assign2/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>

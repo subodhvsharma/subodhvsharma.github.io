@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Sem I (2020-21)">
+  <meta name="description" content="1. Spanning Tree  Create a predicate that takes a binary relation as input (on univ set) and tests whether or not the relation is a tree. Create a predicate that takes two binary relations as input and constrains one to be a spanning tree of the other.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/">
+  <link rel="alternate" hreflang="en-us" href="https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/assign1/">
 
   
 
@@ -259,14 +259,12 @@
   
 
   
-  <link rel="alternate" href="/teaching/spmoduleinsoftwaresystems-software-abstractions/index.xml" type="application/rss+xml" title="Academic">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/">
+  <link rel="canonical" href="https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/assign1/">
 
   
   
@@ -285,29 +283,34 @@
   <meta property="twitter:creator" content="@subodhsharma">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/">
-  <meta property="og:title" content="COV 882 Special Module in Software Systems -- Software Abstractions | Academic">
-  <meta property="og:description" content="Sem I (2020-21)"><meta property="og:image" content="https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/assign1/">
+  <meta property="og:title" content="Assignment 1 | Academic">
+  <meta property="og:description" content="1. Spanning Tree  Create a predicate that takes a binary relation as input (on univ set) and tests whether or not the relation is a tree. Create a predicate that takes two binary relations as input and constrains one to be a spanning tree of the other."><meta property="og:image" content="https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-01-01T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2019-12-29T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-12-29T00:00:00&#43;01:00">
   
 
   
 
 
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>COV 882 Special Module in Software Systems -- Software Abstractions | Academic</title>
+
+
+  <title>Assignment 1 | Academic</title>
 
 </head>
 
@@ -835,14 +838,14 @@
 
     
       <div class="docs-toc-item">
-        <a class="docs-toc-link  active" href="/teaching/spmoduleinsoftwaresystems-software-abstractions/">Software Abstractions</a>
+        <a class="docs-toc-link " href="/teaching/spmoduleinsoftwaresystems-software-abstractions/">Software Abstractions</a>
     
       
         <ul class="nav docs-sidenav">
       
 
 
-  <li class=""><a href="/teaching/spmoduleinsoftwaresystems-software-abstractions/assign1/">Assignment 1</a></li>
+  <li class="active"><a href="/teaching/spmoduleinsoftwaresystems-software-abstractions/assign1/">Assignment 1</a></li>
 
       
         </ul>
@@ -872,11 +875,10 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#general-information">General Information</a></li>
-    <li><a href="#course-description">Course Description</a>
+    <li>
       <ul>
-        <li><a href="#reference-book">Reference Book</a></li>
-        <li><a href="#reference-links">Reference Links</a></li>
+        <li></li>
+        <li><a href="#2-report">2. Report</a></li>
       </ul>
     </li>
   </ul>
@@ -891,23 +893,17 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>COV 882 Special Module in Software Systems -- Software Abstractions</h1>
+          <h1>Assignment 1</h1>
 
           <div class="article-style">
-            <h2 id="general-information">General Information</h2>
-<hr>
-<p><strong>Class Timings: Mo/Wed from 11:00 hrs to 12:00 hrs</strong>
-<strong>Venue: Online (MS Teams)</strong>
-<strong>Instructor: Subodh Sharma (svs at cse.iitd.ac.in)</strong></p>
-<hr>
-<h2 id="course-description">Course Description</h2>
-<p>Course Description:We often find that our programs don&rsquo;t run according to their specifications and even when they do the programs are large and clunky to extend or modify. This is a direct result of programmers running away from designing abstractions and not sufficiently focussing on simplicity and clarity. Could we instead work with a simple language that captures the essential aspects of program design before we decide to develop such programs? Would it not be great to not only state the software abstractions of systems succinctly, but also analyse them fully automatically akin to the continuous integration model of software development? In this course, we shall study one such specification language called Alloy and learn to model system abstractions succinctly and incrementally. We shall also learn to apply Alloy analysis tool to models which will facilitate in finding deeps flaws early in the design process without having to explicitly write a ton of unit tests.</p>
-<h3 id="reference-book">Reference Book</h3>
-<p><strong>Software Abstractions</strong>   by Daniel Jackson</p>
-<h3 id="reference-links">Reference Links</h3>
+            <h4 id="1-spanning-tree">1. Spanning Tree</h4>
 <ul>
-<li><a href="http://alloytools.org/tutorials/online" target="_blank" rel="noopener">Alloy Online Tutorial</a></li>
-<li><a href="http://alloytools.org/tutorials/day-course" target="_blank" rel="noopener">Alloy Tutorial Slides</a></li>
+<li>Create a predicate that takes a binary relation as input (on <strong>univ</strong> set) and tests whether or not the relation is a <em>tree</em>.</li>
+<li>Create a predicate that takes two binary relations as input and constrains one to be a spanning tree of the other. Use this predicate to give an example of a graph with two distinct spanning trees. Note that the versions of the predicate may be different for directed or undirected graphs. Specify both the versions.</li>
+</ul>
+<h3 id="2-report">2. Report</h3>
+<ul>
+<li>Create a report in latex clear.y explaining how you iteratively refined your model and how did Alloy help you to indentify counter-examples in your modeling process.</li>
 </ul>
 
           </div>
@@ -930,7 +926,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Jan 1, 2020</p>
+          <p>Last updated on Dec 29, 2019</p>
 
           
 
