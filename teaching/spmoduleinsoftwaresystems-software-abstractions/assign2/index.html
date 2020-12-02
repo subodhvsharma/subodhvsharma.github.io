@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="Develop ML functions for the following problems.  Develop a higher order function and show its use in computing fastpower (from Assign1), perfect numbers(from Assign1), $e^{x}$ up to some $n$-th term, and the higher order double summation function to compute $\Sigma_{i = a}^{b}\Sigma_{j=c}^{d}$ Submit the solutions to the Minor1 questions that you were unable to solve in the exam.">
+  <meta name="description" content="Modeling FSMs (Finite State Machines) [EASY] A FSM has non-empty set of initial states and a transition relation which connects each state to its successors. Construct an Alloy model of FSMs by adding constraints and having the analyzer solve them, generate a variety of examples of machines:">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://subodhvsharma.github.io/teaching/col100/assign3/">
+  <link rel="alternate" hreflang="en-us" href="https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/assign2/">
 
   
 
@@ -264,7 +264,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://subodhvsharma.github.io/teaching/col100/assign3/">
+  <link rel="canonical" href="https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/assign2/">
 
   
   
@@ -283,15 +283,15 @@
   <meta property="twitter:creator" content="@subodhsharma">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="https://subodhvsharma.github.io/teaching/col100/assign3/">
-  <meta property="og:title" content="Assignment 3 | Academic">
-  <meta property="og:description" content="Develop ML functions for the following problems.  Develop a higher order function and show its use in computing fastpower (from Assign1), perfect numbers(from Assign1), $e^{x}$ up to some $n$-th term, and the higher order double summation function to compute $\Sigma_{i = a}^{b}\Sigma_{j=c}^{d}$ Submit the solutions to the Minor1 questions that you were unable to solve in the exam."><meta property="og:image" content="https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://subodhvsharma.github.io/teaching/spmoduleinsoftwaresystems-software-abstractions/assign2/">
+  <meta property="og:title" content="Assignment 2 | Academic">
+  <meta property="og:description" content="Modeling FSMs (Finite State Machines) [EASY] A FSM has non-empty set of initial states and a transition relation which connects each state to its successors. Construct an Alloy model of FSMs by adding constraints and having the analyzer solve them, generate a variety of examples of machines:"><meta property="og:image" content="https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-01-03T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2019-12-29T00:00:00&#43;01:00">
     
-    <meta property="article:modified_time" content="2020-01-03T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2019-12-29T00:00:00&#43;01:00">
   
 
   
@@ -310,7 +310,7 @@
 
 
 
-  <title>Assignment 3 | Academic</title>
+  <title>Assignment 2 | Academic</title>
 
 </head>
 
@@ -794,7 +794,7 @@
 
 
 
-  <li class="active"><a href="/teaching/col100/assign3/">Assignment 3</a></li>
+  <li class=""><a href="/teaching/col100/assign3/">Assignment 3</a></li>
 
       
         </ul>
@@ -849,7 +849,7 @@
 
 
 
-  <li class=""><a href="/teaching/spmoduleinsoftwaresystems-software-abstractions/assign2/">Assignment 2</a></li>
+  <li class="active"><a href="/teaching/spmoduleinsoftwaresystems-software-abstractions/assign2/">Assignment 2</a></li>
 
       
         </ul>
@@ -881,7 +881,9 @@
   <ul>
     <li>
       <ul>
-        <li></li>
+        <li><a href="#modeling-fsms-finite-state-machines-easy">Modeling FSMs (Finite State Machines) [EASY]</a></li>
+        <li><a href="#modeling-concurrent-program-executions-challenging">Modeling Concurrent Program Executions [CHALLENGING]</a></li>
+        <li><a href="#report">Report</a></li>
       </ul>
     </li>
   </ul>
@@ -896,18 +898,52 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Assignment 3</h1>
+          <h1>Assignment 2</h1>
 
           <div class="article-style">
-            <h4 id="develop-ml-functions-for-the-following-problems">Develop ML functions for the following problems.</h4>
+            <h3 id="modeling-fsms-finite-state-machines-easy">Modeling FSMs (Finite State Machines) [EASY]</h3>
+<p>A FSM has non-empty set of initial states and a transition relation which connects each
+state to its successors. Construct an Alloy model of FSMs by adding constraints and having the analyzer solve
+them, generate a variety of examples of machines:</p>
 <ul>
-<li>Develop a higher order function and show its use in computing
-fastpower (from Assign1), perfect numbers(from Assign1), $e^{x}$ up
-to some $n$-th term, and the higher order double summation function
-to compute $\Sigma_{i = a}^{b}\Sigma_{j=c}^{d}$</li>
-<li>Submit the solutions to the Minor1 questions that you were unable to solve in the exam.</li>
-<li>Study, understand, and code the two primality testing methods from Chapter 5 of the lecture notes.
-You are free to use SML or Python for this assignment.</li>
+<li>A deterministic machine, in which each state has at most one successor;</li>
+<li>A non-deterministic machine, in which some states have more than one successor;</li>
+<li>A machine with unreachable states;</li>
+<li>A machine without unreachable states;</li>
+<li>A connected machine in which every state is reachable from every other state;</li>
+<li>A machine with a deadlock: a reachable state that has no successors;</li>
+<li>A machine with a livelock: the possibility of an infinite execution in which a state that is always reachable is never
+reached.</li>
+</ul>
+<h3 id="modeling-concurrent-program-executions-challenging">Modeling Concurrent Program Executions [CHALLENGING]</h3>
+<p>Semantics of any program is generally defined by a set of <em>executions</em>. An execution of a program is composed of <em>events</em>. Events are either <em>read</em> (or <em>write</em>) from (or to) a location or <em>fences</em>. Events can also be classified into those that access <em>atomic</em> locations and those that access <em>non-atomic ($nal$)</em> locations. Events from the same thread are ordered w.r.t. each other via a total order called  <em>sequenced-before ($sb$)</em>. Other relations that may exist between events are:</p>
+<ul>
+<li>dependency relations such as <em>address ($ad$), control ($cd$)</em> or <em>data ($dd$)</em> dependency</li>
+<li>whether events are from the same thread ($sthd$) or accessing the same location ($ sloc$)</li>
+<li><em>reads-from (rf)</em> relation &ndash; a relation containing edges
+to read actions from the write actions whose values they take, <em>coherence-order ($co$)</em> &ndash; a total order on distinct writes to the same atomic location)</li>
+<li><em>reads-from-external</em> ( $rfe \overset{\mathrm{def}}{=} rf \setminus sthd $)</li>
+</ul>
+<p>The constaints on the structure of basic well-formed executions are:</p>
+<ul>
+<li>Read, write, fence and $nal$ are drawn from the events $E$ that appear in the execution</li>
+<li>Fence operations are distinct from read and write events</li>
+<li>$sb$ is a intra-thread and strict partial order</li>
+<li>the nature of address, control and data dependencies (<em>i.e.,</em> their relation to read and write events)</li>
+<li>$rf$ is well-formed if the related writes and read are to the same location and is injective. Simialrly, $co$ is well-formed if the writes are to the same location forms a strict partial order.</li>
+<li>$rfe$ is derived from $rf$.</li>
+</ul>
+<p>The above is not an exhaustive list. Some other simpler constriants coming straight from the natural definition of the relations have been left out. One can refer to the paper <a href="https://dl.acm.org/doi/10.1145/1926385.1926394" target="_blank" rel="noopener">Mathematizing C++ Concurrency</a> for natural definition of the relations mentioned above.</p>
+<p>Release ($rel$) and acquire ($acq$) are atomic write and read events, respectively. A fence can also have release or acquire semantics. A <em>consistent</em> execution of a program with release and acquire events has the following constraints:</p>
+<ul>
+<li>A happens-before ($hb$) relation &ndash; created from $sb$ and the syncrhonisation of release and acquire events in the execution.</li>
+<li>$hb$ edges between events accessing the same location, together with $rf, co$ and $fr$ must not form cycles. Note that $fr$ relates each read to all of the writes that are coherence-ordered later than the write that the read observed.</li>
+</ul>
+<p>Implement the basic execution modeling in Alloy and extend your model to the <em>release-acquire</em> fragment of C11. Show
+litmus execution behaviours of consistent executions, data race-free and with race executions.</p>
+<h3 id="report">Report</h3>
+<ul>
+<li>Create a report in latex and explain how you iteratively refined the model and how did Alloy help you to indentify counter-examples in your modeling process.</li>
 </ul>
 
           </div>
@@ -926,7 +962,7 @@ You are free to use SML or Python for this assignment.</li>
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/teaching/col100/assign2/" rel="next">Assignment 2 (due date Jan 17)</a>
+    <a href="/teaching/spmoduleinsoftwaresystems-software-abstractions/assign1/" rel="next">Assignment 1</a>
   </div>
   
   
@@ -937,7 +973,7 @@ You are free to use SML or Python for this assignment.</li>
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Jan 3, 2020</p>
+          <p>Last updated on Dec 29, 2019</p>
 
           
 
