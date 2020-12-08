@@ -5,59 +5,12 @@
     <link>https://subodhvsharma.github.io/tag/blockchain/</link>
       <atom:link href="https://subodhvsharma.github.io/tag/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <description>Blockchain</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Tue, 24 Nov 2020 20:23:19 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Tue, 10 Nov 2020 21:09:11 +0530</lastBuildDate>
     <image>
       <url>https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Blockchain</title>
       <link>https://subodhvsharma.github.io/tag/blockchain/</link>
     </image>
-    
-    <item>
-      <title>Vacancy in Blockchain Project</title>
-      <link>https://subodhvsharma.github.io/post/project-position/</link>
-      <pubDate>Tue, 24 Nov 2020 20:23:19 +0530</pubDate>
-      <guid>https://subodhvsharma.github.io/post/project-position/</guid>
-      <description>&lt;h2 id=&#34;project-details&#34;&gt;Project Details&lt;/h2&gt;
-&lt;p&gt;Smart contracts (Blockchains) have a potential to disrupt the digital technology platforms by ensuring security, privacy, and trust.  In this project, we envisage to create a trusted Blockchain application that can serve as mobility-as-a-service(MaaS) platform. The goals of the project are two fold:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Create a blockchain mobile application for traceability of goods and facilitiate reputation scoring mechanism.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Create a testing tool to automatically test smart contracts against known safety and security vulnerabilities and synthesize smart contract implementations by using data-driven and deductive approaches.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The project is funded by DENSO Corporation and &lt;a href=&#34;https://subodhvsharma.github.io/project/iot-security&#34;&gt;DST-JST grant on IoT security&lt;/a&gt;. The project position related details are given in the table below:&lt;/p&gt;
-&lt;table class=&#34;fixed&#34;&gt;
-    &lt;col width=&#34;100px&#34; /&gt;
-    &lt;col width=&#34;500px&#34; /&gt;
-&lt;tr&gt; 
-&lt;td&gt; Post: &lt;/td&gt;
-&lt;td&gt;  Project Scientist or Assistant &lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt; 
-&lt;td&gt; Eligibility: &lt;/td&gt;
-&lt;td&gt; BTech  degree in Computer Science and Engineering or Electrical Engineering (GATE score is preferable).&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt; 
-&lt;td&gt; Skills: &lt;/td&gt;
-&lt;td&gt; 
-&lt;ul&gt;
-&lt;li&gt; Proficiency in at least one of the following languages: C++, Java, GoLang. &lt;/li&gt;
-&lt;li&gt; Experience with Ethereum or Hyperledger fabric blockchain platforms is preferable. &lt;/li&gt;
-&lt;li&gt; Experience with cross platform mobile app development is preferable (such as React native, Javascript). &lt;/li&gt;
-&lt;/ul&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr style=&#34;background-color:GainsBoro&#34;&gt; 
-&lt;td&gt; Pay and Contract: &lt;/td&gt;
-&lt;td&gt; Starting from 38k/month. Contract for one year (extendible to 2 years based on performance).
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/table&gt;
-&lt;p&gt;All interested candidates may send email with a copy of their recent CV to Prof. Subodh Sharma, CSE, IIT Delhi (Email: &lt;a href=&#34;mailto:svs@iitd.ac.in&#34;&gt;svs@iitd.ac.in&lt;/a&gt;) with the subject “Application for the post of Project Assistant“ by &lt;span style=&#34;color:red&#34;&gt;2nd December, 2020 &lt;/span&gt;.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>IoT Security</title>
