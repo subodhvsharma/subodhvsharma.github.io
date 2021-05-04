@@ -5,7 +5,7 @@
     <link>https://subodhvsharma.github.io/</link>
       <atom:link href="https://subodhvsharma.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Wed, 11 Nov 2020 10:37:59 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Sun, 11 Apr 2021 21:34:27 +0530</lastBuildDate>
     <image>
       <url>https://subodhvsharma.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
@@ -184,6 +184,14 @@ You are free to use SML or Python for this assignment.&lt;/li&gt;
     </item>
     
     <item>
+      <title>Synthesizing Multi-threaded Tests from Sequential Traces to Detect Communication Deadlocks</title>
+      <link>https://subodhvsharma.github.io/publication/icst21/</link>
+      <pubDate>Sun, 11 Apr 2021 21:34:27 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/icst21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Privacy and Digitisation</title>
       <link>https://subodhvsharma.github.io/project/privacy-and-digitisation/</link>
       <pubDate>Wed, 11 Nov 2020 10:37:59 +0530</pubDate>
@@ -207,14 +215,6 @@ applications (such as eVoting, Aadhaar, etc.). In particular the two focussed ac
       <link>https://subodhvsharma.github.io/publication/memocode20/</link>
       <pubDate>Tue, 10 Nov 2020 21:38:57 +0530</pubDate>
       <guid>https://subodhvsharma.github.io/publication/memocode20/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Synthesizing Multi-threaded Tests from Sequential Traces to Detect Communication Deadlocks</title>
-      <link>https://subodhvsharma.github.io/publication/icst21/</link>
-      <pubDate>Tue, 10 Nov 2020 21:34:27 +0530</pubDate>
-      <guid>https://subodhvsharma.github.io/publication/icst21/</guid>
       <description></description>
     </item>
     

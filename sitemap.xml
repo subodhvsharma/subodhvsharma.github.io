@@ -53,18 +53,78 @@
   </url>
   
   <url>
+    <loc>https://subodhvsharma.github.io/publication-type/1/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://subodhvsharma.github.io/</loc>
-    <lastmod>2020-11-11T10:37:59+05:30</lastmod>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://subodhvsharma.github.io/authors/</loc>
-    <lastmod>2020-11-11T10:37:59+05:30</lastmod>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://subodhvsharma.github.io/categories/</loc>
-    <lastmod>2020-11-11T10:37:59+05:30</lastmod>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/category/concurrency/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/author/dhriti-khanna/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/tag/java/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/publication_types/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/publication/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/author/rahul-purandare/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/author/subodh-sharma/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/tag/symoblic-execution/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/publication/icst21/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/tags/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://subodhvsharma.github.io/tag/testing/</loc>
+    <lastmod>2021-04-11T21:34:27+05:30</lastmod>
   </url>
   
   <url>
@@ -93,32 +153,7 @@
   </url>
   
   <url>
-    <loc>https://subodhvsharma.github.io/author/subodh-sharma/</loc>
-    <lastmod>2020-11-11T10:37:59+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/tags/</loc>
-    <lastmod>2020-11-11T10:37:59+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/publication-type/1/</loc>
-    <lastmod>2020-11-10T21:38:57+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://subodhvsharma.github.io/tag/iot/</loc>
-    <lastmod>2020-11-10T21:38:57+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/publication_types/</loc>
-    <lastmod>2020-11-10T21:38:57+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/publication/</loc>
     <lastmod>2020-11-10T21:38:57+05:30</lastmod>
   </url>
   
@@ -135,41 +170,6 @@
   <url>
     <loc>https://subodhvsharma.github.io/author/y.-madhukar/</loc>
     <lastmod>2020-11-10T21:38:57+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/category/concurrency/</loc>
-    <lastmod>2020-11-10T21:34:27+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/author/dhriti-khanna/</loc>
-    <lastmod>2020-11-10T21:34:27+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/tag/java/</loc>
-    <lastmod>2020-11-10T21:34:27+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/author/rahul-purandare/</loc>
-    <lastmod>2020-11-10T21:34:27+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/tag/symoblic-execution/</loc>
-    <lastmod>2020-11-10T21:34:27+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/publication/icst21/</loc>
-    <lastmod>2020-11-10T21:34:27+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://subodhvsharma.github.io/tag/testing/</loc>
-    <lastmod>2020-11-10T21:34:27+05:30</lastmod>
   </url>
   
   <url>
