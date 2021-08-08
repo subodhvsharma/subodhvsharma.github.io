@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COV 882 Special Module in Software Systems -- Software Abstractions | Academic</title>
+    <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/</link>
+      <atom:link href="https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/index.xml" rel="self" type="application/rss+xml" />
+    <description>COV 882 Special Module in Software Systems -- Software Abstractions</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>COV 882 Special Module in Software Systems -- Software Abstractions</title>
+      <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/</link>
+    </image>
+    
+    <item>
+      <title>Assignment 1</title>
+      <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</guid>
+      <description>&lt;h4 id=&#34;1-spanning-tree&#34;&gt;1. Spanning Tree&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement a predicate that takes a binary relation as input (on &lt;strong&gt;univ&lt;/strong&gt; set) and tests whether or not the relation is a &lt;em&gt;tree&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Implement a predicate that takes two binary relations as input and constrains one to be a spanning tree of the other. Use this predicate to give an example of a graph with two distinct spanning trees. Note that the versions of the predicate may be different for directed or undirected graphs. Specify both the versions.&lt;/li&gt;
+&lt;li&gt;Consider a weighted undirected graph. Implement a predicate to check whether a given relation forms an MST.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;2-report&#34;&gt;2. Report&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a report in latex clear.y explaining how you iteratively refined your model and how did Alloy help you to indentify counter-examples in your modeling process.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 2</title>
+      <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</guid>
+      <description>&lt;h3 id=&#34;modeling-fsms-finite-state-machines-easy&#34;&gt;Modeling FSMs (Finite State Machines) [EASY]&lt;/h3&gt;
+&lt;p&gt;A FSM has non-empty set of initial states and a transition relation which connects each
+state to its successors. Construct an Alloy model of FSMs by adding constraints and having the analyzer solve
+them, generate a variety of examples of machines:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A deterministic machine, in which each state has at most one successor;&lt;/li&gt;
+&lt;li&gt;A non-deterministic machine, in which some states have more than one successor;&lt;/li&gt;
+&lt;li&gt;A machine with unreachable states;&lt;/li&gt;
+&lt;li&gt;A machine without unreachable states;&lt;/li&gt;
+&lt;li&gt;A connected machine in which every state is reachable from every other state;&lt;/li&gt;
+&lt;li&gt;A machine with a deadlock: a reachable state that has no successors;&lt;/li&gt;
+&lt;li&gt;A machine with a livelock: the possibility of an infinite execution in which a state that is always reachable is never
+reached.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;modeling-concurrent-program-executions-challenging&#34;&gt;Modeling Concurrent Program Executions [CHALLENGING]&lt;/h3&gt;
+&lt;p&gt;Semantics of any program is generally defined by a set of &lt;em&gt;executions&lt;/em&gt;. An execution of a program is composed of &lt;em&gt;events&lt;/em&gt;. Events are either &lt;em&gt;read&lt;/em&gt; (or &lt;em&gt;write&lt;/em&gt;) from (or to) a location or &lt;em&gt;fences&lt;/em&gt;. Events can also be classified into those that access &lt;em&gt;atomic&lt;/em&gt; locations and those that access &lt;em&gt;non-atomic ($nal$)&lt;/em&gt; locations. Events from the same thread are ordered w.r.t. each other via a total order called  &lt;em&gt;sequenced-before ($sb$)&lt;/em&gt;. Other relations that may exist between events are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;dependency relations such as &lt;em&gt;address ($ad$), control ($cd$)&lt;/em&gt; or &lt;em&gt;data ($dd$)&lt;/em&gt; dependency&lt;/li&gt;
+&lt;li&gt;whether events are from the same thread ($sthd$) or accessing the same location ($ sloc$)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;reads-from (rf)&lt;/em&gt; relation &amp;ndash; a relation containing edges
+to read actions from the write actions whose values they take, &lt;em&gt;coherence-order ($co$)&lt;/em&gt; &amp;ndash; a total order on distinct writes to the same atomic location)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;reads-from-external&lt;/em&gt; ( $rfe \overset{\mathrm{def}}{=} rf \setminus sthd $)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The constaints on the structure of basic well-formed executions are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read, write, fence and $nal$ are drawn from the events $E$ that appear in the execution&lt;/li&gt;
+&lt;li&gt;Fence operations are distinct from read and write events&lt;/li&gt;
+&lt;li&gt;$sb$ is a intra-thread and strict partial order&lt;/li&gt;
+&lt;li&gt;the nature of address, control and data dependencies (&lt;em&gt;i.e.,&lt;/em&gt; their relation to read and write events)&lt;/li&gt;
+&lt;li&gt;$rf$ is well-formed if the related writes and read are to the same location and is injective. Simialrly, $co$ is well-formed if the writes are to the same location forms a strict partial order.&lt;/li&gt;
+&lt;li&gt;$rfe$ is derived from $rf$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The above is not an exhaustive list. Some other simpler constriants coming straight from the natural definition of the relations have been left out. One can refer to the paper &lt;a href=&#34;https://dl.acm.org/doi/10.1145/1926385.1926394&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mathematizing C++ Concurrency&lt;/a&gt; for natural definition of the relations mentioned above.&lt;/p&gt;
+&lt;p&gt;Release ($rel$) and acquire ($acq$) are atomic write and read events, respectively. A fence can also have release or acquire semantics. A &lt;em&gt;consistent&lt;/em&gt; execution of a program with release and acquire events has the following constraints:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A happens-before ($hb$) relation &amp;ndash; created from $sb$ and the syncrhonisation of release and acquire events in the execution.&lt;/li&gt;
+&lt;li&gt;$hb$ edges between events accessing the same location, together with $rf, co$ and $fr$ must not form cycles. Note that $fr$ relates each read to all of the writes that are coherence-ordered later than the write that the read observed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Implement the basic execution modeling in Alloy and extend your model to the &lt;em&gt;release-acquire&lt;/em&gt; fragment of C11. Show
+litmus execution behaviours of consistent executions, data race-free and with race executions.&lt;/p&gt;
+&lt;h3 id=&#34;report&#34;&gt;Report&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a report in latex and explain how you iteratively refined the model and how did Alloy help you to indentify counter-examples in your modeling process.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

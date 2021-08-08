@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Saurabh Joshi | Academic</title>
+    <link>https://subodhvsharma.github.io/authors/saurabh-joshi/</link>
+      <atom:link href="https://subodhvsharma.github.io/authors/saurabh-joshi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Saurabh Joshi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Saurabh Joshi</title>
+      <link>https://subodhvsharma.github.io/authors/saurabh-joshi/</link>
+    </image>
+    
+    <item>
+      <title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/toplas17/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/toplas17/</guid>
+      <description> &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

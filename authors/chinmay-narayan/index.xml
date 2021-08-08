@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chinmay Narayan | Academic</title>
+    <link>https://subodhvsharma.github.io/authors/chinmay-narayan/</link>
+      <atom:link href="https://subodhvsharma.github.io/authors/chinmay-narayan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chinmay Narayan</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Sun, 17 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Chinmay Narayan</title>
+      <link>https://subodhvsharma.github.io/authors/chinmay-narayan/</link>
+    </image>
+    
+    <item>
+      <title>From Traces to Proofs: Proving Concurrent Programs Safe</title>
+      <link>https://subodhvsharma.github.io/publication/tase16/</link>
+      <pubDate>Sun, 17 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/tase16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Verification of Concurrent Programs over TSO Memory Model</title>
+      <link>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

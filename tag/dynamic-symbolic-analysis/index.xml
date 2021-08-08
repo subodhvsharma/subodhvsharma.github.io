@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dynamic Symbolic Analysis | Academic</title>
+    <link>https://subodhvsharma.github.io/tag/dynamic-symbolic-analysis/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/dynamic-symbolic-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dynamic Symbolic Analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Tue, 10 Nov 2020 18:32:22 +0530</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Dynamic Symbolic Analysis</title>
+      <link>https://subodhvsharma.github.io/tag/dynamic-symbolic-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Verification of Message Passing Systems</title>
+      <link>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</link>
+      <pubDate>Tue, 10 Nov 2020 18:32:22 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</guid>
+      <description>&lt;p&gt;Message passing is pervasive &amp;ndash; from inter processs communication in multicores to high performance computing, message passing plays a central role. In this project, we envison to create a&lt;br&gt;
+framework to analyse message passing systems. In particular:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create efficient dynamic symbolic encodings for VCs in message passing programs&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exploit the symmetry and parametricity to scale up the verification problem.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:slateblue&#34;&gt;The project is funded by the DST-ECRA grant &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

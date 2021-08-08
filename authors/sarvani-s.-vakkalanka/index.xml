@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sarvani S. Vakkalanka | Academic</title>
+    <link>https://subodhvsharma.github.io/authors/sarvani-s.-vakkalanka/</link>
+      <atom:link href="https://subodhvsharma.github.io/authors/sarvani-s.-vakkalanka/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sarvani S. Vakkalanka</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Thu, 09 Jul 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Sarvani S. Vakkalanka</title>
+      <link>https://subodhvsharma.github.io/authors/sarvani-s.-vakkalanka/</link>
+    </image>
+    
+    <item>
+      <title>Some resources for teaching concurrency</title>
+      <link>https://subodhvsharma.github.io/publication/padtad09/</link>
+      <pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/padtad09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Formal Approach to Detect Functionally Irrelevant Barriers in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/eurompi08/</link>
+      <pubDate>Sun, 07 Sep 2008 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/eurompi08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISP: a tool for model checking MPI programs</title>
+      <link>https://subodhvsharma.github.io/publication/ppopp08/</link>
+      <pubDate>Sat, 23 Feb 2008 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ppopp08/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COL100 Introduction to Computer Science | Academic</title>
+    <link>https://subodhvsharma.github.io/course/col100/</link>
+      <atom:link href="https://subodhvsharma.github.io/course/col100/index.xml" rel="self" type="application/rss+xml" />
+    <description>COL100 Introduction to Computer Science</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2019 SubodhSharma</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>COL100 Introduction to Computer Science</title>
+      <link>https://subodhvsharma.github.io/course/col100/</link>
+    </image>
+    
+    <item>
+      <title>Assignment 1 (non-credit)</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign1/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign1/</guid>
+      <description>&lt;h4 id=&#34;1-learn-the-following-basics-of-unix&#34;&gt;1. Learn the following basics of Unix:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;What is a Unix terminal and how to open one? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What are files and processes? What is a directory and how are files grouped together in a directory structure? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Tutorial 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to list files and directories?  How to create files and directories? How to copy and move files? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Tutorial 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What are file access permissions and how to change them? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unix5.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Tutorial 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:Brown&#34;&gt; &lt;strong&gt;It is expected that by the end of this task, you are familiar with the usage of unix commands such as: &lt;code&gt;ls, cp, rm, mv, touch, chmod, groups, passwd, cd, pwd, mkdir, rmdir&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2-open-up-a-browser-firefoxchrome-and-access-the-col100-homepage&#34;&gt;2. Open up a browser (firefox/Chrome) and access the COL100 homepage.&lt;/h4&gt;
+&lt;h4 id=&#34;3-open-an-email-client-webmail-iit-delhi-and-login-to-your-account-send-an-email-to-the-instructor-of-col100-and-then-logout&#34;&gt;3. Open an email client (webmail IIT Delhi) and login to your account. Send an email to the instructor of COL100 and then logout.&lt;/h4&gt;
+&lt;h4 id=&#34;4-learn-how-to-use-and-navigate-a-text-editor&#34;&gt;4. Learn how to use and navigate a text editor:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Type the following command on your terminal prompt: &lt;span style=&#34;color:DarkBlue&#34;&gt; &lt;strong&gt;&lt;code&gt;gedit &amp;amp;&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Open the &lt;a href=&#34;https://help.gnome.org/users/gedit/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gedit tutorial&lt;/a&gt; and experiment with at least the following sections (you can experiment with all the subsections on the gedit tutorial page, if you like):
+&lt;ul&gt;
+&lt;li&gt;File basics: Open, close, and save files&lt;/li&gt;
+&lt;li&gt;Replace text and Search for text&lt;/li&gt;
+&lt;li&gt;Undo a recent action&lt;/li&gt;
+&lt;li&gt;Turn on syntax highlighting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;5-learn-how-to-work-with-sml-programs&#34;&gt;5. Learn how to work with SML programs:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Open a terminal and execute the command:&lt;span style=&#34;color:DarkBlue&#34;&gt; &lt;strong&gt;&lt;code&gt;sml&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Follow section 3.1-3.3 of the lecture notes and code up the examples. If you wish to experiment more, then you can refer to the &lt;a href=&#34;https://www.cs.princeton.edu/courses/archive/fall08/cos441/notes/lect-SMLNJ.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;slide deck here&lt;/a&gt; from slide 5 onwards.&lt;/li&gt;
+&lt;li&gt;Type the following programs in separate files and learn how to load and execute them in the interactive SML environment:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;sourceCode&#34; id=&#34;cb1&#34;&gt;&lt;pre class=&#34;sourceCode sml&#34;&gt;&lt;code class=&#34;sourceCode sml&#34;&gt;&lt;span id=&#34;cb1-1&#34;&gt;&lt;a href=&#34;#cb1-1&#34;&gt;&lt;/a&gt;&lt;span class=&#34;kw&#34;&gt;fun&lt;/span&gt; factorial(n) = &lt;/span&gt;
+&lt;span id=&#34;cb1-2&#34;&gt;&lt;a href=&#34;#cb1-2&#34;&gt;&lt;/a&gt;    &lt;span class=&#34;kw&#34;&gt;if&lt;/span&gt; (n = &lt;span class=&#34;dv&#34;&gt;0&lt;/span&gt;) &lt;span class=&#34;kw&#34;&gt;then&lt;/span&gt; &lt;span class=&#34;dv&#34;&gt;1&lt;/span&gt; &lt;/span&gt;
+&lt;span id=&#34;cb1-3&#34;&gt;&lt;a href=&#34;#cb1-3&#34;&gt;&lt;/a&gt;    &lt;span class=&#34;kw&#34;&gt;else&lt;/span&gt; n*factorial(n&lt;span class=&#34;dv&#34;&gt;-1&lt;/span&gt;);&lt;/span&gt;
+&lt;span id=&#34;cb1-4&#34;&gt;&lt;a href=&#34;#cb1-4&#34;&gt;&lt;/a&gt;&lt;/span&gt;
+&lt;span id=&#34;cb1-5&#34;&gt;&lt;a href=&#34;#cb1-5&#34;&gt;&lt;/a&gt;&lt;span class=&#34;kw&#34;&gt;fun&lt;/span&gt; gcd(m,n) =&lt;/span&gt;
+&lt;span id=&#34;cb1-6&#34;&gt;&lt;a href=&#34;#cb1-6&#34;&gt;&lt;/a&gt;    &lt;span class=&#34;kw&#34;&gt;if&lt;/span&gt; (n=&lt;span class=&#34;dv&#34;&gt;0&lt;/span&gt;) &lt;span class=&#34;kw&#34;&gt;then&lt;/span&gt; m&lt;/span&gt;
+&lt;span id=&#34;cb1-7&#34;&gt;&lt;a href=&#34;#cb1-7&#34;&gt;&lt;/a&gt;    &lt;span class=&#34;kw&#34;&gt;else&lt;/span&gt; gcd(n,m mod n);    &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 2 (due date Jan 17)</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign2/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign2/</guid>
+      <description>&lt;h4 id=&#34;develop-ml-functions-for-the-following-problems&#34;&gt;Develop ML functions for the following problems.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Computing factorial of a given integer using both recursive and
+iterative procedures. For some inputs (from the domain of Integers) the
+computation may not terminate. Identify such inputs and provide reason for this non-termination.&lt;/li&gt;
+&lt;li&gt;Computing $x^n$. Write both recursive and iterative
+versions.&lt;/li&gt;
+&lt;li&gt;Computing the $n^{th}$ fibonacci number. First use the algorithm
+given by the following functional description:
+$fib(1) = 1; fib(2) = 1; fib(n) = fib(n-1)+fib(n-2)$ for $n &amp;gt; 2$.
+Also develop iterative algorithms for the same problem.&lt;/li&gt;
+&lt;li&gt;The integer square root of $n$ is the integer $k$ such that
+$k^2 \leq n &amp;lt; (k+1)^2$.  The integer square root can be computed
+using the following inductive process:
+&lt;ul&gt;
+&lt;li&gt;Compute the integer square root $i$ of $m = n ,\mbox{div}, 4$
+recursively.  We then have that $i^2 \leq m &amp;lt; (i+1)^2$.&lt;/li&gt;
+&lt;li&gt;Since $m$ and $i$ are integers we have that $(m+1) &amp;lt;= (i+1)^2$.
+We thus have $(2i)^2 \leq 4m \leq n &amp;lt; 4m + 4 \leq (2i + 2)^2$.
+Hence we have that the integer square root of $n$ is either
+$2i$ or $2i+1$.&lt;/li&gt;
+&lt;li&gt;Write a recursive ML program corresponding to the above algorithm.
+Indicate the type of the function and derive the number
+of steps required.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Study the problem of computing &lt;i&gt;perfect numbers&lt;/i&gt; from the the
+&lt;a href=&#34;http://www.cse.iitd.ac.in/~suban/COL100/lecture.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture notes Example 3.13&lt;/a&gt; and
+implement the ML program. Also study the following discussion on
+&lt;i&gt;scope rules&lt;/i&gt;. You will be questioned on this problem during the
+demonstration.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 3</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign3/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign3/</guid>
+      <description>&lt;h4 id=&#34;develop-ml-functions-for-the-following-problems&#34;&gt;Develop ML functions for the following problems.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop a higher order function and show its use in computing
+fastpower (from Assign1), perfect numbers(from Assign1), $e^{x}$ up
+to some $n$-th term, and the higher order double summation function
+to compute $\Sigma_{i = a}^{b}\Sigma_{j=c}^{d}$&lt;/li&gt;
+&lt;li&gt;Submit the solutions to the Minor1 questions that you were unable to solve in the exam.&lt;/li&gt;
+&lt;li&gt;Study, understand, and code the two primality testing methods from Chapter 5 of the lecture notes.
+You are free to use SML or Python for this assignment.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
