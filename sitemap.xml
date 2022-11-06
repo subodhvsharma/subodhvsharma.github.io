@@ -368,5 +368,8 @@
   </url><url>
     <loc>https://subodhvsharma.github.io/admin/</loc>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://subodhvsharma.github.io/course/col100/faq/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>

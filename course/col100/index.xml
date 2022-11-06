@@ -13,7 +13,7 @@
     </image>
     
     <item>
-      <title>Assignment 1 (non-credit)</title>
+      <title>Assignment 1</title>
       <link>https://subodhvsharma.github.io/course/col100/assign1/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
       <guid>https://subodhvsharma.github.io/course/col100/assign1/</guid>
@@ -37,6 +37,33 @@
 &lt;li&gt;Undo a recent action&lt;/li&gt;
 &lt;li&gt;Turn on syntax highlighting by selecting gedit -&amp;gt; Preferences -&amp;gt; Plugins -&amp;gt; Python Console&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://subodhvsharma.github.io/course/col100/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/faq/</guid>
+      <description>&lt;h1 id=&#34;col100-frequently-asked-questions&#34;&gt;COL100 Frequently Asked Questions&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;What can I expect to learn from these courses?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This course aims to introduce the methods of algorithmic thinking, analysis of correctness, and design of building blocks of efficient algorithmic procedures. They will also introduce the issues involved in translation of algorithmic ideas into working programs. These courses are largely programming language independent, but will introduce major programming paradigms like the functional, imperative and object-oriented.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Why do I have to learn &lt;code&gt;the principle of mathematical induction&lt;/code&gt; and &lt;code&gt;invariants&lt;/code&gt;? What good are these? I can program effectively even without these.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Correctness is perhaps the most cruicial aspect of program design. Through these tools you will learn how to reason about the correctness of your algorithmic designs and programs. In the words of Prof Banerjee &amp;ldquo;It is the same reason why budding young cricketers are painstakingly taught batting techniques in cricket academies before they are encouraged to bat like Virendra Sehwag. While there may be geniuses who can hit the ball consistently out of the park with total disregard for foot positions and correctness of weight transfer while hitting the ball, most aspiring cricketers would do well to learn the basics of technique.&amp;rdquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;How important is to master the syntax of the programming languages used in the course?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;While syntax is important to correctly compile your programs, it will be sufficient for you to know just enought syntax so that the programs used by the instructors in the class can be understood. Note the course is on principles and not on the detailed features of any programming language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;I am finding the course hard. What can I do?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Talk to your instructor and the TAs and let them know exactly what is bothering you. Be open to their suggestions.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
