@@ -56,6 +56,8 @@ a single value. If you want to use the result of an evaluated expression later i
 Write a python program that takes as input a float radius of a circle and prints its perimeter and area.&lt;/li&gt;
 &lt;li&gt;Use &lt;code&gt;format()&lt;/code&gt; function to print the value of $\pi$ rounded&lt;br&gt;
 to 14 digits.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;(Conditions)&lt;/strong&gt; Learn python&amp;rsquo;s way of specifying conditional&lt;br&gt;
+expressions (&lt;code&gt;if-else&lt;/code&gt;, &lt;code&gt;if-elif-else&lt;/code&gt;). Given any integer $y$ denoting a year in the Christian calendar, we would like to determine whether it is a leap year. A leap year is one which is divisible by $4$. Also not all years divisible by $4$ are leap years. Century years are leap only if they are divisible by $400$. So we define a boolean function leap which yields a value “true” if the year $y$ is a leap year and false otherwise. Write a python program for the problem above.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -507,7 +509,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-293514786&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-653981472&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -517,7 +519,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-293514786&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-653981472&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
