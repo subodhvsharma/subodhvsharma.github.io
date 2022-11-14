@@ -5,12 +5,38 @@
     <link>https://subodhvsharma.github.io/course/col100/</link>
       <atom:link href="https://subodhvsharma.github.io/course/col100/index.xml" rel="self" type="application/rss+xml" />
     <description>COL100 Introduction to Computer Science</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>COL100 Introduction to Computer Science</title>
       <link>https://subodhvsharma.github.io/course/col100/</link>
     </image>
+    
+    <item>
+      <title>Assignment 3 -- More on Recursion</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign3/</link>
+      <pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign3/</guid>
+      <description>&lt;h4 id=&#34;more-on-recursion&#34;&gt;More on Recursion&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Two frogs are sitting at bottom of a flight of $10$ steps and debating in how many ways can they jump up the stairs. They can jump one, two or three steps at a time. For example they can cover the 10 steps by jumping $(3, 3, 3 , 1)$ or $(2 ,3, 3, 2)$ or other suitable combinations. Their mathematics is not very strong (being frogs) and they approach you for help. Develop an &lt;em&gt;efficient&lt;/em&gt; Python function that provides a general solution (not only for $10$ but for general $n$ steps). Note that $(3,3,3,1)$ is distinct from $(1,3,3,3)$ and likewise and that we only want to count the number of solutions and not report the solutions. Perform the timing analysis of your solution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write a Python program to count the number of ways for a rook to move from the southwest corner of a $p \times q$ chessboard to the northeast corner by moving one square at a time eastward or northward only. Note that rook is a chess piece that can move horizontally and vertically on a chess board. Give a recursive formulation and do not use a formula.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Develop a higher order function and show its use in computing
+fastpower (from Assign1), perfect numbers, $e^{x}$ up
+to some $n$-th term, and the higher order double summation function
+to compute $\Sigma_{i = a}^{b}\Sigma_{j=c}^{d}$. Provide proof of correctness and timing analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Define a higher order composition function &lt;code&gt;compose(f, g,x)&lt;/code&gt; in Python and use it to implement a function &lt;code&gt;repeat(f,n)&lt;/code&gt; to compute $f^n(x)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Assignment 2 -- Introduction to Python</title>

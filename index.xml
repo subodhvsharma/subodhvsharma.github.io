@@ -13,6 +13,32 @@
     </image>
     
     <item>
+      <title>Assignment 3 -- More on Recursion</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign3/</link>
+      <pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign3/</guid>
+      <description>&lt;h4 id=&#34;more-on-recursion&#34;&gt;More on Recursion&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Two frogs are sitting at bottom of a flight of $10$ steps and debating in how many ways can they jump up the stairs. They can jump one, two or three steps at a time. For example they can cover the 10 steps by jumping $(3, 3, 3 , 1)$ or $(2 ,3, 3, 2)$ or other suitable combinations. Their mathematics is not very strong (being frogs) and they approach you for help. Develop an &lt;em&gt;efficient&lt;/em&gt; Python function that provides a general solution (not only for $10$ but for general $n$ steps). Note that $(3,3,3,1)$ is distinct from $(1,3,3,3)$ and likewise and that we only want to count the number of solutions and not report the solutions. Perform the timing analysis of your solution.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Write a Python program to count the number of ways for a rook to move from the southwest corner of a $p \times q$ chessboard to the northeast corner by moving one square at a time eastward or northward only. Note that rook is a chess piece that can move horizontally and vertically on a chess board. Give a recursive formulation and do not use a formula.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Develop a higher order function and show its use in computing
+fastpower (from Assign1), perfect numbers, $e^{x}$ up
+to some $n$-th term, and the higher order double summation function
+to compute $\Sigma_{i = a}^{b}\Sigma_{j=c}^{d}$. Provide proof of correctness and timing analysis.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Define a higher order composition function &lt;code&gt;compose(f, g,x)&lt;/code&gt; in Python and use it to implement a function &lt;code&gt;repeat(f,n)&lt;/code&gt; to compute $f^n(x)$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Assignment 2 -- Introduction to Python</title>
       <link>https://subodhvsharma.github.io/course/col100/assign2/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0100</pubDate>
@@ -509,7 +535,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-489165327&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-527846913&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -519,7 +545,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-489165327&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-527846913&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
