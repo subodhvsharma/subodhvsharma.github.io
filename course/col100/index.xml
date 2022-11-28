@@ -5,12 +5,40 @@
     <link>https://subodhvsharma.github.io/course/col100/</link>
       <atom:link href="https://subodhvsharma.github.io/course/col100/index.xml" rel="self" type="application/rss+xml" />
     <description>COL100 Introduction to Computer Science</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 14 Nov 2022 00:00:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>COL100 Introduction to Computer Science</title>
       <link>https://subodhvsharma.github.io/course/col100/</link>
     </image>
+    
+    <item>
+      <title>Assignment 4 -- Lists, Searching, Sorting</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign4/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign4/</guid>
+      <description>&lt;h4 id=&#34;lists&#34;&gt;Lists&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Develop a Python program for adding and multiplying two &lt;em&gt;large&lt;/em&gt; integers whose digits are stored in lists. For example: integer number &lt;code&gt;123&lt;/code&gt;is stored as &lt;code&gt;3::2::1&lt;/code&gt;. Establish the correctness of your solutions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Assume you have been given a list of file and directory names along
+with the respective access control modes  (as &lt;code&gt;drwxrwxrwx&lt;/code&gt;). The storage structure is a list of pairs. For example &lt;code&gt;[(&#39;assign1&#39;, -r--r--r--), (&#39;lectureNotes&#39;, dr-xr--r--)] &lt;/code&gt; indicates two objects: the first object is a &lt;em&gt;file&lt;/em&gt; with name &lt;code&gt;assign1&lt;/code&gt; and access permissions &lt;code&gt;444&lt;/code&gt;; the second object is a &lt;em&gt;directory&lt;/em&gt; named &lt;code&gt;lectureNotes&lt;/code&gt; with access permissions &lt;code&gt;544&lt;/code&gt;. Develop a python
+program to filter from the list only those objects that are files and
+change their access permissions to &lt;code&gt;755&lt;/code&gt;. Use Python&amp;rsquo;s in-built &lt;strong&gt;map&lt;/strong&gt; and &lt;strong&gt;filter&lt;/strong&gt; functionality for this problem.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Implement the &lt;code&gt;reduce&lt;/code&gt; functionality of Python using recursion.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;sorting&#34;&gt;Sorting&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement Quicksort recursively in python and compare run times of Quicksort and Insertion sort on large data-sets by plotting
+your results (Time vs listSize).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Assignment 3 -- More on Recursion</title>
