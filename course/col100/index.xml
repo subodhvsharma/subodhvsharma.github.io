@@ -5,12 +5,45 @@
     <link>https://subodhvsharma.github.io/course/col100/</link>
       <atom:link href="https://subodhvsharma.github.io/course/col100/index.xml" rel="self" type="application/rss+xml" />
     <description>COL100 Introduction to Computer Science</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 27 Nov 2022 00:00:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Dec 2022 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>COL100 Introduction to Computer Science</title>
       <link>https://subodhvsharma.github.io/course/col100/</link>
     </image>
+    
+    <item>
+      <title>Assignment 5 -- Sorting and Searching</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign5/</link>
+      <pubDate>Sun, 11 Dec 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign5/</guid>
+      <description>&lt;h4 id=&#34;sorting&#34;&gt;Sorting&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement Quicksort recursively in python and compare run times of Quicksort and Insertion sort on large data-sets by plotting
+your results (Time vs listSize).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;searching&#34;&gt;Searching&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Given a filesystem as a directed &lt;em&gt;acylic&lt;/em&gt; graph (i.e., a graph with no cycles) as input in the form of a dictionary (as shown in the class), traverse and print the directory structure in Depth-first search and Breadth-first search. Use the following filesystem as an input:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fileSystem&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;home&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;col100&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;col100&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:[]&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;sort--search&#34;&gt;Sort + Search&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Given an list/array &lt;code&gt;a[0, ..., n-1]&lt;/code&gt; of &lt;code&gt;n&lt;/code&gt; nonzero integers, develop an algorithm to remove all duplicates by replacing a duplicate with &lt;code&gt;0&lt;/code&gt; value; An instance of an array before duplicate removal is: &lt;code&gt;|2|2|4|8|8|23|37|37|42|&lt;/code&gt;. After the duplicate removal we have the following array: &lt;code&gt;|2|4|8|23|37|42|0|0|0|&lt;/code&gt;. Provide correctness argument and timing analysis of your solution.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Assignment 4 -- Lists, Searching, Sorting</title>
@@ -31,11 +64,6 @@ change their access permissions to &lt;code&gt;755&lt;/code&gt;. Use Python&amp;
 &lt;li&gt;
 &lt;p&gt;Implement the &lt;code&gt;reduce&lt;/code&gt; functionality of Python using recursion.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;sorting&#34;&gt;Sorting&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;Implement Quicksort recursively in python and compare run times of Quicksort and Insertion sort on large data-sets by plotting
-your results (Time vs listSize).&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

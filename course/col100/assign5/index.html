@@ -314,12 +314,12 @@
 
   
 
-<meta name="description" content="Sem I (2019-20)" />
+<meta name="description" content="Sorting Implement Quicksort recursively in python and compare run times of Quicksort and Insertion sort on large data-sets by plotting your results (Time vs listSize). Searching Given a filesystem as a directed acylic graph (i." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://subodhvsharma.github.io/course/sptopicsinpl-program-synthesis/" />
-<link rel="canonical" href="https://subodhvsharma.github.io/course/sptopicsinpl-program-synthesis/" />
+<link rel="alternate" hreflang="en-us" href="https://subodhvsharma.github.io/course/col100/assign5/" />
+<link rel="canonical" href="https://subodhvsharma.github.io/course/col100/assign5/" />
 
 
 
@@ -355,12 +355,18 @@
   <meta property="twitter:creator" content="@subodhsharma" />
 <meta property="twitter:image" content="https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Academic" />
-<meta property="og:url" content="https://subodhvsharma.github.io/course/sptopicsinpl-program-synthesis/" />
-<meta property="og:title" content="COL 871 Special Topics in Programming Languages -- Program Synthesis | Academic" />
-<meta property="og:description" content="Sem I (2019-20)" /><meta property="og:image" content="https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://subodhvsharma.github.io/course/col100/assign5/" />
+<meta property="og:title" content="Assignment 5 -- Sorting and Searching | Academic" />
+<meta property="og:description" content="Sorting Implement Quicksort recursively in python and compare run times of Quicksort and Insertion sort on large data-sets by plotting your results (Time vs listSize). Searching Given a filesystem as a directed acylic graph (i." /><meta property="og:image" content="https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2019-08-01T00:00:00&#43;00:00" />
+    <meta
+      property="article:published_time"
+      content="2022-12-11T00:00:00&#43;01:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2022-12-11T00:00:00&#43;01:00">
   
 
 
@@ -368,24 +374,24 @@
 
 
 
-
-
-
-
-  
-  
-  
-
-  
-  
-    <link rel="alternate" href="/course/sptopicsinpl-program-synthesis/index.xml" type="application/rss+xml" title="Academic" />
-  
 
   
 
 
+
+
   
-  <title>COL 871 Special Topics in Programming Languages -- Program Synthesis | Academic</title>
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Assignment 5 -- Sorting and Searching | Academic</title>
 
   
   
@@ -405,7 +411,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="0ef9dc04370050d98615f5f849ba1310" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="0052ddc5842801d023e9bceaa3811710" >
 
   
   
@@ -800,7 +806,7 @@
       <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
         
         
-          Courses
+          Introduction to Computer Science
         
       </span>
       <span><i class="fas fa-chevron-down"></i></span>
@@ -837,6 +843,10 @@
 
       
       
+        
+          
+        
+      
 
 
   
@@ -850,7 +860,38 @@
 
     
       <div class="docs-toc-item">
-        <a class="docs-toc-link  active" href="/course/sptopicsinpl-program-synthesis/">Program Synthesis</a>
+        <a class="docs-toc-link " href="/course/col100/">Introduction to Computer Science</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class="active"><a href="/course/col100/assign5/">Assignment 5</a></li>
+
+
+
+  <li class=""><a href="/course/col100/assign4/">Assignment 4</a></li>
+
+
+
+  <li class=""><a href="/course/col100/assign3/">Assignment 3</a></li>
+
+
+
+  <li class=""><a href="/course/col100/assign2/">Assignment 2</a></li>
+
+
+
+  <li class=""><a href="/course/col100/assign1/">Assignment 1</a></li>
+
+
+
+  <li class=""><a href="/course/col100/faq/">Faq</a></li>
+
+      
+        </ul>
+      
     
 
     
@@ -885,10 +926,11 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#general-information">General Information</a></li>
-    <li><a href="#course-info--objectives">Course Info &amp; Objectives</a></li>
-    <li><a href="#academic-integrity">Academic Integrity:</a></li>
-    <li><a href="#lecture-material">Lecture Material</a></li>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -919,132 +961,38 @@
 
       <div class="docs-article-container">
         
-        <h1>COL 871 Special Topics in Programming Languages -- Program Synthesis</h1>
+        <h1>Assignment 5 -- Sorting and Searching</h1>
 
         <article class="article-style">
 
           
           
 
-          <h2 id="general-information">General Information</h2>
-<hr>
-<p><strong>Class Timings: Mon/Wed from 18:00 hrs to 19:30 hrs</strong>
-<strong>Venue: Bharti 425</strong>
-<strong>Instructor: Subodh Sharma (svs at cse.iitd.ac.in)</strong></p>
-<hr>
-<h2 id="course-info--objectives">Course Info &amp; Objectives</h2>
-<p>Program Synthesis has emerged as an effective approach to automatically create programs that meet user intent specified in the form of some specification. The technique is used successfully in diverse domains such as computer-aided education, software engineering, software verification etc. In this course we will discuss modern synthesis approaches by discussing foundational as well as recent research advances in this area. Topics covered in this course will include enumerative syntax-guided synthesis, counterexample-guided synthesis, stochastic synthesis and machine-learning based synthesis.</p>
-<h2 id="academic-integrity">Academic Integrity:</h2>
-<p>Plagiarism is viewed very seriously. Any case of copying (or allowing to copy) of written text or code would immediately be awarded 0 in the assignment/exam and a grade drop. Depending on the nature of plagiarism, the student could also be refered to the disciplanary committee with a fail grade. All written/programming tasks are to performed on your own, other than when group-work is explicitly specified.</p>
-<h2 id="lecture-material">Lecture Material</h2>
-<table class="fixed">
-    <col width="100px" />
-    <col width="300px" />
-    <col width="300px" />
-<tr bgcolor=CornflowerBlue>
- <th> Sr. No.</th>
-  <th>Topic</th>
-  <th> Supplementary Reading </th>
-</tr>
-<tr> 
-<td> 1	</td> 
-<td> Course modalities; Introduction </td>
-<td> </td>
-</tr>
-<tr>
-<td> 2, 3 </td>
-<td> Denali: A Goal-directed Superoptimizer </td>
-<td>
+          <h4 id="sorting">Sorting</h4>
 <ul>
-<li> Stochastic Superoptimization (ASPLOS'13) </li>
-<li> Equality saturation: a new approach to optimization (POPL'09) </li>
-<li> Automatic generation of peephole superoptimizers (ASPLOS'06) </li>
-<li> Synthesis of loop-free programs (PLDI'11) </li>
-<li> Scaling up Superoptimization (ASPLOS'16) </li>
+<li>Implement Quicksort recursively in python and compare run times of Quicksort and Insertion sort on large data-sets by plotting
+your results (Time vs listSize).</li>
 </ul>
- </td>
-</tr>
-<tr>
-<td> 4-6</td>
-<td> Program Synthesis by Sketching </td>
-<td> 
+<h4 id="searching">Searching</h4>
 <ul>
-<li> Sketching Stencils (PLDI'07) </li>
-<li> Sketching Concurrent Data strucutures (PLDI'08) </li>
-<li> Optimizing Synthesis with Metasketches (POPL'16) </li>
+<li>
+<p>Given a filesystem as a directed <em>acylic</em> graph (i.e., a graph with no cycles) as input in the form of a dictionary (as shown in the class), traverse and print the directory structure in Depth-first search and Breadth-first search. Use the following filesystem as an input:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">fileSystem</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;home&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;tmp&#34;</span><span class="p">,</span> <span class="s2">&#34;teaching&#34;</span><span class="p">,</span> <span class="s2">&#34;documents&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;tmp&#34;</span> <span class="p">:</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;teaching&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;col100&#34;</span><span class="p">,</span> <span class="s2">&#34;cov885&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;col100&#34;</span> <span class="p">[</span><span class="s2">&#34;practice-sheet&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;practice-sheet&#34;</span><span class="p">:</span> <span class="p">[]</span> 
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;cov885&#34;</span><span class="p">:[]</span> 
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;documents&#34;</span><span class="p">:[</span><span class="s2">&#34;temp&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;temp&#34;</span><span class="p">:</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>    
+</span></span></code></pre></div></li>
 </ul>
-</td>
-</tr>
-<tr>
-<td> 7-8</td>
-<td> Syntax Guided Synthesis & Search-based Program Synthesis </td>
-<td> 
+<h4 id="sort--search">Sort + Search</h4>
 <ul>
-<li> Synthesis Through Unification (CAV'15) </li>
+<li>Given an list/array <code>a[0, ..., n-1]</code> of <code>n</code> nonzero integers, develop an algorithm to remove all duplicates by replacing a duplicate with <code>0</code> value; An instance of an array before duplicate removal is: <code>|2|2|4|8|8|23|37|37|42|</code>. After the duplicate removal we have the following array: <code>|2|4|8|23|37|42|0|0|0|</code>. Provide correctness argument and timing analysis of your solution.</li>
 </ul>
-</td>
-</tr>
-<tr>
-<td> 9-11</td>
-<td> Spreadsheet Data Manipulation Using Examples </td>
-<td> 
-<ul>
-<li> Synthesizing Data Structure Transformations from Input-Output Examples (PLDI'15)</li>
-<li> Test-driven synthesis (PLDI'14)</li>
-<li> Learning Syntactic Program Transformations from Examples (ICSE'17)</li>
-<li> Scaling Enumerative Program Synthesis via Divide and Conquer (TACAS'17) </li>
-<li> Synthesizing highly expressive SQL queries from input-output examples (PLDI'17) </li>
-</ul>
-</td>
-</tr>
-<tr>
-<td> 12-13</td>
-<td> From Program Verification to Program Synthesis </td>
-<td> 
-<ul>
-<li> ICE: A robust Framework for Learning Invariants (CAV'14) </li>
-<li> Type-and-example-directed Program Synthesis (PLDI'15)</li>
-<li> Program Synthesis using Abstraction Refinement (POPL'18)</li>
-<li> Program Synthesis using Conflict-Driven Learning (PLDI'18)</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td> 14-16</td>
-<td> Stochastic Program Optimization </td>
-<td> 
-<ul>
-<li> Data-driven Equivalence Checking (OOPSLA'13) </li>
-<li> Finding deep compiler bugs via guided stochastic program mutation (OOPSlA'15)</li>
-<li> Guided, stochastic model-based GUI testing of Android apps (FSE'17)</li>
-<li> Sampling for Bayesian Program Learning (NIPS'16)</li>
-<li> Code Completion with Statistical Language Models (PLDI'14) </li>
-</ul>
-</td>
-</tr>
-<tr>
-<td> 17 </td>
-<td> Course Project Discussions </td>
-<td> </td>
-</tr>
-<tr>
-<td> 18-22</td>
-<td> Neural Program Learning under Noisy I/O (ICML'17)  </td>
-<td> 
-<ul>
-<li> Nueral-guided Deductive Search for Realtime Program Synthesis from Examples (ICLR'18) </li>
-<li> Learning Programs from Noisy Data (POPL'16)</li>
-<li> Neuro-Symbolic Program Synthesis (ArXiv'16)</li>
-<li> Learn & Fuzz: Machine learning for input fuzzing (ASE'17)</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td> 23-28 </td>
-<td> <span style="color:red"> Course Project Presentations </span> </td>
-<td> </td>
-</tr>
-</table>
 
 
         </article>
@@ -1132,6 +1080,12 @@
 <div class="post-nav">
   
   
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/course/col100/assign4/" rel="prev">Assignment 4 -- Lists, Searching, Sorting</a>
+  </div>
+  
 </div>
 
         </div>
@@ -1139,7 +1093,7 @@
       </div>
 
       <div class="body-footer">
-        <p>Last updated on Aug 1, 2019</p>
+        <p>Last updated on Dec 11, 2022</p>
 
         
 
