@@ -13,6 +13,77 @@
     </image>
     
     <item>
+      <title>Assignment 6</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign6/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign6/</guid>
+      <description>&lt;h4 id=&#34;more-on-imperative-programming-with-loops&#34;&gt;More on Imperative Programming with Loops&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Given a randomly ordered array of $n$ elements partition the
+elements into two subsets such that elements less than $x$ are in one
+subset and elements greater than $x$ are in separate subset. For
+instance, $|28|26|25|11|16|12|24|29|6|10|$ and $x = 17$ lead to the
+array $|10|6|12|11|16|25|24|29|26|28|$. We provide here a high level
+algorithmic description of the problem.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Establish the array $a[0,&amp;hellip;,n]$ and the partitioning value $x$.&lt;/li&gt;
+&lt;li&gt;Move the partitions towards each other until the wrongly placed elements
+are encountered. Allow for special cases such as $x$ being outside the
+range of array values.&lt;/li&gt;
+&lt;li&gt;While the two partitions have not crossed over
+&lt;ul&gt;
+&lt;li&gt;exchange the wrongly partitioned pair and extend both partitions
+inward by one element&lt;/li&gt;
+&lt;li&gt;extend left partition while elements less tha or equal to $x$&lt;/li&gt;
+&lt;li&gt;extend the right partition while elements are greater than $x$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Return the partitioning index $p$ in the partitioned array.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Give an algorithm to find the $k^{th}$ smallest element in a given
+randomly ordered array of $n$ elements. Note that one could solve
+the problem by first sorting the array and subsequently returning
+the $k^{th}$ element in the array as the solution. However, such
+sorting is unnecessary and costly. Use the partitioning strategy
+from Question(2) to develop a solution for this problem. We provide some hints to solving this problem:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Set $l$ and $u$ to be the bounds of the array&lt;/li&gt;
+&lt;li&gt;While $l &amp;lt; u$ do:
+&lt;ul&gt;
+&lt;li&gt;Choose some random $x$ about which to partition the array&lt;/li&gt;
+&lt;li&gt;Partition the array in to two partitions $A$ and $B$ marked by indices $i$ and $j$&lt;/li&gt;
+&lt;li&gt;Choose a partition to perform further search by using a test: if $j&amp;lt;k$ then $l:=i$, if $i&amp;gt;k$ then $u:=j$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Given a array of $n$ distinct integers, find the length of the longest monotone increasing
+subsequence. Consider an array: $|1|2|9|4|7|3|11|8|14|6|$. In this example the longest increasing
+subsequence is of $1,2,4,7,11,14$ and is of length 6. Note that in for a monotone increasing
+subsequence, the numbers are not required to be adjacent in the original array. A general algorithmic
+description is as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Establish $a[0,&amp;hellip;,n]$ of $n$ elements&lt;/li&gt;
+&lt;li&gt;Set the initial condition of the longest subsequence terminating in the first position of the array&lt;/li&gt;
+&lt;li&gt;For the remaining $n-1$ positions in the array do:
+&lt;ul&gt;
+&lt;li&gt;if current element is less than the maximum in the longest previous set then locate the position
+and value of maximum among the predecessors and update the position and length of maximum, if required.
+Else, update the length, position of maximum and the maximum length so far.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Return the length of longest monotone increasing sequence.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Assignment 5 -- Sorting and Searching</title>
       <link>https://subodhvsharma.github.io/course/col100/assign5/</link>
       <pubDate>Sun, 11 Dec 2022 00:00:00 +0100</pubDate>
@@ -591,7 +662,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-876159324&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-928637451&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -601,7 +672,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-876159324&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-928637451&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
