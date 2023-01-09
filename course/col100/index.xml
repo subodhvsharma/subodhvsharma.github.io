@@ -5,12 +5,40 @@
     <link>https://subodhvsharma.github.io/course/col100/</link>
       <atom:link href="https://subodhvsharma.github.io/course/col100/index.xml" rel="self" type="application/rss+xml" />
     <description>COL100 Introduction to Computer Science</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 26 Dec 2022 00:00:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>COL100 Introduction to Computer Science</title>
       <link>https://subodhvsharma.github.io/course/col100/</link>
     </image>
+    
+    <item>
+      <title>Assignment 7</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign7/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign7/</guid>
+      <description>&lt;h4 id=&#34;object-oriented-programming&#34;&gt;Object Oriented Programming&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Develop an abstract data-type called interval. An interval is defined by two real numbers signifying the lower and upper bounds. Develop the following functions for carrying out operations on intervals:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;make_nterval&lt;/code&gt;, for creating an interval&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;intadd&lt;/code&gt;, for adding two intervals. Here the minimum value of the sum should be the sum of the two lower bounds and the maximum value of the sum should be the sum of the two upper bounds.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;intsubtract&lt;/code&gt;, for subtracting two intervals.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;intmult&lt;/code&gt;, for multiplying two intervals.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;intdiv&lt;/code&gt;, for dividing two intervals.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Stack is a &lt;em&gt;last-in-first-out&lt;/em&gt; kind of a data structure which is used in the real world where order of evaluation of data items is necessary - for instance, evaluating expressions with operands and operators (associated with precedence), tasks involving backtracking (eg: depth first search), etc. Implement an integer
+stack which uses python lists to store the contents. In particular, implement the following methods of stack: &lt;code&gt;pop&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;, &lt;code&gt;peek&lt;/code&gt;, &lt;code&gt;isEmpty&lt;/code&gt;, &lt;code&gt;isFull&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;challenge-optional&#34;&gt;Challenge (optional)&lt;/h4&gt;
+&lt;p&gt;Implement the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tetris&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tetris game&lt;/a&gt; using OOP in
+python. In Tetris, any object has three states: rotation (by 90 degrees), shape and color. In terms of the behavioural attributes a Tetris object can either: fall, move sideways, or rotate.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Assignment 6</title>
