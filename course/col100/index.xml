@@ -1,23 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>COL100 Introduction to Computer Science | Academic</title>
-    <link>https://subodhvsharma.github.io/course/col100/</link>
-      <atom:link href="https://subodhvsharma.github.io/course/col100/index.xml" rel="self" type="application/rss+xml" />
-    <description>COL100 Introduction to Computer Science</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0100</lastBuildDate>
-    <image>
-      <url>https://subodhvsharma.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>COL100 Introduction to Computer Science</title>
-      <link>https://subodhvsharma.github.io/course/col100/</link>
-    </image>
-    
-    <item>
-      <title>Assignment 7</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign7/</link>
-      <pubDate>Sun, 08 Jan 2023 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign7/</guid>
-      <description>&lt;h4 id=&#34;object-oriented-programming&#34;&gt;Object Oriented Programming&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>COL100 Introduction to Computer Science | Academic</title><link>https://subodhvsharma.github.io/course/col100/</link><atom:link href="https://subodhvsharma.github.io/course/col100/index.xml" rel="self" type="application/rss+xml"/><description>COL100 Introduction to Computer Science</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 31 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url><title>COL100 Introduction to Computer Science</title><link>https://subodhvsharma.github.io/course/col100/</link></image><item><title>Assignment 7</title><link>https://subodhvsharma.github.io/course/col100/assign7/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign7/</guid><description>&lt;h4 id="object-oriented-programming"&gt;Object Oriented Programming&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Develop an abstract data-type called interval. An interval is defined by two real numbers signifying the lower and upper bounds. Develop the following functions for carrying out operations on intervals:&lt;/p&gt;
@@ -34,18 +15,9 @@
 stack which uses python lists to store the contents. In particular, implement the following methods of stack: &lt;code&gt;pop&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;, &lt;code&gt;peek&lt;/code&gt;, &lt;code&gt;isEmpty&lt;/code&gt;, &lt;code&gt;isFull&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;challenge-optional&#34;&gt;Challenge (optional)&lt;/h4&gt;
-&lt;p&gt;Implement the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tetris&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tetris game&lt;/a&gt; using OOP in
-python. In Tetris, any object has three states: rotation (by 90 degrees), shape and color. In terms of the behavioural attributes a Tetris object can either: fall, move sideways, or rotate.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Assignment 6</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign6/</link>
-      <pubDate>Mon, 26 Dec 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign6/</guid>
-      <description>&lt;h4 id=&#34;more-on-imperative-programming-with-loops&#34;&gt;More on Imperative Programming with Loops&lt;/h4&gt;
+&lt;h4 id="challenge-optional"&gt;Challenge (optional)&lt;/h4&gt;
+&lt;p&gt;Implement the &lt;a href="https://en.wikipedia.org/wiki/Tetris" target="_blank" rel="noopener"&gt;Tetris game&lt;/a&gt; using OOP in
+python. In Tetris, any object has three states: rotation (by 90 degrees), shape and color. In terms of the behavioural attributes a Tetris object can either: fall, move sideways, or rotate.&lt;/p&gt;</description></item><item><title>Assignment 6</title><link>https://subodhvsharma.github.io/course/col100/assign6/</link><pubDate>Mon, 26 Dec 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign6/</guid><description>&lt;h4 id="more-on-imperative-programming-with-loops"&gt;More on Imperative Programming with Loops&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Given a randomly ordered array of $n$ elements partition the
@@ -55,7 +27,7 @@ instance, $|28|26|25|11|16|12|24|29|6|10|$ and $x = 17$ lead to the
 array $|10|6|12|11|16|25|24|29|26|28|$. We provide here a high level
 algorithmic description of the problem.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Establish the array $a[0,&amp;hellip;,n]$ and the partitioning value $x$.&lt;/li&gt;
+&lt;li&gt;Establish the array $a[0,...,n]$ and the partitioning value $x$.&lt;/li&gt;
 &lt;li&gt;Move the partitions towards each other until the wrongly placed elements
 are encountered. Allow for special cases such as $x$ being outside the
 range of array values.&lt;/li&gt;
@@ -79,11 +51,11 @@ sorting is unnecessary and costly. Use the partitioning strategy
 from Question(2) to develop a solution for this problem. We provide some hints to solving this problem:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Set $l$ and $u$ to be the bounds of the array&lt;/li&gt;
-&lt;li&gt;While $l &amp;lt; u$ do:
+&lt;li&gt;While $l &lt; u$ do:
 &lt;ul&gt;
 &lt;li&gt;Choose some random $x$ about which to partition the array&lt;/li&gt;
 &lt;li&gt;Partition the array in to two partitions $A$ and $B$ marked by indices $i$ and $j$&lt;/li&gt;
-&lt;li&gt;Choose a partition to perform further search by using a test: if $j&amp;lt;k$ then $l:=i$, if $i&amp;gt;k$ then $u:=j$&lt;/li&gt;
+&lt;li&gt;Choose a partition to perform further search by using a test: if $j&lt;k$ then $l:=i$, if $i&gt;k$ then $u:=j$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -95,7 +67,7 @@ subsequence is of $1,2,4,7,11,14$ and is of length 6. Note that in for a monoton
 subsequence, the numbers are not required to be adjacent in the original array. A general algorithmic
 description is as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Establish $a[0,&amp;hellip;,n]$ of $n$ elements&lt;/li&gt;
+&lt;li&gt;Establish $a[0,...,n]$ of $n$ elements&lt;/li&gt;
 &lt;li&gt;Set the initial condition of the longest subsequence terminating in the first position of the array&lt;/li&gt;
 &lt;li&gt;For the remaining $n-1$ positions in the array do:
 &lt;ul&gt;
@@ -107,72 +79,45 @@ Else, update the length, position of maximum and the maximum length so far.&lt;/
 &lt;li&gt;Return the length of longest monotone increasing sequence.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Assignment 5 -- Sorting and Searching</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign5/</link>
-      <pubDate>Sun, 11 Dec 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign5/</guid>
-      <description>&lt;h4 id=&#34;sorting&#34;&gt;Sorting&lt;/h4&gt;
+&lt;/ol&gt;</description></item><item><title>Assignment 5 -- Sorting and Searching</title><link>https://subodhvsharma.github.io/course/col100/assign5/</link><pubDate>Sun, 11 Dec 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign5/</guid><description>&lt;h4 id="sorting"&gt;Sorting&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Implement Quicksort recursively in python and compare run times of Quicksort and Insertion sort on large data-sets by plotting
 your results (Time vs listSize).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;searching&#34;&gt;Searching&lt;/h4&gt;
+&lt;h4 id="searching"&gt;Searching&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Given a filesystem as a directed &lt;em&gt;acylic&lt;/em&gt; graph (i.e., a graph with no cycles) as input in the form of a dictionary (as shown in the class), traverse and print the directory structure in Depth-first search and Breadth-first search. Use the following filesystem as an input:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fileSystem&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;home&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;col100&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;col100&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:[]&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;    
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;fileSystem&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;home&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;col100&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;col100&amp;#34;&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;sort--search&#34;&gt;Sort + Search&lt;/h4&gt;
+&lt;h4 id="sort--search"&gt;Sort + Search&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Given an list/array &lt;code&gt;a[0, ..., n-1]&lt;/code&gt; of &lt;code&gt;n&lt;/code&gt; nonzero integers, develop an algorithm to remove all duplicates by replacing a duplicate with &lt;code&gt;0&lt;/code&gt; value; An instance of an array before duplicate removal is: &lt;code&gt;|2|2|4|8|8|23|37|37|42|&lt;/code&gt;. After the duplicate removal we have the following array: &lt;code&gt;|2|4|8|23|37|42|0|0|0|&lt;/code&gt;. Provide correctness argument and timing analysis of your solution.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Assignment 4 -- Lists, Searching, Sorting</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign4/</link>
-      <pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign4/</guid>
-      <description>&lt;h4 id=&#34;lists&#34;&gt;Lists&lt;/h4&gt;
+&lt;/ul&gt;</description></item><item><title>Assignment 4 -- Lists, Searching, Sorting</title><link>https://subodhvsharma.github.io/course/col100/assign4/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign4/</guid><description>&lt;h4 id="lists"&gt;Lists&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Develop a Python program for adding and multiplying two &lt;em&gt;large&lt;/em&gt; integers whose digits are stored in lists. For example: integer number &lt;code&gt;123&lt;/code&gt;is stored as &lt;code&gt;3::2::1&lt;/code&gt;. Establish the correctness of your solutions.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Assume you have been given a list of file and directory names along
-with the respective access control modes  (as &lt;code&gt;drwxrwxrwx&lt;/code&gt;). The storage structure is a list of pairs. For example &lt;code&gt;[(&#39;assign1&#39;, -r--r--r--), (&#39;lectureNotes&#39;, dr-xr--r--)] &lt;/code&gt; indicates two objects: the first object is a &lt;em&gt;file&lt;/em&gt; with name &lt;code&gt;assign1&lt;/code&gt; and access permissions &lt;code&gt;444&lt;/code&gt;; the second object is a &lt;em&gt;directory&lt;/em&gt; named &lt;code&gt;lectureNotes&lt;/code&gt; with access permissions &lt;code&gt;544&lt;/code&gt;. Develop a python
+with the respective access control modes (as &lt;code&gt;drwxrwxrwx&lt;/code&gt;). The storage structure is a list of pairs. For example &lt;code&gt;[('assign1', -r--r--r--), ('lectureNotes', dr-xr--r--)] &lt;/code&gt; indicates two objects: the first object is a &lt;em&gt;file&lt;/em&gt; with name &lt;code&gt;assign1&lt;/code&gt; and access permissions &lt;code&gt;444&lt;/code&gt;; the second object is a &lt;em&gt;directory&lt;/em&gt; named &lt;code&gt;lectureNotes&lt;/code&gt; with access permissions &lt;code&gt;544&lt;/code&gt;. Develop a python
 program to filter from the list only those objects that are files and
 change their access permissions to &lt;code&gt;755&lt;/code&gt;. Use Python&amp;rsquo;s in-built &lt;strong&gt;map&lt;/strong&gt; and &lt;strong&gt;filter&lt;/strong&gt; functionality for this problem.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Implement the &lt;code&gt;reduce&lt;/code&gt; functionality of Python using recursion.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Assignment 3 -- More on Recursion</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign3/</link>
-      <pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign3/</guid>
-      <description>&lt;h4 id=&#34;more-on-recursion&#34;&gt;More on Recursion&lt;/h4&gt;
+&lt;/ul&gt;</description></item><item><title>Assignment 3 -- More on Recursion</title><link>https://subodhvsharma.github.io/course/col100/assign3/</link><pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign3/</guid><description>&lt;h4 id="more-on-recursion"&gt;More on Recursion&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Two frogs are sitting at bottom of a flight of $10$ steps and debating in how many ways can they jump up the stairs. They can jump one, two or three steps at a time. For example they can cover the 10 steps by jumping $(3, 3, 3 , 1)$ or $(2 ,3, 3, 2)$ or other suitable combinations. Their mathematics is not very strong (being frogs) and they approach you for help. Develop an &lt;em&gt;efficient&lt;/em&gt; Python function that provides a general solution (not only for $10$ but for general $n$ steps). Note that $(3,3,3,1)$ is distinct from $(1,3,3,3)$ and likewise and that we only want to count the number of solutions and not report the solutions. Perform the timing analysis of your solution.&lt;/p&gt;
@@ -189,48 +134,23 @@ to compute $\Sigma_{i = a}^{b}\Sigma_{j=c}^{d}$. Provide proof of correctness an
 &lt;li&gt;
 &lt;p&gt;Define a higher order composition function &lt;code&gt;compose(f, g,x)&lt;/code&gt; in Python and use it to implement a function &lt;code&gt;repeat(f,n)&lt;/code&gt; to compute $f^n(x)$.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Assignment 2 -- Introduction to Python</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign2/</link>
-      <pubDate>Sun, 06 Nov 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign2/</guid>
-      <description>&lt;h4 id=&#34;basic-python&#34;&gt;Basic Python&lt;/h4&gt;
+&lt;/ul&gt;</description></item><item><title>Assignment 2 -- Introduction to Python</title><link>https://subodhvsharma.github.io/course/col100/assign2/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign2/</guid><description>&lt;h4 id="basic-python"&gt;Basic Python&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Learn how to perform simple operations such as exponents (Eg:$2^3$), remainder, integer division. Also understand the order of such operations that Python enforces. Run (5-1)*(7+1)/(3-1) in Python interpreter and indicate the order of evaluation of expressions (Note: an expression consists of values and operators such that
 they can always evaluate to a single value).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Learn how values of common datatypes such as &lt;code&gt;int, floats, string,&lt;/code&gt; and &lt;code&gt;bool&lt;/code&gt; are specified in Python by using the interpreter. Interpret the results of the following expressions: (i) &lt;code&gt;&#39;Python&#39; + &#39;Rocks&#39;&lt;/code&gt; and (ii) &lt;code&gt;&#39;Python&#39; + 42&lt;/code&gt;. Experiment with other
+&lt;p&gt;Learn how values of common datatypes such as &lt;code&gt;int, floats, string,&lt;/code&gt; and &lt;code&gt;bool&lt;/code&gt; are specified in Python by using the interpreter. Interpret the results of the following expressions: (i) &lt;code&gt;'Python' + 'Rocks'&lt;/code&gt; and (ii) &lt;code&gt;'Python' + 42&lt;/code&gt;. Experiment with other
 combinations of operators and types.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Variables are named locations in computer&amp;rsquo;s memory that can store
 a single value. If you want to use the result of an evaluated expression later in your program, you can save it inside a variable.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://subodhvsharma.github.io/col100-classnotes-2022/Valid-Invalid-Vars.png&#34; alt=&#34;Valid and Invalid Variable Names&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
+&lt;figure &gt;
+&lt;div class="flex justify-center "&gt;
+&lt;div class="w-full" &gt;&lt;img src="https://subodhvsharma.github.io/col100-classnotes-2022/Valid-Invalid-Vars.png" alt="Valid and Invalid Variable Names" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Learn the use of &lt;code&gt;print()&lt;/code&gt; and &lt;code&gt;input()&lt;/code&gt; functions. &lt;br&gt;
@@ -253,7 +173,7 @@ expressions (&lt;code&gt;if-else&lt;/code&gt;, &lt;code&gt;if-elif-else&lt;/code
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;basic-algorithm-design-and-python-programming&#34;&gt;Basic Algorithm Design and Python Programming&lt;/h4&gt;
+&lt;h4 id="basic-algorithm-design-and-python-programming"&gt;Basic Algorithm Design and Python Programming&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Computing factorial of a given integer using recursive procedure which is &lt;em&gt;technically complete&lt;/em&gt;. For some inputs (from the domain of Integers) the computation may not terminate. Identify such inputs and provide reason for this non-termination.&lt;/p&gt;
@@ -263,16 +183,16 @@ expressions (&lt;code&gt;if-else&lt;/code&gt;, &lt;code&gt;if-elif-else&lt;/code
 design and implement a faster recursive version of the power function.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;challenge-question&#34;&gt;Challenge Question&lt;/h4&gt;
+&lt;h4 id="challenge-question"&gt;Challenge Question&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;The integer square root of $n$ is the integer $k$ such that
-$k^2 \leq n &amp;lt; (k+1)^2$.  The integer square root can be computed
+$k^2 \leq n &lt; (k+1)^2$. The integer square root can be computed
 using the following inductive process:
 &lt;ul&gt;
-&lt;li&gt;Compute the integer square root $i$ of $m = n ,\mbox{div}, 4$
-recursively.  We then have that $i^2 \leq m &amp;lt; (i+1)^2$.&lt;/li&gt;
-&lt;li&gt;Since $m$ and $i$ are integers we have that $(m+1) &amp;lt;= (i+1)^2$.
-We thus have $(2i)^2 \leq 4m \leq n &amp;lt; 4m + 4 \leq (2i + 2)^2$.
+&lt;li&gt;Compute the integer square root $i$ of $m = n \,\mbox{div}\, 4$
+recursively. We then have that $i^2 \leq m &lt; (i+1)^2$.&lt;/li&gt;
+&lt;li&gt;Since $m$ and $i$ are integers we have that $(m+1) &lt;= (i+1)^2$.
+We thus have $(2i)^2 \leq 4m \leq n &lt; 4m + 4 \leq (2i + 2)^2$.
 Hence we have that the integer square root of $n$ is either
 $2i$ or $2i+1$.&lt;/li&gt;
 &lt;li&gt;Write a recursive python program corresponding to the above &lt;br&gt;
@@ -280,29 +200,20 @@ algorithm.&lt;/li&gt;
 &lt;li&gt;Derive the number of steps required.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Assignment 1</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign1/</link>
-      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign1/</guid>
-      <description>&lt;h4 id=&#34;1-learn-the-following-basics-of-unix&#34;&gt;1. Learn the following basics of Unix:&lt;/h4&gt;
+&lt;/ul&gt;</description></item><item><title>Assignment 1</title><link>https://subodhvsharma.github.io/course/col100/assign1/</link><pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign1/</guid><description>&lt;h4 id="1-learn-the-following-basics-of-unix"&gt;1. Learn the following basics of Unix:&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;What is a Unix terminal and how to open one? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;What are files and processes? What is a directory and how are files grouped together in a directory structure? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Tutorial 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;How to list files and directories?  How to create files and directories? How to copy and move files? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Tutorial 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;What are file access permissions and how to change them? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unix5.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Tutorial 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What is a Unix terminal and how to open one? Reference: &lt;a href="http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html" target="_blank" rel="noopener"&gt;Unix Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What are files and processes? What is a directory and how are files grouped together in a directory structure? Reference: &lt;a href="http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html" target="_blank" rel="noopener"&gt;Unix Tutorial 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to list files and directories? How to create files and directories? How to copy and move files? Reference: &lt;a href="http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html" target="_blank" rel="noopener"&gt;Unix Tutorial 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What are file access permissions and how to change them? Reference: &lt;a href="http://www.ee.surrey.ac.uk/Teaching/Unix/unix5.html" target="_blank" rel="noopener"&gt;Unix Tutorial 5&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style=&#34;color:Brown&#34;&gt; &lt;strong&gt;It is expected that by the end of this task, you are familiar with the usage of unix commands such as: &lt;code&gt;ls, cp, rm, mv, touch, chmod, groups, passwd, cd, pwd, mkdir, cat, find&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;h4 id=&#34;2-open-up-a-browser-firefoxchrome-and-access-the-col100-homepage&#34;&gt;2. Open up a browser (firefox/Chrome) and access the COL100 homepage.&lt;/h4&gt;
-&lt;h4 id=&#34;3-open-an-email-client-webmail-iit-delhi-and-login-to-your-account-send-an-email-to-the-instructor-of-col100-and-then-logout&#34;&gt;3. Open an email client (webmail IIT Delhi) and login to your account. Send an email to the instructor of COL100 and then logout.&lt;/h4&gt;
-&lt;h4 id=&#34;4-learn-how-to-use-and-navigate-a-text-editor&#34;&gt;4. Learn how to use and navigate a text editor:&lt;/h4&gt;
+&lt;p&gt;&lt;span style="color:Brown"&gt; &lt;strong&gt;It is expected that by the end of this task, you are familiar with the usage of unix commands such as: &lt;code&gt;ls, cp, rm, mv, touch, chmod, groups, passwd, cd, pwd, mkdir, cat, find&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id="2-open-up-a-browser-firefoxchrome-and-access-the-col100-homepage"&gt;2. Open up a browser (firefox/Chrome) and access the COL100 homepage.&lt;/h4&gt;
+&lt;h4 id="3-open-an-email-client-webmail-iit-delhi-and-login-to-your-account-send-an-email-to-the-instructor-of-col100-and-then-logout"&gt;3. Open an email client (webmail IIT Delhi) and login to your account. Send an email to the instructor of COL100 and then logout.&lt;/h4&gt;
+&lt;h4 id="4-learn-how-to-use-and-navigate-a-text-editor"&gt;4. Learn how to use and navigate a text editor:&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Type the following command on your terminal prompt: &lt;span style=&#34;color:DarkBlue&#34;&gt; &lt;strong&gt;&lt;code&gt;gedit &amp;amp;&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Open the &lt;a href=&#34;https://help.gnome.org/users/gedit/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gedit tutorial&lt;/a&gt; and experiment with at least the following sections (you can experiment with all the subsections on the gedit tutorial page, if you like):
+&lt;li&gt;Type the following command on your terminal prompt: &lt;span style="color:DarkBlue"&gt; &lt;strong&gt;&lt;code&gt;gedit &amp;amp;&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Open the &lt;a href="https://help.gnome.org/users/gedit/stable/" target="_blank" rel="noopener"&gt;gedit tutorial&lt;/a&gt; and experiment with at least the following sections (you can experiment with all the subsections on the gedit tutorial page, if you like):
 &lt;ul&gt;
 &lt;li&gt;File basics: Open, close, and save files&lt;/li&gt;
 &lt;li&gt;Replace text and Search for text&lt;/li&gt;
@@ -310,16 +221,7 @@ algorithm.&lt;/li&gt;
 &lt;li&gt;Turn on syntax highlighting by selecting gedit -&amp;gt; Preferences -&amp;gt; Plugins -&amp;gt; Python Console&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://subodhvsharma.github.io/course/col100/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/faq/</guid>
-      <description>&lt;h1 id=&#34;col100-frequently-asked-questions&#34;&gt;COL100 Frequently Asked Questions&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title/><link>https://subodhvsharma.github.io/course/col100/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/course/col100/faq/</guid><description>&lt;h1 id="col100-frequently-asked-questions"&gt;COL100 Frequently Asked Questions&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;em&gt;What can I expect to learn from these courses?&lt;/em&gt;&lt;/p&gt;
@@ -337,9 +239,4 @@ algorithm.&lt;/li&gt;
 &lt;p&gt;&lt;em&gt;I am finding the course hard. What can I do?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Talk to your instructor and the TAs and let them know exactly what is bothering you. Be open to their suggestions.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;/ul&gt;</description></item></channel></rss>
