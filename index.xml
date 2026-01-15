@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Academic</title><link>https://subodhvsharma.github.io/</link><atom:link href="https://subodhvsharma.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Academic</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url><title>Academic</title><link>https://subodhvsharma.github.io/</link></image><item><title>Assignment 7</title><link>https://subodhvsharma.github.io/course/col100/assign7/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign7/</guid><description>&lt;h4 id="object-oriented-programming"&gt;Object Oriented Programming&lt;/h4&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academic</title>
+    <link>https://subodhvsharma.github.io/</link>
+      <atom:link href="https://subodhvsharma.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
+      <title>Academic</title>
+      <link>https://subodhvsharma.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Assignment 7</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign7/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign7/</guid>
+      <description>&lt;h4 id=&#34;object-oriented-programming&#34;&gt;Object Oriented Programming&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Develop an abstract data-type called interval. An interval is defined by two real numbers signifying the lower and upper bounds. Develop the following functions for carrying out operations on intervals:&lt;/p&gt;
@@ -15,9 +34,18 @@
 stack which uses python lists to store the contents. In particular, implement the following methods of stack: &lt;code&gt;pop&lt;/code&gt;, &lt;code&gt;push&lt;/code&gt;, &lt;code&gt;peek&lt;/code&gt;, &lt;code&gt;isEmpty&lt;/code&gt;, &lt;code&gt;isFull&lt;/code&gt;.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id="challenge-optional"&gt;Challenge (optional)&lt;/h4&gt;
-&lt;p&gt;Implement the &lt;a href="https://en.wikipedia.org/wiki/Tetris" target="_blank" rel="noopener"&gt;Tetris game&lt;/a&gt; using OOP in
-python. In Tetris, any object has three states: rotation (by 90 degrees), shape and color. In terms of the behavioural attributes a Tetris object can either: fall, move sideways, or rotate.&lt;/p&gt;</description></item><item><title>Assignment 6</title><link>https://subodhvsharma.github.io/course/col100/assign6/</link><pubDate>Mon, 26 Dec 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign6/</guid><description>&lt;h4 id="more-on-imperative-programming-with-loops"&gt;More on Imperative Programming with Loops&lt;/h4&gt;
+&lt;h4 id=&#34;challenge-optional&#34;&gt;Challenge (optional)&lt;/h4&gt;
+&lt;p&gt;Implement the &lt;a href=&#34;https://en.wikipedia.org/wiki/Tetris&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Tetris game&lt;/a&gt; using OOP in
+python. In Tetris, any object has three states: rotation (by 90 degrees), shape and color. In terms of the behavioural attributes a Tetris object can either: fall, move sideways, or rotate.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 6</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign6/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign6/</guid>
+      <description>&lt;h4 id=&#34;more-on-imperative-programming-with-loops&#34;&gt;More on Imperative Programming with Loops&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Given a randomly ordered array of $n$ elements partition the
@@ -27,7 +55,7 @@ instance, $|28|26|25|11|16|12|24|29|6|10|$ and $x = 17$ lead to the
 array $|10|6|12|11|16|25|24|29|26|28|$. We provide here a high level
 algorithmic description of the problem.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Establish the array $a[0,...,n]$ and the partitioning value $x$.&lt;/li&gt;
+&lt;li&gt;Establish the array $a[0,&amp;hellip;,n]$ and the partitioning value $x$.&lt;/li&gt;
 &lt;li&gt;Move the partitions towards each other until the wrongly placed elements
 are encountered. Allow for special cases such as $x$ being outside the
 range of array values.&lt;/li&gt;
@@ -51,11 +79,11 @@ sorting is unnecessary and costly. Use the partitioning strategy
 from Question(2) to develop a solution for this problem. We provide some hints to solving this problem:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Set $l$ and $u$ to be the bounds of the array&lt;/li&gt;
-&lt;li&gt;While $l &lt; u$ do:
+&lt;li&gt;While $l &amp;lt; u$ do:
 &lt;ul&gt;
 &lt;li&gt;Choose some random $x$ about which to partition the array&lt;/li&gt;
 &lt;li&gt;Partition the array in to two partitions $A$ and $B$ marked by indices $i$ and $j$&lt;/li&gt;
-&lt;li&gt;Choose a partition to perform further search by using a test: if $j&lt;k$ then $l:=i$, if $i&gt;k$ then $u:=j$&lt;/li&gt;
+&lt;li&gt;Choose a partition to perform further search by using a test: if $j&amp;lt;k$ then $l:=i$, if $i&amp;gt;k$ then $u:=j$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
@@ -67,7 +95,7 @@ subsequence is of $1,2,4,7,11,14$ and is of length 6. Note that in for a monoton
 subsequence, the numbers are not required to be adjacent in the original array. A general algorithmic
 description is as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Establish $a[0,...,n]$ of $n$ elements&lt;/li&gt;
+&lt;li&gt;Establish $a[0,&amp;hellip;,n]$ of $n$ elements&lt;/li&gt;
 &lt;li&gt;Set the initial condition of the longest subsequence terminating in the first position of the array&lt;/li&gt;
 &lt;li&gt;For the remaining $n-1$ positions in the array do:
 &lt;ul&gt;
@@ -79,45 +107,72 @@ Else, update the length, position of maximum and the maximum length so far.&lt;/
 &lt;li&gt;Return the length of longest monotone increasing sequence.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Assignment 5 -- Sorting and Searching</title><link>https://subodhvsharma.github.io/course/col100/assign5/</link><pubDate>Sun, 11 Dec 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign5/</guid><description>&lt;h4 id="sorting"&gt;Sorting&lt;/h4&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 5 -- Sorting and Searching</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign5/</link>
+      <pubDate>Sun, 11 Dec 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign5/</guid>
+      <description>&lt;h4 id=&#34;sorting&#34;&gt;Sorting&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Implement Quicksort recursively in python and compare run times of Quicksort and Insertion sort on large data-sets by plotting
 your results (Time vs listSize).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="searching"&gt;Searching&lt;/h4&gt;
+&lt;h4 id=&#34;searching&#34;&gt;Searching&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Given a filesystem as a directed &lt;em&gt;acylic&lt;/em&gt; graph (i.e., a graph with no cycles) as input in the form of a dictionary (as shown in the class), traverse and print the directory structure in Depth-first search and Breadth-first search. Use the following filesystem as an input:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;fileSystem&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;home&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;col100&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;col100&amp;#34;&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:[]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:[&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="s2"&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fileSystem&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;home&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;tmp&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;teaching&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;col100&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;col100&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;practice-sheet&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;cov885&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:[]&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;documents&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;s2&#34;&gt;&amp;#34;temp&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;    
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="sort--search"&gt;Sort + Search&lt;/h4&gt;
+&lt;h4 id=&#34;sort--search&#34;&gt;Sort + Search&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Given an list/array &lt;code&gt;a[0, ..., n-1]&lt;/code&gt; of &lt;code&gt;n&lt;/code&gt; nonzero integers, develop an algorithm to remove all duplicates by replacing a duplicate with &lt;code&gt;0&lt;/code&gt; value; An instance of an array before duplicate removal is: &lt;code&gt;|2|2|4|8|8|23|37|37|42|&lt;/code&gt;. After the duplicate removal we have the following array: &lt;code&gt;|2|4|8|23|37|42|0|0|0|&lt;/code&gt;. Provide correctness argument and timing analysis of your solution.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Assignment 4 -- Lists, Searching, Sorting</title><link>https://subodhvsharma.github.io/course/col100/assign4/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign4/</guid><description>&lt;h4 id="lists"&gt;Lists&lt;/h4&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 4 -- Lists, Searching, Sorting</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign4/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign4/</guid>
+      <description>&lt;h4 id=&#34;lists&#34;&gt;Lists&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Develop a Python program for adding and multiplying two &lt;em&gt;large&lt;/em&gt; integers whose digits are stored in lists. For example: integer number &lt;code&gt;123&lt;/code&gt;is stored as &lt;code&gt;3::2::1&lt;/code&gt;. Establish the correctness of your solutions.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Assume you have been given a list of file and directory names along
-with the respective access control modes (as &lt;code&gt;drwxrwxrwx&lt;/code&gt;). The storage structure is a list of pairs. For example &lt;code&gt;[('assign1', -r--r--r--), ('lectureNotes', dr-xr--r--)] &lt;/code&gt; indicates two objects: the first object is a &lt;em&gt;file&lt;/em&gt; with name &lt;code&gt;assign1&lt;/code&gt; and access permissions &lt;code&gt;444&lt;/code&gt;; the second object is a &lt;em&gt;directory&lt;/em&gt; named &lt;code&gt;lectureNotes&lt;/code&gt; with access permissions &lt;code&gt;544&lt;/code&gt;. Develop a python
+with the respective access control modes  (as &lt;code&gt;drwxrwxrwx&lt;/code&gt;). The storage structure is a list of pairs. For example &lt;code&gt;[(&#39;assign1&#39;, -r--r--r--), (&#39;lectureNotes&#39;, dr-xr--r--)] &lt;/code&gt; indicates two objects: the first object is a &lt;em&gt;file&lt;/em&gt; with name &lt;code&gt;assign1&lt;/code&gt; and access permissions &lt;code&gt;444&lt;/code&gt;; the second object is a &lt;em&gt;directory&lt;/em&gt; named &lt;code&gt;lectureNotes&lt;/code&gt; with access permissions &lt;code&gt;544&lt;/code&gt;. Develop a python
 program to filter from the list only those objects that are files and
 change their access permissions to &lt;code&gt;755&lt;/code&gt;. Use Python&amp;rsquo;s in-built &lt;strong&gt;map&lt;/strong&gt; and &lt;strong&gt;filter&lt;/strong&gt; functionality for this problem.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Implement the &lt;code&gt;reduce&lt;/code&gt; functionality of Python using recursion.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Assignment 3 -- More on Recursion</title><link>https://subodhvsharma.github.io/course/col100/assign3/</link><pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign3/</guid><description>&lt;h4 id="more-on-recursion"&gt;More on Recursion&lt;/h4&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 3 -- More on Recursion</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign3/</link>
+      <pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign3/</guid>
+      <description>&lt;h4 id=&#34;more-on-recursion&#34;&gt;More on Recursion&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Two frogs are sitting at bottom of a flight of $10$ steps and debating in how many ways can they jump up the stairs. They can jump one, two or three steps at a time. For example they can cover the 10 steps by jumping $(3, 3, 3 , 1)$ or $(2 ,3, 3, 2)$ or other suitable combinations. Their mathematics is not very strong (being frogs) and they approach you for help. Develop an &lt;em&gt;efficient&lt;/em&gt; Python function that provides a general solution (not only for $10$ but for general $n$ steps). Note that $(3,3,3,1)$ is distinct from $(1,3,3,3)$ and likewise and that we only want to count the number of solutions and not report the solutions. Perform the timing analysis of your solution.&lt;/p&gt;
@@ -134,23 +189,48 @@ to compute $\Sigma_{i = a}^{b}\Sigma_{j=c}^{d}$. Provide proof of correctness an
 &lt;li&gt;
 &lt;p&gt;Define a higher order composition function &lt;code&gt;compose(f, g,x)&lt;/code&gt; in Python and use it to implement a function &lt;code&gt;repeat(f,n)&lt;/code&gt; to compute $f^n(x)$.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Assignment 2 -- Introduction to Python</title><link>https://subodhvsharma.github.io/course/col100/assign2/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign2/</guid><description>&lt;h4 id="basic-python"&gt;Basic Python&lt;/h4&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 2 -- Introduction to Python</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign2/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign2/</guid>
+      <description>&lt;h4 id=&#34;basic-python&#34;&gt;Basic Python&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Learn how to perform simple operations such as exponents (Eg:$2^3$), remainder, integer division. Also understand the order of such operations that Python enforces. Run (5-1)*(7+1)/(3-1) in Python interpreter and indicate the order of evaluation of expressions (Note: an expression consists of values and operators such that
 they can always evaluate to a single value).&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Learn how values of common datatypes such as &lt;code&gt;int, floats, string,&lt;/code&gt; and &lt;code&gt;bool&lt;/code&gt; are specified in Python by using the interpreter. Interpret the results of the following expressions: (i) &lt;code&gt;'Python' + 'Rocks'&lt;/code&gt; and (ii) &lt;code&gt;'Python' + 42&lt;/code&gt;. Experiment with other
+&lt;p&gt;Learn how values of common datatypes such as &lt;code&gt;int, floats, string,&lt;/code&gt; and &lt;code&gt;bool&lt;/code&gt; are specified in Python by using the interpreter. Interpret the results of the following expressions: (i) &lt;code&gt;&#39;Python&#39; + &#39;Rocks&#39;&lt;/code&gt; and (ii) &lt;code&gt;&#39;Python&#39; + 42&lt;/code&gt;. Experiment with other
 combinations of operators and types.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Variables are named locations in computer&amp;rsquo;s memory that can store
 a single value. If you want to use the result of an evaluated expression later in your program, you can save it inside a variable.
-&lt;figure &gt;
-&lt;div class="flex justify-center "&gt;
-&lt;div class="w-full" &gt;&lt;img src="https://subodhvsharma.github.io/col100-classnotes-2022/Valid-Invalid-Vars.png" alt="Valid and Invalid Variable Names" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://subodhvsharma.github.io/col100-classnotes-2022/Valid-Invalid-Vars.png&#34; alt=&#34;Valid and Invalid Variable Names&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Learn the use of &lt;code&gt;print()&lt;/code&gt; and &lt;code&gt;input()&lt;/code&gt; functions. &lt;br&gt;
@@ -173,7 +253,7 @@ expressions (&lt;code&gt;if-else&lt;/code&gt;, &lt;code&gt;if-elif-else&lt;/code
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="basic-algorithm-design-and-python-programming"&gt;Basic Algorithm Design and Python Programming&lt;/h4&gt;
+&lt;h4 id=&#34;basic-algorithm-design-and-python-programming&#34;&gt;Basic Algorithm Design and Python Programming&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Computing factorial of a given integer using recursive procedure which is &lt;em&gt;technically complete&lt;/em&gt;. For some inputs (from the domain of Integers) the computation may not terminate. Identify such inputs and provide reason for this non-termination.&lt;/p&gt;
@@ -183,16 +263,16 @@ expressions (&lt;code&gt;if-else&lt;/code&gt;, &lt;code&gt;if-elif-else&lt;/code
 design and implement a faster recursive version of the power function.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="challenge-question"&gt;Challenge Question&lt;/h4&gt;
+&lt;h4 id=&#34;challenge-question&#34;&gt;Challenge Question&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;The integer square root of $n$ is the integer $k$ such that
-$k^2 \leq n &lt; (k+1)^2$. The integer square root can be computed
+$k^2 \leq n &amp;lt; (k+1)^2$.  The integer square root can be computed
 using the following inductive process:
 &lt;ul&gt;
-&lt;li&gt;Compute the integer square root $i$ of $m = n \,\mbox{div}\, 4$
-recursively. We then have that $i^2 \leq m &lt; (i+1)^2$.&lt;/li&gt;
-&lt;li&gt;Since $m$ and $i$ are integers we have that $(m+1) &lt;= (i+1)^2$.
-We thus have $(2i)^2 \leq 4m \leq n &lt; 4m + 4 \leq (2i + 2)^2$.
+&lt;li&gt;Compute the integer square root $i$ of $m = n ,\mbox{div}, 4$
+recursively.  We then have that $i^2 \leq m &amp;lt; (i+1)^2$.&lt;/li&gt;
+&lt;li&gt;Since $m$ and $i$ are integers we have that $(m+1) &amp;lt;= (i+1)^2$.
+We thus have $(2i)^2 \leq 4m \leq n &amp;lt; 4m + 4 \leq (2i + 2)^2$.
 Hence we have that the integer square root of $n$ is either
 $2i$ or $2i+1$.&lt;/li&gt;
 &lt;li&gt;Write a recursive python program corresponding to the above &lt;br&gt;
@@ -200,20 +280,29 @@ algorithm.&lt;/li&gt;
 &lt;li&gt;Derive the number of steps required.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Assignment 1</title><link>https://subodhvsharma.github.io/course/col100/assign1/</link><pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/col100/assign1/</guid><description>&lt;h4 id="1-learn-the-following-basics-of-unix"&gt;1. Learn the following basics of Unix:&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;What is a Unix terminal and how to open one? Reference: &lt;a href="http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html" target="_blank" rel="noopener"&gt;Unix Introduction&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;What are files and processes? What is a directory and how are files grouped together in a directory structure? Reference: &lt;a href="http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html" target="_blank" rel="noopener"&gt;Unix Tutorial 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;How to list files and directories? How to create files and directories? How to copy and move files? Reference: &lt;a href="http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html" target="_blank" rel="noopener"&gt;Unix Tutorial 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;What are file access permissions and how to change them? Reference: &lt;a href="http://www.ee.surrey.ac.uk/Teaching/Unix/unix5.html" target="_blank" rel="noopener"&gt;Unix Tutorial 5&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style="color:Brown"&gt; &lt;strong&gt;It is expected that by the end of this task, you are familiar with the usage of unix commands such as: &lt;code&gt;ls, cp, rm, mv, touch, chmod, groups, passwd, cd, pwd, mkdir, cat, find&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;h4 id="2-open-up-a-browser-firefoxchrome-and-access-the-col100-homepage"&gt;2. Open up a browser (firefox/Chrome) and access the COL100 homepage.&lt;/h4&gt;
-&lt;h4 id="3-open-an-email-client-webmail-iit-delhi-and-login-to-your-account-send-an-email-to-the-instructor-of-col100-and-then-logout"&gt;3. Open an email client (webmail IIT Delhi) and login to your account. Send an email to the instructor of COL100 and then logout.&lt;/h4&gt;
-&lt;h4 id="4-learn-how-to-use-and-navigate-a-text-editor"&gt;4. Learn how to use and navigate a text editor:&lt;/h4&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 1</title>
+      <link>https://subodhvsharma.github.io/course/col100/assign1/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/assign1/</guid>
+      <description>&lt;h4 id=&#34;1-learn-the-following-basics-of-unix&#34;&gt;1. Learn the following basics of Unix:&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Type the following command on your terminal prompt: &lt;span style="color:DarkBlue"&gt; &lt;strong&gt;&lt;code&gt;gedit &amp;amp;&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;Open the &lt;a href="https://help.gnome.org/users/gedit/stable/" target="_blank" rel="noopener"&gt;gedit tutorial&lt;/a&gt; and experiment with at least the following sections (you can experiment with all the subsections on the gedit tutorial page, if you like):
+&lt;li&gt;What is a Unix terminal and how to open one? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What are files and processes? What is a directory and how are files grouped together in a directory structure? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Tutorial 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;How to list files and directories?  How to create files and directories? How to copy and move files? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Tutorial 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;What are file access permissions and how to change them? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unix5.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Tutorial 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&#34;color:Brown&#34;&gt; &lt;strong&gt;It is expected that by the end of this task, you are familiar with the usage of unix commands such as: &lt;code&gt;ls, cp, rm, mv, touch, chmod, groups, passwd, cd, pwd, mkdir, cat, find&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2-open-up-a-browser-firefoxchrome-and-access-the-col100-homepage&#34;&gt;2. Open up a browser (firefox/Chrome) and access the COL100 homepage.&lt;/h4&gt;
+&lt;h4 id=&#34;3-open-an-email-client-webmail-iit-delhi-and-login-to-your-account-send-an-email-to-the-instructor-of-col100-and-then-logout&#34;&gt;3. Open an email client (webmail IIT Delhi) and login to your account. Send an email to the instructor of COL100 and then logout.&lt;/h4&gt;
+&lt;h4 id=&#34;4-learn-how-to-use-and-navigate-a-text-editor&#34;&gt;4. Learn how to use and navigate a text editor:&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Type the following command on your terminal prompt: &lt;span style=&#34;color:DarkBlue&#34;&gt; &lt;strong&gt;&lt;code&gt;gedit &amp;amp;&lt;/code&gt;&lt;/strong&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Open the &lt;a href=&#34;https://help.gnome.org/users/gedit/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gedit tutorial&lt;/a&gt; and experiment with at least the following sections (you can experiment with all the subsections on the gedit tutorial page, if you like):
 &lt;ul&gt;
 &lt;li&gt;File basics: Open, close, and save files&lt;/li&gt;
 &lt;li&gt;Replace text and Search for text&lt;/li&gt;
@@ -221,16 +310,34 @@ algorithm.&lt;/li&gt;
 &lt;li&gt;Turn on syntax highlighting by selecting gedit -&amp;gt; Preferences -&amp;gt; Plugins -&amp;gt; Python Console&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Assignment 1</title><link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</link><pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</guid><description>&lt;h4 id="1-spanning-tree"&gt;1. Spanning Tree&lt;/h4&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 1</title>
+      <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</guid>
+      <description>&lt;h4 id=&#34;1-spanning-tree&#34;&gt;1. Spanning Tree&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Implement a predicate that takes a binary relation as input (on &lt;strong&gt;univ&lt;/strong&gt; set) and tests whether or not the relation is a &lt;em&gt;tree&lt;/em&gt;.&lt;/li&gt;
 &lt;li&gt;Implement a predicate that takes two binary relations as input and constrains one to be a spanning tree of the other. Use this predicate to give an example of a graph with two distinct spanning trees. Note that the versions of the predicate may be different for directed or undirected graphs. Specify both the versions.&lt;/li&gt;
 &lt;li&gt;Consider a weighted undirected graph. Implement a predicate to check whether a given relation forms an MST.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="2-report"&gt;2. Report&lt;/h3&gt;
+&lt;h3 id=&#34;2-report&#34;&gt;2. Report&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a report in latex clear.y explaining how you iteratively refined your model and how did Alloy help you to indentify counter-examples in your modeling process.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Assignment 2</title><link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</link><pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate><guid>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</guid><description>&lt;h3 id="modeling-fsms-finite-state-machines-easy"&gt;Modeling FSMs (Finite State Machines) [EASY]&lt;/h3&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 2</title>
+      <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</link>
+      <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
+      <guid>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</guid>
+      <description>&lt;h3 id=&#34;modeling-fsms-finite-state-machines-easy&#34;&gt;Modeling FSMs (Finite State Machines) [EASY]&lt;/h3&gt;
 &lt;p&gt;A FSM has non-empty set of initial states and a transition relation which connects each
 state to its successors. Construct an Alloy model of FSMs by adding constraints and having the analyzer solve
 them, generate a variety of examples of machines:&lt;/p&gt;
@@ -244,8 +351,8 @@ them, generate a variety of examples of machines:&lt;/p&gt;
 &lt;li&gt;A machine with a livelock: the possibility of an infinite execution in which a state that is always reachable is never
 reached.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="modeling-concurrent-program-executions-challenging"&gt;Modeling Concurrent Program Executions [CHALLENGING]&lt;/h3&gt;
-&lt;p&gt;Semantics of any program is generally defined by a set of &lt;em&gt;executions&lt;/em&gt;. An execution of a program is composed of &lt;em&gt;events&lt;/em&gt;. Events are either &lt;em&gt;read&lt;/em&gt; (or &lt;em&gt;write&lt;/em&gt;) from (or to) a location or &lt;em&gt;fences&lt;/em&gt;. Events can also be classified into those that access &lt;em&gt;atomic&lt;/em&gt; locations and those that access &lt;em&gt;non-atomic ($nal$)&lt;/em&gt; locations. Events from the same thread are ordered w.r.t. each other via a total order called &lt;em&gt;sequenced-before ($sb$)&lt;/em&gt;. Other relations that may exist between events are:&lt;/p&gt;
+&lt;h3 id=&#34;modeling-concurrent-program-executions-challenging&#34;&gt;Modeling Concurrent Program Executions [CHALLENGING]&lt;/h3&gt;
+&lt;p&gt;Semantics of any program is generally defined by a set of &lt;em&gt;executions&lt;/em&gt;. An execution of a program is composed of &lt;em&gt;events&lt;/em&gt;. Events are either &lt;em&gt;read&lt;/em&gt; (or &lt;em&gt;write&lt;/em&gt;) from (or to) a location or &lt;em&gt;fences&lt;/em&gt;. Events can also be classified into those that access &lt;em&gt;atomic&lt;/em&gt; locations and those that access &lt;em&gt;non-atomic ($nal$)&lt;/em&gt; locations. Events from the same thread are ordered w.r.t. each other via a total order called  &lt;em&gt;sequenced-before ($sb$)&lt;/em&gt;. Other relations that may exist between events are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;dependency relations such as &lt;em&gt;address ($ad$), control ($cd$)&lt;/em&gt; or &lt;em&gt;data ($dd$)&lt;/em&gt; dependency&lt;/li&gt;
 &lt;li&gt;whether events are from the same thread ($sthd$) or accessing the same location ($ sloc$)&lt;/li&gt;
@@ -262,7 +369,7 @@ to read actions from the write actions whose values they take, &lt;em&gt;coheren
 &lt;li&gt;$rf$ is well-formed if the related writes and read are to the same location and is injective. Simialrly, $co$ is well-formed if the writes are to the same location forms a strict partial order.&lt;/li&gt;
 &lt;li&gt;$rfe$ is derived from $rf$.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The above is not an exhaustive list. Some other simpler constriants coming straight from the natural definition of the relations have been left out. One can refer to the paper &lt;a href="https://dl.acm.org/doi/10.1145/1926385.1926394" target="_blank" rel="noopener"&gt;Mathematizing C++ Concurrency&lt;/a&gt; for natural definition of the relations mentioned above.&lt;/p&gt;
+&lt;p&gt;The above is not an exhaustive list. Some other simpler constriants coming straight from the natural definition of the relations have been left out. One can refer to the paper &lt;a href=&#34;https://dl.acm.org/doi/10.1145/1926385.1926394&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mathematizing C++ Concurrency&lt;/a&gt; for natural definition of the relations mentioned above.&lt;/p&gt;
 &lt;p&gt;Release ($rel$) and acquire ($acq$) are atomic write and read events, respectively. A fence can also have release or acquire semantics. A &lt;em&gt;consistent&lt;/em&gt; execution of a program with release and acquire events has the following constraints:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A happens-before ($hb$) relation &amp;ndash; created from $sb$ and the syncrhonisation of release and acquire events in the execution.&lt;/li&gt;
@@ -270,68 +377,102 @@ to read actions from the write actions whose values they take, &lt;em&gt;coheren
 &lt;/ul&gt;
 &lt;p&gt;Implement the basic execution modeling in Alloy and extend your model to the &lt;em&gt;release-acquire&lt;/em&gt; fragment of C11. Show
 litmus execution behaviours of consistent executions, data race-free and with race executions.&lt;/p&gt;
-&lt;h3 id="report"&gt;Report&lt;/h3&gt;
+&lt;h3 id=&#34;report&#34;&gt;Report&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Create a report in latex and explain how you iteratively refined the model and how did Alloy help you to indentify counter-examples in your modeling process.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Example Talk</title><link>https://subodhvsharma.github.io/talk/example-talk/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/talk/example-talk/</guid><description>
-&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500"
-data-callout="note"
-data-callout-metadata=""&gt;
-&lt;span class="callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300"&gt;
-&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125"/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-&lt;div class="callout-content dark:text-neutral-300"&gt;
-&lt;div class="callout-title font-semibold mb-1"&gt;Note&lt;/div&gt;
-&lt;div class="callout-body"&gt;&lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://subodhvsharma.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener"&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener"&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;</description></item><item><title>Synthesizing Multi-threaded Tests from Sequential Traces to Detect Communication Deadlocks</title><link>https://subodhvsharma.github.io/publication/icst21/</link><pubDate>Sun, 11 Apr 2021 21:34:27 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/icst21/</guid><description/></item><item><title>Welcome to Wowchemy, the website builder for Hugo</title><link>https://subodhvsharma.github.io/post/getting-started/</link><pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/post/getting-started/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;libr&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Synthesizing Multi-threaded Tests from Sequential Traces to Detect Communication Deadlocks</title>
+      <link>https://subodhvsharma.github.io/publication/icst21/</link>
+      <pubDate>Sun, 11 Apr 2021 21:34:27 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/icst21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to Wowchemy, the website builder for Hugo</title>
+      <link>https://subodhvsharma.github.io/post/getting-started/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/post/getting-started/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;libr&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;hello&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;The Wowchemy website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site&lt;/li&gt;
 &lt;li&gt;The template can be modified and customised to suit your needs. It&amp;rsquo;s a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a &lt;strong&gt;no-code solution (write in Markdown and customize with YAML parameters)&lt;/strong&gt; and having &lt;strong&gt;flexibility to later add even deeper personalization with HTML and CSS&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;a href="https://wowchemy.com" target="_blank" rel="noopener"&gt;
-&lt;figure &gt;
-&lt;div class="flex justify-center "&gt;
-&lt;div class="w-full" &gt;&lt;img src="https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png" alt="The template is mobile first with a responsive design to ensure that your site looks stunning on every device." loading="lazy" data-zoomable /&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#34; alt=&#34;The template is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="get-started"&gt;Get Started&lt;/h2&gt;
+&lt;h2 id=&#34;get-started&#34;&gt;Get Started&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;👉 &lt;a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;📚 &lt;a href="https://wowchemy.com/docs/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💬 &lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener"&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href="https://discourse.gohugo.io" target="_blank" rel="noopener"&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;🐦 Twitter: &lt;a href="https://twitter.com/wowchemy" target="_blank" rel="noopener"&gt;@wowchemy&lt;/a&gt; &lt;a href="https://twitter.com/GeorgeCushen" target="_blank" rel="noopener"&gt;@GeorgeCushen&lt;/a&gt; &lt;a href="https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query" target="_blank" rel="noopener"&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;💡 &lt;a href="https://github.com/wowchemy/wowchemy-hugo-themes/issues" target="_blank" rel="noopener"&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href="https://wowchemy.com/docs/hugo-tutorials/update/" target="_blank" rel="noopener"&gt;Update Tutorial&lt;/a&gt; and &lt;a href="https://wowchemy.com/updates/" target="_blank" rel="noopener"&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👉 &lt;a href=&#34;https://wowchemy.com/templates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Create a new site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://wowchemy.com/docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Personalize your site&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Chat with the &lt;strong&gt;Wowchemy community&lt;/strong&gt;&lt;/a&gt; or &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/wowchemy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@wowchemy&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithWowchemy&amp;amp;src=typed_query&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;#MadeWithWowchemy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt; for &lt;em&gt;Wowchemy&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating Wowchemy?&lt;/strong&gt; View the &lt;a href=&#34;https://wowchemy.com/docs/hugo-tutorials/update/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Update Tutorial&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/updates/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="crowd-funded-open-source-software"&gt;Crowd-funded open-source software&lt;/h2&gt;
+&lt;h2 id=&#34;crowd-funded-open-source-software&#34;&gt;Crowd-funded open-source software&lt;/h2&gt;
 &lt;p&gt;To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.&lt;/p&gt;
-&lt;h3 id="-click-here-to-become-a-sponsor-and-help-support-wowchemy"&gt;&lt;a href="https://wowchemy.com/sponsor/" target="_blank" rel="noopener"&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href="https://wowchemy.com/sponsor/" target="_blank" rel="noopener"&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id="ecosystem"&gt;Ecosystem&lt;/h2&gt;
+&lt;h3 id=&#34;-click-here-to-become-a-sponsor-and-help-support-wowchemy&#34;&gt;&lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;❤️ Click here to become a sponsor and help support Wowchemy&amp;rsquo;s future ❤️&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;As a token of appreciation for sponsoring, you can &lt;strong&gt;unlock &lt;a href=&#34;https://wowchemy.com/sponsor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;these&lt;/a&gt; awesome rewards and extra features 🦄✨&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://github.com/wowchemy/hugo-academic-cli" target="_blank" rel="noopener"&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/wowchemy/hugo-academic-cli&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Academic CLI&lt;/a&gt;:&lt;/strong&gt; Automatically import publications from BibTeX&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="inspiration"&gt;Inspiration&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener"&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href="https://wowchemy.com/user-stories/" target="_blank" rel="noopener"&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
-&lt;h2 id="features"&gt;Features&lt;/h2&gt;
+&lt;h2 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://wowchemy.com/user-stories/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href="https://wowchemy.com/docs/page-builder/" target="_blank" rel="noopener"&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener"&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://wowchemy.com/docs/page-builder/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href="https://wowchemy.com/docs/import/jupyter/" target="_blank" rel="noopener"&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href="https://wowchemy.com/docs/install-locally/" target="_blank" rel="noopener"&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href="https://wowchemy.com/docs/customization/" target="_blank" rel="noopener"&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics" target="_blank" rel="noopener"&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href="https://analytics.google.com" target="_blank" rel="noopener"&gt;Google Analytics&lt;/a&gt;, &lt;a href="https://disqus.com" target="_blank" rel="noopener"&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://wowchemy.com/docs/import/jupyter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://wowchemy.com/docs/install-locally/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://wowchemy.com/docs/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
@@ -342,12 +483,21 @@ data-callout-metadata=""&gt;
 &lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="themes"&gt;Themes&lt;/h2&gt;
-&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href="https://academic-demo.netlify.com/" target="_blank" rel="noopener"&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://wowchemy.com/docs/customization" target="_blank" rel="noopener"&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
-&lt;h2 id="license"&gt;License&lt;/h2&gt;
-&lt;p&gt;Copyright 2016-present &lt;a href="https://georgecushen.com" target="_blank" rel="noopener"&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Released under the &lt;a href="https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md" target="_blank" rel="noopener"&gt;MIT&lt;/a&gt; license.&lt;/p&gt;</description></item><item><title>Privacy and Digitisation</title><link>https://subodhvsharma.github.io/project/privacy-and-digitisation/</link><pubDate>Wed, 11 Nov 2020 10:37:59 +0530</pubDate><guid>https://subodhvsharma.github.io/project/privacy-and-digitisation/</guid><description>&lt;p&gt;India is arguably the biggest deployer of digitization in public life with large public service applications (in-use or contemplated) like national identity, electronic voting, health registry, national population and voter registries, public credit registry, income and other tax registries, face recognition based access control to airports and other facilities, bluetooth based contact tracing and a national intelligence grid.&lt;/p&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;p&gt;Wowchemy and its templates come with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can choose their preferred mode - click the moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/customization&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully customizable.&lt;/p&gt;
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Privacy and Digitisation</title>
+      <link>https://subodhvsharma.github.io/project/privacy-and-digitisation/</link>
+      <pubDate>Wed, 11 Nov 2020 10:37:59 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/privacy-and-digitisation/</guid>
+      <description>&lt;p&gt;India is arguably the biggest deployer of digitization in public life with large public service applications (in-use or contemplated) like national identity, electronic voting, health registry, national population and voter registries, public credit registry, income and other tax registries, face recognition based access control to airports and other facilities, bluetooth based contact tracing and a national intelligence grid.&lt;/p&gt;
 &lt;p&gt;In this project, we are investigating the core privacy requirements in large public service
 applications (such as eVoting, Aadhaar, etc.). In particular the two focussed activities under the project are:&lt;/p&gt;
 &lt;ul&gt;
@@ -357,7 +507,40 @@ applications (such as eVoting, Aadhaar, etc.). In particular the two focussed ac
 &lt;li&gt;
 &lt;p&gt;Designing a privacy-centric architecture for digital applications where the focus is to address privacy violation &lt;em&gt;ex-ante&lt;/em&gt; rather than &lt;em&gt;ex-post&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Security Types for Synchronous Data Flow Systems.</title><link>https://subodhvsharma.github.io/publication/memocode20/</link><pubDate>Tue, 10 Nov 2020 21:38:57 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/memocode20/</guid><description/></item><item><title>Verifying and Testing Concurrent Programs using Constraint Solver based Approaches</title><link>https://subodhvsharma.github.io/publication/icsme20/</link><pubDate>Tue, 10 Nov 2020 21:34:27 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/icsme20/</guid><description/></item><item><title>Privacy concerns with Aadhaar</title><link>https://subodhvsharma.github.io/publication/cacm19/</link><pubDate>Tue, 10 Nov 2020 21:24:53 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/cacm19/</guid><description/></item><item><title>IoT Security</title><link>https://subodhvsharma.github.io/project/iot-security/</link><pubDate>Tue, 10 Nov 2020 21:09:11 +0530</pubDate><guid>https://subodhvsharma.github.io/project/iot-security/</guid><description>&lt;p&gt;IoT space is expanding at a tremendous pace and security in IoT systems
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Security Types for Synchronous Data Flow Systems.</title>
+      <link>https://subodhvsharma.github.io/publication/memocode20/</link>
+      <pubDate>Tue, 10 Nov 2020 21:38:57 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/memocode20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verifying and Testing Concurrent Programs using Constraint Solver based Approaches</title>
+      <link>https://subodhvsharma.github.io/publication/icsme20/</link>
+      <pubDate>Tue, 10 Nov 2020 21:34:27 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/icsme20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy concerns with Aadhaar</title>
+      <link>https://subodhvsharma.github.io/publication/cacm19/</link>
+      <pubDate>Tue, 10 Nov 2020 21:24:53 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/cacm19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IoT Security</title>
+      <link>https://subodhvsharma.github.io/project/iot-security/</link>
+      <pubDate>Tue, 10 Nov 2020 21:09:11 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/iot-security/</guid>
+      <description>&lt;p&gt;IoT space is expanding at a tremendous pace and security in IoT systems
 has been identified as one of the critical areas which require attention. In this project we are developing
 a secure and trusted application layer framework for IoT systems. We, at
 IITD, are investigating two important subproblems in the context of security of IoTs:&lt;/p&gt;
@@ -365,8 +548,17 @@ IITD, are investigating two important subproblems in the context of security of 
 &lt;li&gt;smart contract verification and automated synthesis of smart contracts.&lt;/li&gt;
 &lt;li&gt;Creation of&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style="color:slateblue"&gt; The project is funded by the &lt;a href="https://www.jst.go.jp/inter/english/sicorp/country/jointlab.html" target="_blank" rel="noopener"&gt;DST-JST grant&lt;/a&gt; and Denso Corporation. &lt;/span&gt;&lt;/p&gt;
-&lt;h4 id="ra-positions-are-available-under-this-project"&gt;&lt;span style="color:red"&gt; RA positions are available under this project &lt;/span&gt;&lt;/h4&gt;</description></item><item><title>Verification of Message Passing Systems</title><link>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</link><pubDate>Tue, 10 Nov 2020 18:32:22 +0530</pubDate><guid>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</guid><description>&lt;p&gt;Message passing is pervasive &amp;ndash; from inter processs communication in multicores to high performance computing, message passing plays a central role. In this project, we envison to create a&lt;br&gt;
+&lt;p&gt;&lt;span style=&#34;color:slateblue&#34;&gt; The project is funded by the &lt;a href=&#34;https://www.jst.go.jp/inter/english/sicorp/country/jointlab.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DST-JST grant&lt;/a&gt; and Denso Corporation. &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ra-positions-are-available-under-this-project&#34;&gt;&lt;span style=&#34;color:red&#34;&gt; RA positions are available under this project &lt;/span&gt;&lt;/h4&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Verification of Message Passing Systems</title>
+      <link>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</link>
+      <pubDate>Tue, 10 Nov 2020 18:32:22 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</guid>
+      <description>&lt;p&gt;Message passing is pervasive &amp;ndash; from inter processs communication in multicores to high performance computing, message passing plays a central role. In this project, we envison to create a&lt;br&gt;
 framework to analyse message passing systems. In particular:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -376,16 +568,34 @@ framework to analyse message passing systems. In particular:&lt;/p&gt;
 &lt;p&gt;Exploit the symmetry and parametricity to scale up the verification problem.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style="color:slateblue"&gt;The project is funded by the DST-ECRA grant &lt;/span&gt;&lt;/p&gt;</description></item><item><title>Verification of C11 Concurrency</title><link>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</link><pubDate>Tue, 10 Nov 2020 15:00:53 +0530</pubDate><guid>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</guid><description>&lt;p&gt;Verification of parallel systems is a complex exercise. The large state spaces created due to thread interleavings complicates the verification of such parallel systems. The problem becomes even harder in case of parallel programs executed under relaxed memory models. Under this project we are investigating two directions:&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:slateblue&#34;&gt;The project is funded by the DST-ECRA grant &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Verification of C11 Concurrency</title>
+      <link>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</link>
+      <pubDate>Tue, 10 Nov 2020 15:00:53 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</guid>
+      <description>&lt;p&gt;Verification of parallel systems is a complex exercise. The large state spaces created due to thread interleavings complicates the verification of such parallel systems. The problem becomes even harder in case of parallel programs executed under relaxed memory models. Under this project we are investigating two directions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A runtime analysis that uses dynamic partial order reduction (DPOR) to verify other multi-copy atomic (oMCA) behaviors of C++11 programs&lt;/li&gt;
 &lt;li&gt;A static analysis of &lt;em&gt;Release-Acquire&lt;/em&gt; memory fragment of C11 concurrency by exploiting thread-modular abstract interpretation technique.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style="color:slateblue"&gt; These projects is funded by the DST Early Career Research grant. &lt;/span&gt;&lt;/p&gt;</description></item><item><title>Writing technical content in Markdown</title><link>https://subodhvsharma.github.io/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/post/writing-technical-content/</guid><description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:slateblue&#34;&gt; These projects is funded by the DST Early Career Research grant.  &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Writing technical content in Markdown</title>
+      <link>https://subodhvsharma.github.io/post/writing-technical-content/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/post/writing-technical-content/</guid>
+      <description>&lt;p&gt;Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Wowchemy.&lt;/p&gt;
-&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
-&lt;h3 id="code"&gt;Code&lt;/h3&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
 &lt;p&gt;Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the &lt;code&gt;syntax_highlighter&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;```python
 import pandas as pd
@@ -394,130 +604,144 @@ data.head()
 ```
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;pandas&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;pd&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;data&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;read_csv&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;head&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="mindmaps"&gt;Mindmaps&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pandas&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;as&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;pd&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;pd&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;read_csv&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;data.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;data&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;head&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;mindmaps&#34;&gt;Mindmaps&lt;/h3&gt;
 &lt;p&gt;Wowchemy supports a Markdown extension for mindmaps.&lt;/p&gt;
 &lt;p&gt;Simply insert a Markdown &lt;code&gt;markmap&lt;/code&gt; code block and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
 &lt;p&gt;A simple mindmap defined as a Markdown list:&lt;/p&gt;
-&lt;div class="highlight"&gt;
-&lt;pre class="chroma"&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
 &lt;code&gt;
-```markmap {height="200px"}
+```markmap {height=&#34;200px&#34;}
 - Hugo Modules
-- wowchemy
-- wowchemy-plugins-netlify
-- wowchemy-plugins-netlify-cms
-- wowchemy-plugins-reveal
+  - wowchemy
+  - wowchemy-plugins-netlify
+  - wowchemy-plugins-netlify-cms
+  - wowchemy-plugins-reveal
 ```
 &lt;/code&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;div class="markmap" style="height: 200px;"&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 200px;&#34;&gt;
+
 &lt;pre&gt;- Hugo Modules
-- wowchemy
-- wowchemy-plugins-netlify
-- wowchemy-plugins-netlify-cms
-- wowchemy-plugins-reveal&lt;/pre&gt;
+  - wowchemy
+  - wowchemy-plugins-netlify
+  - wowchemy-plugins-netlify-cms
+  - wowchemy-plugins-reveal&lt;/pre&gt;
 &lt;/div&gt;
+
 &lt;p&gt;A more advanced mindmap with formatting, code blocks, and math:&lt;/p&gt;
-&lt;div class="highlight"&gt;
-&lt;pre class="chroma"&gt;
+&lt;div class=&#34;highlight&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;
 &lt;code&gt;
 ```markmap
 - Mindmaps
-- Links
-- [Wowchemy Docs](https://wowchemy.com/docs/)
-- [Discord Community](https://discord.gg/z8wNYzb)
-- [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
-- Features
-- Markdown formatting
-- **inline** ~~text~~ *styles*
-- multiline
-text
-- `inline code`
--
-```js
-console.log('hello');
-console.log('code block');
-```
-- Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+  - Links
+    - [Wowchemy Docs](https://wowchemy.com/docs/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
 ```
 &lt;/code&gt;
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;div class="markmap" style="height: 500px;"&gt;
+&lt;div class=&#34;markmap&#34; style=&#34;height: 500px;&#34;&gt;
+
 &lt;pre&gt;- Mindmaps
-- Links
-- [Wowchemy Docs](https://wowchemy.com/docs/)
-- [Discord Community](https://discord.gg/z8wNYzb)
-- [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
-- Features
-- Markdown formatting
-- **inline** ~~text~~ *styles*
-- multiline
-text
-- `inline code`
--
-```js
-console.log('hello');
-console.log('code block');
-```
-- Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
+  - Links
+    - [Wowchemy Docs](https://wowchemy.com/docs/)
+    - [Discord Community](https://discord.gg/z8wNYzb)
+    - [GitHub](https://github.com/wowchemy/wowchemy-hugo-themes)
+  - Features
+    - Markdown formatting
+    - **inline** ~~text~~ *styles*
+    - multiline
+      text
+    - `inline code`
+    -
+      ```js
+      console.log(&#39;hello&#39;);
+      console.log(&#39;code block&#39;);
+      ```
+    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$&lt;/pre&gt;
 &lt;/div&gt;
-&lt;h3 id="charts"&gt;Charts&lt;/h3&gt;
-&lt;p&gt;Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener"&gt;Plotly&lt;/a&gt; format for interactive charts.&lt;/p&gt;
+
+&lt;h3 id=&#34;charts&#34;&gt;Charts&lt;/h3&gt;
+&lt;p&gt;Wowchemy supports the popular &lt;a href=&#34;https://plot.ly/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly&lt;/a&gt; format for interactive charts.&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-984612753" class="chart"&gt;&lt;/div&gt;
+
+
+
+
+&lt;div id=&#34;chart-749268153&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
-(function() {
-async function fetchChartJSON() {
-console.debug('Hugo Blox fetching chart JSON...')
-const response = await fetch('.\/line-chart.json');
-return await response.json();
-}
-let a = setInterval( function() {
-if ( typeof window.Plotly === 'undefined' ) {
-console.debug('Plotly not loaded yet...')
-return;
-}
-clearInterval( a );
-fetchChartJSON().then(chart =&gt; {
-console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-984612753', chart.data, chart.layout, {responsive: true});
-});
-}, 500 );
-})();
+  (function() {
+    let a = setInterval( function() {
+      if ( typeof window.Plotly === &#39;undefined&#39; ) {
+        return;
+      }
+      clearInterval( a );
+
+      Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
+        Plotly.plot(&#39;chart-749268153&#39;, chart.data, chart.layout, {responsive: true});
+      });
+    }, 500 );
+  })();
 &lt;/script&gt;
-&lt;p&gt;You might also find the &lt;a href="http://plotly-json-editor.getforge.io/" target="_blank" rel="noopener"&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
-&lt;h3 id="math"&gt;Math&lt;/h3&gt;
+
+&lt;p&gt;You might also find the &lt;a href=&#34;http://plotly-json-editor.getforge.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Plotly JSON Editor&lt;/a&gt; useful.&lt;/p&gt;
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
 &lt;p&gt;Wowchemy supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.yaml&lt;/code&gt; file.&lt;/p&gt;
 &lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;{{&amp;lt; math &amp;gt;}}$...${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; or &lt;code&gt;{{&amp;lt; math &amp;gt;}}$$...$${{&amp;lt; /math &amp;gt;}}&lt;/code&gt;, respectively. (We wrap the LaTeX math in the Wowchemy &lt;em&gt;math&lt;/em&gt; shortcode to prevent Hugo rendering our math as Markdown. The &lt;em&gt;math&lt;/em&gt; shortcode is new in v5.5-dev.)&lt;/p&gt;
 &lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-latex" data-lang="latex"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class="nb"&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;$$&lt;/span&gt;&lt;span class="nb"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;\gamma&lt;/span&gt;&lt;span class="nb"&gt;_{n} &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\frac&lt;/span&gt;&lt;span class="nb"&gt;{ &lt;/span&gt;&lt;span class="nv"&gt;\left&lt;/span&gt;&lt;span class="nb"&gt; | &lt;/span&gt;&lt;span class="nv"&gt;\left&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;\mathbf&lt;/span&gt;&lt;span class="nb"&gt; x_{n} &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\mathbf&lt;/span&gt;&lt;span class="nb"&gt; x_{n&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="nb"&gt;} &lt;/span&gt;&lt;span class="nv"&gt;\right&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="nb"&gt;^T &lt;/span&gt;&lt;span class="nv"&gt;\left&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="o"&gt;[&lt;/span&gt;&lt;span class="nv"&gt;\nabla&lt;/span&gt;&lt;span class="nb"&gt; F &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;\mathbf&lt;/span&gt;&lt;span class="nb"&gt; x_{n}&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\nabla&lt;/span&gt;&lt;span class="nb"&gt; F &lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;\mathbf&lt;/span&gt;&lt;span class="nb"&gt; x_{n&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="nb"&gt;}&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\right&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="o"&gt;]&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\right&lt;/span&gt;&lt;span class="nb"&gt; |}{&lt;/span&gt;&lt;span class="nv"&gt;\left&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\|\nabla&lt;/span&gt;&lt;span class="nb"&gt; F&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;\mathbf&lt;/span&gt;&lt;span class="nb"&gt;{x}_{n}&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\nabla&lt;/span&gt;&lt;span class="nb"&gt; F&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nv"&gt;\mathbf&lt;/span&gt;&lt;span class="nb"&gt;{x}_{n&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="nb"&gt;}&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\right&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\|&lt;/span&gt;&lt;span class="nb"&gt;^&lt;/span&gt;&lt;span class="m"&gt;2&lt;/span&gt;&lt;span class="nb"&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class="nb"&gt;}}&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;\gamma&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\frac&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{ &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; | &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n} &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^T &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; x_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; |}{&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\left&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\nabla&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; F&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\mathbf&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{x}_{n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\right&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\|&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
 $$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as $\nabla F(\mathbf{x}_{n})$
-.&lt;/p&gt;
+
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;{{&amp;lt; math &amp;gt;}}$\nabla F(\mathbf{x}_{n})${{&amp;lt; /math &amp;gt;}}&lt;/code&gt; renders as 
+
+$\nabla F(\mathbf{x}_{n})$.&lt;/p&gt;
 &lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the math linebreak (&lt;code&gt;\\&lt;/code&gt;):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-latex" data-lang="latex"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class="nb"&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="sb"&gt;$$&lt;/span&gt;&lt;span class="nb"&gt;f&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;k;p_{&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="nb"&gt;}^{&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nb"&gt;}&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nb"&gt; &lt;/span&gt;&lt;span class="nv"&gt;\begin&lt;/span&gt;&lt;span class="nb"&gt;{cases}p_{&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="nb"&gt;}^{&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nb"&gt;} &amp;amp; &lt;/span&gt;&lt;span class="nv"&gt;\text&lt;/span&gt;&lt;span class="nb"&gt;{if }k&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="nb"&gt;, &lt;/span&gt;&lt;span class="nv"&gt;\\&lt;/span&gt;&lt;span class="nb"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="m"&gt;1&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;p_{&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="nb"&gt;}^{&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="nb"&gt;} &amp;amp; &lt;/span&gt;&lt;span class="nv"&gt;\text&lt;/span&gt;&lt;span class="nb"&gt;{if }k&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;0&lt;/span&gt;&lt;span class="nb"&gt;.&lt;/span&gt;&lt;span class="nv"&gt;\end&lt;/span&gt;&lt;span class="nb"&gt;{cases}&lt;/span&gt;&lt;span class="s"&gt;$$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class="nb"&gt;}}&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;$$&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;f&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;k;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\begin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;, &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\\&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;p_{&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;}^{&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;} &amp;amp; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\text&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{if }k&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\end&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;{cases}&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;{{&lt;/span&gt;&amp;lt; /math &amp;gt;&lt;span class=&#34;nb&#34;&gt;}}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+
+
+
+
 $$
 f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} &amp; \text{if }k=1, \\
 1-p_{0}^{*} &amp; \text{if }k=0.\end{cases}
 $$
-&lt;h3 id="diagrams"&gt;Diagrams&lt;/h3&gt;
+
+
+&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
 &lt;p&gt;Wowchemy supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
 &lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;```mermaid
@@ -529,7 +753,7 @@ C --&amp;gt;|Two| E[Result 2]
 ```
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;div class="mermaid"&gt;graph TD
+&lt;div class=&#34;mermaid&#34;&gt;graph TD
 A[Hard] --&gt;|Text| B(Round)
 B --&gt; C{Decision}
 C --&gt;|One| D[Result 1]
@@ -540,7 +764,7 @@ C --&gt;|Two| E[Result 2]
 sequenceDiagram
 Alice-&amp;gt;&amp;gt;John: Hello John, how are you?
 loop Healthcheck
-John-&amp;gt;&amp;gt;John: Fight against hypochondria
+    John-&amp;gt;&amp;gt;John: Fight against hypochondria
 end
 Note right of John: Rational thoughts!
 John--&amp;gt;&amp;gt;Alice: Great!
@@ -549,10 +773,10 @@ Bob--&amp;gt;&amp;gt;John: Jolly good!
 ```
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;div class="mermaid"&gt;sequenceDiagram
+&lt;div class=&#34;mermaid&#34;&gt;sequenceDiagram
 Alice-&gt;&gt;John: Hello John, how are you?
 loop Healthcheck
-John-&gt;&gt;John: Fight against hypochondria
+    John-&gt;&gt;John: Fight against hypochondria
 end
 Note right of John: Rational thoughts!
 John--&gt;&gt;Alice: Great!
@@ -563,23 +787,23 @@ Bob--&gt;&gt;John: Jolly good!
 &lt;pre&gt;&lt;code&gt;```mermaid
 gantt
 section Section
-Completed :done, des1, 2014-01-06,2014-01-08
-Active :active, des2, 2014-01-07, 3d
-Parallel 1 : des3, after des1, 1d
-Parallel 2 : des4, after des1, 1d
-Parallel 3 : des5, after des3, 1d
-Parallel 4 : des6, after des4, 1d
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
 ```
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;div class="mermaid"&gt;gantt
+&lt;div class=&#34;mermaid&#34;&gt;gantt
 section Section
-Completed :done, des1, 2014-01-06,2014-01-08
-Active :active, des2, 2014-01-07, 3d
-Parallel 1 : des3, after des1, 1d
-Parallel 2 : des4, after des1, 1d
-Parallel 3 : des5, after des3, 1d
-Parallel 4 : des6, after des4, 1d
+Completed :done,    des1, 2014-01-06,2014-01-08
+Active        :active,  des2, 2014-01-07, 3d
+Parallel 1   :         des3, after des1, 1d
+Parallel 2   :         des4, after des1, 1d
+Parallel 3   :         des5, after des3, 1d
+Parallel 4   :         des6, after des4, 1d
 &lt;/div&gt;
 &lt;p&gt;An example &lt;strong&gt;class diagram&lt;/strong&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;```mermaid
@@ -600,7 +824,7 @@ Class08 &amp;lt;--&amp;gt; C2: Cool label
 ```
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;div class="mermaid"&gt;classDiagram
+&lt;div class=&#34;mermaid&#34;&gt;classDiagram
 Class01 &lt;|-- AveryLongClass : Cool
 Class03 *-- Class04
 Class05 o-- Class06
@@ -627,7 +851,7 @@ Crash --&amp;gt; [*]
 ```
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;renders as&lt;/p&gt;
-&lt;div class="mermaid"&gt;stateDiagram
+&lt;div class=&#34;mermaid&#34;&gt;stateDiagram
 [*] --&gt; Still
 Still --&gt; [*]
 Still --&gt; Moving
@@ -635,136 +859,197 @@ Moving --&gt; Still
 Moving --&gt; Crash
 Crash --&gt; [*]
 &lt;/div&gt;
-&lt;h3 id="todo-lists"&gt;Todo lists&lt;/h3&gt;
+&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
 &lt;p&gt;You can even write your todo lists in Markdown too:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;- [x]&lt;/span&gt; Write math example
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;- [x]&lt;/span&gt; Write diagram example
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;- [ ]&lt;/span&gt; Do something else
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write math example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write diagram example
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Do something else
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Write math example
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write math example
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; Write diagram example&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write diagram example&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Do something else&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Do something else&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="tables"&gt;Tables&lt;/h3&gt;
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
 &lt;p&gt;Save your spreadsheet as a CSV file in your page&amp;rsquo;s folder and then render it by adding the &lt;em&gt;Table&lt;/em&gt; shortcode to your page:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;{{&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;table&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;header&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;true&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;caption&lt;/span&gt;&lt;span class="p"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;&amp;gt;}}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{{&amp;lt;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;table&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;results.csv&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;header&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;true&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;caption&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;Table 1: My results&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;}}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;table class="table-auto w-full"&gt;
-&lt;thead&gt;
-&lt;tr&gt; &lt;th class="border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left"&gt;customer_id&lt;/th&gt; &lt;th class="border-b dark:border-slate-600 font-medium p-4 pt-0 pb-3 text-slate-400 dark:text-slate-200 text-left"&gt;score&lt;/th&gt; &lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td data-table-dtype="number" class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"&gt;1&lt;/td&gt;
-&lt;td data-table-dtype="number" class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"&gt;0&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td data-table-dtype="number" class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"&gt;2&lt;/td&gt;
-&lt;td data-table-dtype="text" class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td data-table-dtype="number" class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"&gt;3&lt;/td&gt;
-&lt;td data-table-dtype="number" class="border-b border-slate-100 dark:border-slate-700 p-4 text-slate-500 dark:text-slate-400"&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;caption class="table-caption"&gt;Table 1: My results&lt;/caption&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+
+
+&lt;table class=&#34;table&#34;&gt;
+  
+    
+    
+    &lt;tr&gt;  &lt;th&gt;customer_id&lt;/th&gt;  &lt;th&gt;score&lt;/th&gt;  &lt;/tr&gt;
+  
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;0&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;2&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;text&#34;&gt;0.5&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+    &lt;tr&gt;
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;3&lt;/td&gt;
+        
+      
+        
+          &lt;td data-table-dtype=&#34;number&#34;&gt;1&lt;/td&gt;
+        
+      
+    &lt;/tr&gt;
+  
+  
+    &lt;caption&gt;Table 1: My results&lt;/caption&gt;
+  
 &lt;/table&gt;
-&lt;h3 id="callouts"&gt;Callouts&lt;/h3&gt;
-&lt;p&gt;Academic supports &lt;a href="https://gohugo.io/content-management/shortcodes/#alert" target="_blank" rel="noopener"&gt;Markdown alerts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By prefixing a paragraph with an alert type, it will render as an aside.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;&amp;gt; &lt;/span&gt;&lt;span class="ge"&gt;[!NOTE]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;&amp;gt; &lt;/span&gt;&lt;span class="ge"&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500"
-data-callout="note"
-data-callout-metadata=""&gt;
-&lt;span class="callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300"&gt;
-&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125"/&gt;&lt;/svg&gt;
-&lt;/span&gt;
-&lt;div class="callout-content dark:text-neutral-300"&gt;
-&lt;div class="callout-title font-semibold mb-1"&gt;Note&lt;/div&gt;
-&lt;div class="callout-body"&gt;&lt;p&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/p&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;h3 id="spoilers"&gt;Spoilers&lt;/h3&gt;
-&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; spoiler text=&amp;#34;Click to view the spoiler&amp;#34; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;You found me!
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; /spoiler &amp;gt;}}
+
+&lt;h3 id=&#34;callouts&#34;&gt;Callouts&lt;/h3&gt;
+&lt;p&gt;Academic supports a &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#callouts&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcode for callouts&lt;/a&gt;, also referred to as &lt;em&gt;asides&lt;/em&gt;, &lt;em&gt;hints&lt;/em&gt;, or &lt;em&gt;alerts&lt;/em&gt;. By wrapping a paragraph in &lt;code&gt;{{% callout note %}} ... {{% /callout %}}&lt;/code&gt;, it will render as an aside.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% callout note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;details class="spoiler " id="spoiler-5"&gt;
-&lt;summary class="cursor-pointer"&gt;Click to view the spoiler&lt;/summary&gt;
-&lt;div class="rounded-lg bg-neutral-50 dark:bg-neutral-800 p-2"&gt;
-You found me!
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+  &lt;/div&gt;
 &lt;/div&gt;
+&lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
+&lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; spoiler text=&amp;#34;Click to view the spoiler&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;You found me!
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; /spoiler &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Click to view the spoiler&lt;/summary&gt;
+  &lt;p&gt;You found me!&lt;/p&gt;
 &lt;/details&gt;
-&lt;h3 id="icons"&gt;Icons&lt;/h3&gt;
-&lt;p&gt;Academic enables you to use a wide range of &lt;a href="https://wowchemy.com/docs/getting-started/page-builder/#icons" target="_blank" rel="noopener"&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href="https://wowchemy.com/docs/content/writing-markdown-latex/#emojis" target="_blank" rel="noopener"&gt;emojis&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;icons&#34;&gt;Icons&lt;/h3&gt;
+&lt;p&gt;Academic enables you to use a wide range of &lt;a href=&#34;https://wowchemy.com/docs/getting-started/page-builder/#icons&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;icons from &lt;em&gt;Font Awesome&lt;/em&gt; and &lt;em&gt;Academicons&lt;/em&gt;&lt;/a&gt; in addition to &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/#emojis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;emojis&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Here are some examples using the &lt;code&gt;icon&lt;/code&gt; shortcode to render icons:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; icon name=&amp;#34;terminal&amp;#34; pack=&amp;#34;fas&amp;#34; &amp;gt;}} Terminal
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; icon name=&amp;#34;python&amp;#34; pack=&amp;#34;fab&amp;#34; &amp;gt;}} Python
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; icon name=&amp;#34;r-project&amp;#34; pack=&amp;#34;fab&amp;#34; &amp;gt;}} R
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; icon name=&amp;#34;terminal&amp;#34; pack=&amp;#34;fas&amp;#34; &amp;gt;}} Terminal  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; icon name=&amp;#34;python&amp;#34; pack=&amp;#34;fab&amp;#34; &amp;gt;}} Python  
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; icon name=&amp;#34;r-project&amp;#34; pack=&amp;#34;fab&amp;#34; &amp;gt;}} R
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
 &lt;p&gt;
-&lt;span class="inline-block pr-1"&gt;
-&lt;span style="height: 1em; transform: translateY(0.1em);"&gt;terminal&lt;/span&gt;
-&lt;/span&gt; Terminal&lt;br&gt;
-&lt;span class="inline-block pr-1"&gt;
-&lt;span style="height: 1em; transform: translateY(0.1em);"&gt;python&lt;/span&gt;
-&lt;/span&gt; Python&lt;br&gt;
-&lt;span class="inline-block pr-1"&gt;
-&lt;span style="height: 1em; transform: translateY(0.1em);"&gt;r-project&lt;/span&gt;
-&lt;/span&gt; R&lt;/p&gt;
-&lt;h3 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;</description></item><item><title>Display Jupyter Notebooks with Academic</title><link>https://subodhvsharma.github.io/post/jupyter/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/post/jupyter/</guid><description>&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;IPython.core.display&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Image&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;Image&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;i class=&#34;fas fa-terminal  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Terminal&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-python  pr-1 fa-fw&#34;&gt;&lt;/i&gt; Python&lt;br&gt;
+
+  &lt;i class=&#34;fab fa-r-project  pr-1 fa-fw&#34;&gt;&lt;/i&gt; R&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>https://subodhvsharma.github.io/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/post/jupyter/</guid>
+      <description>&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;IPython.core.display&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;Image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;
-&lt;figure &gt;
-&lt;div class="flex justify-center "&gt;
-&lt;div class="w-full" &gt;&lt;img src="./index_1_0.png" alt="png" loading="lazy" data-zoomable /&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Welcome to Academic!&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Welcome to Academic!&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code&gt;Welcome to Academic!
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="install-python-and-jupyterlab"&gt;Install Python and JupyterLab&lt;/h2&gt;
-&lt;p&gt;
-which includes Python 3 and JupyterLab.&lt;/p&gt;
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
 &lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id="create-or-upload-a-jupyter-notebook"&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
 &lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;jupyter lab index.ipynb
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jupyter lab index.ipynb
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
-&lt;h2 id="edit-your-post-metadata"&gt;Edit your post metadata&lt;/h2&gt;
-&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (
-).&lt;/p&gt;
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;title: My post&amp;#39;s title
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;date: 2019-09-01
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# Put any other Academic metadata here...
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Edit the metadata of your post, using the
-as a guide to the available options.&lt;/p&gt;
-&lt;p&gt;To set a
-, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
-&lt;p&gt;For other tips, such as using math, see the guide on
-.&lt;/p&gt;
-&lt;h2 id="convert-notebook-to-markdown"&gt;Convert notebook to Markdown&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span class="o"&gt;=&lt;/span&gt;.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="example"&gt;Example&lt;/h2&gt;
-&lt;p&gt;This post was created with Jupyter. The orginal files can be found at
-&lt;/p&gt;</description></item><item><title>Slides</title><link>https://subodhvsharma.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy"&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
-&lt;p&gt;
-|
-&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: My post&amp;#39;s title
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: 2019-09-01
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# Put any other Academic metadata here...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://wowchemy.com/docs/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://subodhvsharma.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2 id="features"&gt;Features&lt;/h2&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
 &lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
@@ -772,7 +1057,7 @@ as a guide to the available options.&lt;/p&gt;
 &lt;li&gt;Mobile friendly slides&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="controls"&gt;Controls&lt;/h2&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
@@ -782,37 +1067,37 @@ as a guide to the available options.&lt;/p&gt;
 &lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="code-highlighting"&gt;Code Highlighting&lt;/h2&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
 &lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Code block:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;porridge&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;porridge&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id="math"&gt;Math&lt;/h2&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
 &lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
 &lt;p&gt;Block math:&lt;/p&gt;
-$$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;hr&gt;
-&lt;h2 id="fragments"&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
 &lt;p&gt;Make content appear incrementally&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{% fragment %}} One {{% /fragment %}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{% fragment %}} **Two** {{% /fragment %}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{% fragment %}} Three {{% /fragment %}}
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} One {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% fragment %}} Three {{% /fragment %}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-&lt;span class="fragment " &gt;
-One
+&lt;span class=&#34;fragment &#34; &gt;
+  One
 &lt;/span&gt;
-&lt;span class="fragment " &gt;
-&lt;strong&gt;Two&lt;/strong&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
 &lt;/span&gt;
-&lt;span class="fragment " &gt;
-Three
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
 &lt;/span&gt;
 &lt;hr&gt;
 &lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
@@ -821,22 +1106,23 @@ Three
 &lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h2 id="speaker-notes"&gt;Speaker Notes&lt;/h2&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
 &lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{% speaker_note %}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; Only the speaker can read these notes
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;-&lt;/span&gt; Press &lt;span class="sb"&gt;`S`&lt;/span&gt; key to view
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{% /speaker_note %}}
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-&lt;aside class="notes"&gt;
-&lt;ul&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
 &lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
 &lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
 &lt;/ul&gt;
+
 &lt;/aside&gt;
 &lt;hr&gt;
-&lt;h2 id="themes"&gt;Themes&lt;/h2&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
 &lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
@@ -852,33 +1138,222 @@ Three
 &lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
+
 &lt;section data-noprocess data-shortcode-slide
-data-background-image="/media/boards.jpg"
-&gt;
-&lt;h2 id="custom-slide"&gt;Custom Slide&lt;/h2&gt;
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
 &lt;p&gt;Customize the slide style and background&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; slide background-image=&amp;#34;/media/boards.jpg&amp;#34; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; slide background-color=&amp;#34;&lt;span class="ni"&gt;#0000FF&lt;/span&gt;&amp;#34; &amp;gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; slide class=&amp;#34;my-style&amp;#34; &amp;gt;}}
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; slide background-image=&amp;#34;/media/boards.jpg&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; slide background-color=&amp;#34;&lt;span class=&#34;ni&#34;&gt;#0000FF&lt;/span&gt;&amp;#34; &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&amp;lt; slide class=&amp;#34;my-style&amp;#34; &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id="custom-css-example"&gt;Custom CSS Example&lt;/h2&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
 &lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-css" data-lang="css"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;reveal&lt;/span&gt; &lt;span class="nt"&gt;section&lt;/span&gt; &lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;reveal&lt;/span&gt; &lt;span class="nt"&gt;section&lt;/span&gt; &lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;reveal&lt;/span&gt; &lt;span class="nt"&gt;section&lt;/span&gt; &lt;span class="nt"&gt;h3&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;navy&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h1 id="questions"&gt;Questions?&lt;/h1&gt;
-&lt;p&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;/p&gt;</description></item><item><title>Dynamic Symbolic Verification of MPI Programs</title><link>https://subodhvsharma.github.io/publication/fm18/</link><pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/fm18/</guid><description/></item><item><title>Zeus: Analyzing Safety of Smart Contracts.</title><link>https://subodhvsharma.github.io/publication/ndss18/</link><pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/ndss18/</guid><description/></item><item><title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title><link>https://subodhvsharma.github.io/publication/toplas17/</link><pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/toplas17/</guid><description> &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description></item><item><title>POLLUX: Safely Upgrading Dependent Application Libraries</title><link>https://subodhvsharma.github.io/publication/fse16/</link><pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/fse16/</guid><description> &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description></item><item><title>From Traces to Proofs: Proving Concurrent Programs Safe</title><link>https://subodhvsharma.github.io/publication/tase16/</link><pubDate>Sun, 17 Jul 2016 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/tase16/</guid><description/></item><item><title>Example Project</title><link>https://subodhvsharma.github.io/project/example/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/project/example/</guid><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://discord.gg/z8wNYzb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dynamic Symbolic Verification of MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/fm18/</link>
+      <pubDate>Sun, 15 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fm18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zeus: Analyzing Safety of Smart Contracts.</title>
+      <link>https://subodhvsharma.github.io/publication/ndss18/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ndss18/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/toplas17/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/toplas17/</guid>
+      <description> &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+    <item>
+      <title>POLLUX: Safely Upgrading Dependent Application Libraries</title>
+      <link>https://subodhvsharma.github.io/publication/fse16/</link>
+      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fse16/</guid>
+      <description> &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+    <item>
+      <title>From Traces to Proofs: Proving Concurrent Programs Safe</title>
+      <link>https://subodhvsharma.github.io/publication/tase16/</link>
+      <pubDate>Sun, 17 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/tase16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Project</title>
+      <link>https://subodhvsharma.github.io/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/project/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;</description></item><item><title>External Project</title><link>https://subodhvsharma.github.io/project/external-project/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/project/external-project/</guid><description/></item><item><title>Efficient Verification of Concurrent Programs over TSO Memory Model</title><link>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</link><pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</guid><description/></item><item><title>Unfolding-based Partial Order Reduction</title><link>https://subodhvsharma.github.io/publication/concur15/</link><pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/concur15/</guid><description>&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description></item><item><title>Accelerated Test Execution using GPUs</title><link>https://subodhvsharma.github.io/publication/ase14/</link><pubDate>Mon, 15 Sep 2014 17:06:05 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/ase14/</guid><description/></item><item><title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title><link>https://subodhvsharma.github.io/publication/fm14/</link><pubDate>Mon, 12 May 2014 17:01:26 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/fm14/</guid><description/></item><item><title>MAPPED: Predictive Dynamic Analysis Tool for MPI Applications</title><link>https://subodhvsharma.github.io/publication/sc12/</link><pubDate>Sat, 10 Nov 2012 16:03:56 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/sc12/</guid><description/></item><item><title>A Sound Reduction of Persistent-Sets for Deadlock Detection in MPI Applications</title><link>https://subodhvsharma.github.io/publication/sbmf12/</link><pubDate>Wed, 12 Sep 2012 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/sbmf12/</guid><description/></item><item><title>Efficient Verification Solutions for Message Passing Systems</title><link>https://subodhvsharma.github.io/publication/ipdps11/</link><pubDate>Mon, 16 May 2011 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/ipdps11/</guid><description/></item><item><title>MCC: A runtime verification tool for MCAPI user applications</title><link>https://subodhvsharma.github.io/publication/fmcad09/</link><pubDate>Sun, 15 Nov 2009 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/fmcad09/</guid><description/></item><item><title>Dynamic verification of Multicore Communication applications in MCAPI</title><link>https://subodhvsharma.github.io/publication/hldvt09/</link><pubDate>Wed, 04 Nov 2009 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/hldvt09/</guid><description/></item><item><title>Some resources for teaching concurrency</title><link>https://subodhvsharma.github.io/publication/padtad09/</link><pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/padtad09/</guid><description/></item><item><title>A Formal Approach to Detect Functionally Irrelevant Barriers in MPI Programs</title><link>https://subodhvsharma.github.io/publication/eurompi08/</link><pubDate>Sun, 07 Sep 2008 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/eurompi08/</guid><description/></item><item><title>ISP: a tool for model checking MPI programs</title><link>https://subodhvsharma.github.io/publication/ppopp08/</link><pubDate>Sat, 23 Feb 2008 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/ppopp08/</guid><description/></item><item><title/><link>https://subodhvsharma.github.io/course/col100/faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/course/col100/faq/</guid><description>&lt;h1 id="col100-frequently-asked-questions"&gt;COL100 Frequently Asked Questions&lt;/h1&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://subodhvsharma.github.io/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Verification of Concurrent Programs over TSO Memory Model</title>
+      <link>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unfolding-based Partial Order Reduction</title>
+      <link>https://subodhvsharma.github.io/publication/concur15/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/concur15/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+ &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Accelerated Test Execution using GPUs</title>
+      <link>https://subodhvsharma.github.io/publication/ase14/</link>
+      <pubDate>Mon, 15 Sep 2014 17:06:05 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ase14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/fm14/</link>
+      <pubDate>Mon, 12 May 2014 17:01:26 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fm14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAPPED: Predictive Dynamic Analysis Tool for MPI Applications</title>
+      <link>https://subodhvsharma.github.io/publication/sc12/</link>
+      <pubDate>Sat, 10 Nov 2012 16:03:56 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/sc12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Sound Reduction of Persistent-Sets for Deadlock Detection in MPI Applications</title>
+      <link>https://subodhvsharma.github.io/publication/sbmf12/</link>
+      <pubDate>Wed, 12 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/sbmf12/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Verification Solutions for Message Passing Systems</title>
+      <link>https://subodhvsharma.github.io/publication/ipdps11/</link>
+      <pubDate>Mon, 16 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ipdps11/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MCC: A runtime verification tool for MCAPI user applications</title>
+      <link>https://subodhvsharma.github.io/publication/fmcad09/</link>
+      <pubDate>Sun, 15 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fmcad09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic verification of Multicore Communication applications in MCAPI</title>
+      <link>https://subodhvsharma.github.io/publication/hldvt09/</link>
+      <pubDate>Wed, 04 Nov 2009 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/hldvt09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Some resources for teaching concurrency</title>
+      <link>https://subodhvsharma.github.io/publication/padtad09/</link>
+      <pubDate>Thu, 09 Jul 2009 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/padtad09/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Formal Approach to Detect Functionally Irrelevant Barriers in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/eurompi08/</link>
+      <pubDate>Sun, 07 Sep 2008 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/eurompi08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ISP: a tool for model checking MPI programs</title>
+      <link>https://subodhvsharma.github.io/publication/ppopp08/</link>
+      <pubDate>Sat, 23 Feb 2008 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ppopp08/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://subodhvsharma.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://subodhvsharma.github.io/course/col100/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/course/col100/faq/</guid>
+      <description>&lt;h1 id=&#34;col100-frequently-asked-questions&#34;&gt;COL100 Frequently Asked Questions&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;em&gt;What can I expect to learn from these courses?&lt;/em&gt;&lt;/p&gt;
@@ -896,4 +1371,9 @@ data-background-image="/media/boards.jpg"
 &lt;p&gt;&lt;em&gt;I am finding the course hard. What can I do?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Talk to your instructor and the TAs and let them know exactly what is bothering you. Be open to their suggestions.&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item></channel></rss>
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

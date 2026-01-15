@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>COL380/COL730 Introduction to Parallel &amp; Distributed Programming | Academic</title><link>https://subodhvsharma.github.io/course/col380/</link><atom:link href="https://subodhvsharma.github.io/course/col380/index.xml" rel="self" type="application/rss+xml"/><description>COL380/COL730 Introduction to Parallel &amp; Distributed Programming</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url><title>COL380/COL730 Introduction to Parallel &amp; Distributed Programming</title><link>https://subodhvsharma.github.io/course/col380/</link></image></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>COL380/COL730 Introduction to Parallel &amp; Distributed Programming | Academic</title>
+    <link>https://subodhvsharma.github.io/course/col380/</link>
+      <atom:link href="https://subodhvsharma.github.io/course/col380/index.xml" rel="self" type="application/rss+xml" />
+    <description>COL380/COL730 Introduction to Parallel &amp; Distributed Programming</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 03 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
+      <title>COL380/COL730 Introduction to Parallel &amp; Distributed Programming</title>
+      <link>https://subodhvsharma.github.io/course/col380/</link>
+    </image>
+    
+  </channel>
+</rss>

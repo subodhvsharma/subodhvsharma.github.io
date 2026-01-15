@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Academic</title><link>https://subodhvsharma.github.io/project/</link><atom:link href="https://subodhvsharma.github.io/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Nov 2020 10:37:59 +0530</lastBuildDate><image><url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url><title>Projects</title><link>https://subodhvsharma.github.io/project/</link></image><item><title>Privacy and Digitisation</title><link>https://subodhvsharma.github.io/project/privacy-and-digitisation/</link><pubDate>Wed, 11 Nov 2020 10:37:59 +0530</pubDate><guid>https://subodhvsharma.github.io/project/privacy-and-digitisation/</guid><description>&lt;p&gt;India is arguably the biggest deployer of digitization in public life with large public service applications (in-use or contemplated) like national identity, electronic voting, health registry, national population and voter registries, public credit registry, income and other tax registries, face recognition based access control to airports and other facilities, bluetooth based contact tracing and a national intelligence grid.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Academic</title>
+    <link>https://subodhvsharma.github.io/project/</link>
+      <atom:link href="https://subodhvsharma.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Nov 2020 10:37:59 +0530</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
+      <title>Projects</title>
+      <link>https://subodhvsharma.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Privacy and Digitisation</title>
+      <link>https://subodhvsharma.github.io/project/privacy-and-digitisation/</link>
+      <pubDate>Wed, 11 Nov 2020 10:37:59 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/privacy-and-digitisation/</guid>
+      <description>&lt;p&gt;India is arguably the biggest deployer of digitization in public life with large public service applications (in-use or contemplated) like national identity, electronic voting, health registry, national population and voter registries, public credit registry, income and other tax registries, face recognition based access control to airports and other facilities, bluetooth based contact tracing and a national intelligence grid.&lt;/p&gt;
 &lt;p&gt;In this project, we are investigating the core privacy requirements in large public service
 applications (such as eVoting, Aadhaar, etc.). In particular the two focussed activities under the project are:&lt;/p&gt;
 &lt;ul&gt;
@@ -8,7 +27,16 @@ applications (such as eVoting, Aadhaar, etc.). In particular the two focussed ac
 &lt;li&gt;
 &lt;p&gt;Designing a privacy-centric architecture for digital applications where the focus is to address privacy violation &lt;em&gt;ex-ante&lt;/em&gt; rather than &lt;em&gt;ex-post&lt;/em&gt;&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>IoT Security</title><link>https://subodhvsharma.github.io/project/iot-security/</link><pubDate>Tue, 10 Nov 2020 21:09:11 +0530</pubDate><guid>https://subodhvsharma.github.io/project/iot-security/</guid><description>&lt;p&gt;IoT space is expanding at a tremendous pace and security in IoT systems
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IoT Security</title>
+      <link>https://subodhvsharma.github.io/project/iot-security/</link>
+      <pubDate>Tue, 10 Nov 2020 21:09:11 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/iot-security/</guid>
+      <description>&lt;p&gt;IoT space is expanding at a tremendous pace and security in IoT systems
 has been identified as one of the critical areas which require attention. In this project we are developing
 a secure and trusted application layer framework for IoT systems. We, at
 IITD, are investigating two important subproblems in the context of security of IoTs:&lt;/p&gt;
@@ -16,8 +44,17 @@ IITD, are investigating two important subproblems in the context of security of 
 &lt;li&gt;smart contract verification and automated synthesis of smart contracts.&lt;/li&gt;
 &lt;li&gt;Creation of&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style="color:slateblue"&gt; The project is funded by the &lt;a href="https://www.jst.go.jp/inter/english/sicorp/country/jointlab.html" target="_blank" rel="noopener"&gt;DST-JST grant&lt;/a&gt; and Denso Corporation. &lt;/span&gt;&lt;/p&gt;
-&lt;h4 id="ra-positions-are-available-under-this-project"&gt;&lt;span style="color:red"&gt; RA positions are available under this project &lt;/span&gt;&lt;/h4&gt;</description></item><item><title>Verification of Message Passing Systems</title><link>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</link><pubDate>Tue, 10 Nov 2020 18:32:22 +0530</pubDate><guid>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</guid><description>&lt;p&gt;Message passing is pervasive &amp;ndash; from inter processs communication in multicores to high performance computing, message passing plays a central role. In this project, we envison to create a&lt;br&gt;
+&lt;p&gt;&lt;span style=&#34;color:slateblue&#34;&gt; The project is funded by the &lt;a href=&#34;https://www.jst.go.jp/inter/english/sicorp/country/jointlab.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DST-JST grant&lt;/a&gt; and Denso Corporation. &lt;/span&gt;&lt;/p&gt;
+&lt;h4 id=&#34;ra-positions-are-available-under-this-project&#34;&gt;&lt;span style=&#34;color:red&#34;&gt; RA positions are available under this project &lt;/span&gt;&lt;/h4&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Verification of Message Passing Systems</title>
+      <link>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</link>
+      <pubDate>Tue, 10 Nov 2020 18:32:22 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</guid>
+      <description>&lt;p&gt;Message passing is pervasive &amp;ndash; from inter processs communication in multicores to high performance computing, message passing plays a central role. In this project, we envison to create a&lt;br&gt;
 framework to analyse message passing systems. In particular:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -27,13 +64,44 @@ framework to analyse message passing systems. In particular:&lt;/p&gt;
 &lt;p&gt;Exploit the symmetry and parametricity to scale up the verification problem.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style="color:slateblue"&gt;The project is funded by the DST-ECRA grant &lt;/span&gt;&lt;/p&gt;</description></item><item><title>Verification of C11 Concurrency</title><link>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</link><pubDate>Tue, 10 Nov 2020 15:00:53 +0530</pubDate><guid>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</guid><description>&lt;p&gt;Verification of parallel systems is a complex exercise. The large state spaces created due to thread interleavings complicates the verification of such parallel systems. The problem becomes even harder in case of parallel programs executed under relaxed memory models. Under this project we are investigating two directions:&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:slateblue&#34;&gt;The project is funded by the DST-ECRA grant &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Verification of C11 Concurrency</title>
+      <link>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</link>
+      <pubDate>Tue, 10 Nov 2020 15:00:53 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</guid>
+      <description>&lt;p&gt;Verification of parallel systems is a complex exercise. The large state spaces created due to thread interleavings complicates the verification of such parallel systems. The problem becomes even harder in case of parallel programs executed under relaxed memory models. Under this project we are investigating two directions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A runtime analysis that uses dynamic partial order reduction (DPOR) to verify other multi-copy atomic (oMCA) behaviors of C++11 programs&lt;/li&gt;
 &lt;li&gt;A static analysis of &lt;em&gt;Release-Acquire&lt;/em&gt; memory fragment of C11 concurrency by exploiting thread-modular abstract interpretation technique.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;span style="color:slateblue"&gt; These projects is funded by the DST Early Career Research grant. &lt;/span&gt;&lt;/p&gt;</description></item><item><title>Example Project</title><link>https://subodhvsharma.github.io/project/example/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/project/example/</guid><description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;&lt;span style=&#34;color:slateblue&#34;&gt; These projects is funded by the DST Early Career Research grant.  &lt;/span&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Project</title>
+      <link>https://subodhvsharma.github.io/project/example/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/project/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 &lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;</description></item><item><title>External Project</title><link>https://subodhvsharma.github.io/project/external-project/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/project/external-project/</guid><description/></item></channel></rss>
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://subodhvsharma.github.io/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

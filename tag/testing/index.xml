@@ -1,1 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Testing | Academic</title><link>https://subodhvsharma.github.io/tag/testing/</link><atom:link href="https://subodhvsharma.github.io/tag/testing/index.xml" rel="self" type="application/rss+xml"/><description>Testing</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Apr 2021 21:34:27 +0530</lastBuildDate><image><url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url><title>Testing</title><link>https://subodhvsharma.github.io/tag/testing/</link></image><item><title>Synthesizing Multi-threaded Tests from Sequential Traces to Detect Communication Deadlocks</title><link>https://subodhvsharma.github.io/publication/icst21/</link><pubDate>Sun, 11 Apr 2021 21:34:27 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/icst21/</guid><description/></item><item><title>Verifying and Testing Concurrent Programs using Constraint Solver based Approaches</title><link>https://subodhvsharma.github.io/publication/icsme20/</link><pubDate>Tue, 10 Nov 2020 21:34:27 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/icsme20/</guid><description/></item><item><title>POLLUX: Safely Upgrading Dependent Application Libraries</title><link>https://subodhvsharma.github.io/publication/fse16/</link><pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate><guid>https://subodhvsharma.github.io/publication/fse16/</guid><description> &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description></item><item><title>Accelerated Test Execution using GPUs</title><link>https://subodhvsharma.github.io/publication/ase14/</link><pubDate>Mon, 15 Sep 2014 17:06:05 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/ase14/</guid><description/></item><item><title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title><link>https://subodhvsharma.github.io/publication/fm14/</link><pubDate>Mon, 12 May 2014 17:01:26 +0530</pubDate><guid>https://subodhvsharma.github.io/publication/fm14/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing | Academic</title>
+    <link>https://subodhvsharma.github.io/tag/testing/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/testing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Testing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Apr 2021 21:34:27 +0530</lastBuildDate>
+    <image>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
+      <title>Testing</title>
+      <link>https://subodhvsharma.github.io/tag/testing/</link>
+    </image>
+    
+    <item>
+      <title>Synthesizing Multi-threaded Tests from Sequential Traces to Detect Communication Deadlocks</title>
+      <link>https://subodhvsharma.github.io/publication/icst21/</link>
+      <pubDate>Sun, 11 Apr 2021 21:34:27 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/icst21/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Verifying and Testing Concurrent Programs using Constraint Solver based Approaches</title>
+      <link>https://subodhvsharma.github.io/publication/icsme20/</link>
+      <pubDate>Tue, 10 Nov 2020 21:34:27 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/icsme20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>POLLUX: Safely Upgrading Dependent Application Libraries</title>
+      <link>https://subodhvsharma.github.io/publication/fse16/</link>
+      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fse16/</guid>
+      <description> &lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Accelerated Test Execution using GPUs</title>
+      <link>https://subodhvsharma.github.io/publication/ase14/</link>
+      <pubDate>Mon, 15 Sep 2014 17:06:05 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/ase14/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precise Predictive Analysis for Discovering Communication Deadlocks in MPI Programs</title>
+      <link>https://subodhvsharma.github.io/publication/fm14/</link>
+      <pubDate>Mon, 12 May 2014 17:01:26 +0530</pubDate>
+      <guid>https://subodhvsharma.github.io/publication/fm14/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

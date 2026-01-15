@@ -1,1 +1,18 @@
-{"name":"Academic","short_name":"Academic","lang":"en-us","theme_color":"#fff","background_color":"#fff","icons":[{"src":"<no value>","sizes":"192x192","type":"image/png"},{"src":"<no value>","sizes":"512x512","type":"image/png"}],"display":"standalone","start_url":"/?utm_source=web_app_manifest"}
+{
+  "name": "Academic",
+  "short_name": "Academic",
+  "lang": "en-us",
+  "theme_color": "#1565c0",
+  "background_color": "#1565c0",
+  "icons": [{
+    "src": "/media/icon_hu_a1e1b9844941499f.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/media/icon_hu_729f4604415becdb.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}
