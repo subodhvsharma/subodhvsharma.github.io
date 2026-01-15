@@ -145,7 +145,7 @@ console.log('code block');
 &lt;p&gt;Wowchemy supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener"&gt;Plotly&lt;/a&gt; format for interactive charts.&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-415837296" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-984612753" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 async function fetchChartJSON() {
@@ -161,7 +161,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-415837296', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-984612753', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
