@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Relaxed Memory | Academic</title>
-    <link>https://subodhvsharma.github.io/tag/relaxed-memory/</link>
-      <atom:link href="https://subodhvsharma.github.io/tag/relaxed-memory/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/relaxed-memory/</link>
+      <atom:link href="http://localhost:1313/tag/relaxed-memory/index.xml" rel="self" type="application/rss+xml" />
     <description>Relaxed Memory</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
+      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
       <title>Relaxed Memory</title>
-      <link>https://subodhvsharma.github.io/tag/relaxed-memory/</link>
+      <link>http://localhost:1313/tag/relaxed-memory/</link>
     </image>
     
     <item>
       <title>Efficient Verification of Concurrent Programs over TSO Memory Model</title>
-      <link>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</link>
+      <link>http://localhost:1313/publication/arxiv16-concurrencyproofs/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</guid>
+      <guid>http://localhost:1313/publication/arxiv16-concurrencyproofs/</guid>
       <description></description>
     </item>
     

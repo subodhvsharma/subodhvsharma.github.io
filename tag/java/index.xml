@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java | Academic</title>
-    <link>https://subodhvsharma.github.io/tag/java/</link>
-      <atom:link href="https://subodhvsharma.github.io/tag/java/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tag/java/</link>
+      <atom:link href="http://localhost:1313/tag/java/index.xml" rel="self" type="application/rss+xml" />
     <description>Java</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Apr 2021 21:34:27 +0530</lastBuildDate>
     <image>
-      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
+      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
       <title>Java</title>
-      <link>https://subodhvsharma.github.io/tag/java/</link>
+      <link>http://localhost:1313/tag/java/</link>
     </image>
     
     <item>
       <title>Synthesizing Multi-threaded Tests from Sequential Traces to Detect Communication Deadlocks</title>
-      <link>https://subodhvsharma.github.io/publication/icst21/</link>
+      <link>http://localhost:1313/publication/icst21/</link>
       <pubDate>Sun, 11 Apr 2021 21:34:27 +0530</pubDate>
-      <guid>https://subodhvsharma.github.io/publication/icst21/</guid>
+      <guid>http://localhost:1313/publication/icst21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Verifying and Testing Concurrent Programs using Constraint Solver based Approaches</title>
-      <link>https://subodhvsharma.github.io/publication/icsme20/</link>
+      <link>http://localhost:1313/publication/icsme20/</link>
       <pubDate>Tue, 10 Nov 2020 21:34:27 +0530</pubDate>
-      <guid>https://subodhvsharma.github.io/publication/icsme20/</guid>
+      <guid>http://localhost:1313/publication/icsme20/</guid>
       <description></description>
     </item>
     

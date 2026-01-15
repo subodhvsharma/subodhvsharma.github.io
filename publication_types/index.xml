@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Academic</title>
-    <link>https://subodhvsharma.github.io/publication_types/</link>
-      <atom:link href="https://subodhvsharma.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_types/</link>
+      <atom:link href="http://localhost:1313/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Apr 2021 21:34:27 +0530</lastBuildDate>
     <image>
-      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
+      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
       <title>Publication_types</title>
-      <link>https://subodhvsharma.github.io/publication_types/</link>
+      <link>http://localhost:1313/publication_types/</link>
     </image>
     
   </channel>

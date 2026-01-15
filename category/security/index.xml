@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security | Academic</title>
-    <link>https://subodhvsharma.github.io/category/security/</link>
-      <atom:link href="https://subodhvsharma.github.io/category/security/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/category/security/</link>
+      <atom:link href="http://localhost:1313/category/security/index.xml" rel="self" type="application/rss+xml" />
     <description>Security</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Nov 2020 10:37:59 +0530</lastBuildDate>
     <image>
-      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
+      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
       <title>Security</title>
-      <link>https://subodhvsharma.github.io/category/security/</link>
+      <link>http://localhost:1313/category/security/</link>
     </image>
     
     <item>
       <title>Privacy and Digitisation</title>
-      <link>https://subodhvsharma.github.io/project/privacy-and-digitisation/</link>
+      <link>http://localhost:1313/project/privacy-and-digitisation/</link>
       <pubDate>Wed, 11 Nov 2020 10:37:59 +0530</pubDate>
-      <guid>https://subodhvsharma.github.io/project/privacy-and-digitisation/</guid>
+      <guid>http://localhost:1313/project/privacy-and-digitisation/</guid>
       <description>&lt;p&gt;India is arguably the biggest deployer of digitization in public life with large public service applications (in-use or contemplated) like national identity, electronic voting, health registry, national population and voter registries, public credit registry, income and other tax registries, face recognition based access control to airports and other facilities, bluetooth based contact tracing and a national intelligence grid.&lt;/p&gt;
 &lt;p&gt;In this project, we are investigating the core privacy requirements in large public service
 applications (such as eVoting, Aadhaar, etc.). In particular the two focussed activities under the project are:&lt;/p&gt;
@@ -33,17 +33,17 @@ applications (such as eVoting, Aadhaar, etc.). In particular the two focussed ac
     
     <item>
       <title>Privacy concerns with Aadhaar</title>
-      <link>https://subodhvsharma.github.io/publication/cacm19/</link>
+      <link>http://localhost:1313/publication/cacm19/</link>
       <pubDate>Tue, 10 Nov 2020 21:24:53 +0530</pubDate>
-      <guid>https://subodhvsharma.github.io/publication/cacm19/</guid>
+      <guid>http://localhost:1313/publication/cacm19/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IoT Security</title>
-      <link>https://subodhvsharma.github.io/project/iot-security/</link>
+      <link>http://localhost:1313/project/iot-security/</link>
       <pubDate>Tue, 10 Nov 2020 21:09:11 +0530</pubDate>
-      <guid>https://subodhvsharma.github.io/project/iot-security/</guid>
+      <guid>http://localhost:1313/project/iot-security/</guid>
       <description>&lt;p&gt;IoT space is expanding at a tremendous pace and security in IoT systems
 has been identified as one of the critical areas which require attention. In this project we are developing
 a secure and trusted application layer framework for IoT systems. We, at

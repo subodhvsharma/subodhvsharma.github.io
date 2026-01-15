@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>COL100 Introduction to Computer Science | Academic</title>
-    <link>https://subodhvsharma.github.io/course/col100/</link>
-      <atom:link href="https://subodhvsharma.github.io/course/col100/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/course/col100/</link>
+      <atom:link href="http://localhost:1313/course/col100/index.xml" rel="self" type="application/rss+xml" />
     <description>COL100 Introduction to Computer Science</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 31 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
+      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
       <title>COL100 Introduction to Computer Science</title>
-      <link>https://subodhvsharma.github.io/course/col100/</link>
+      <link>http://localhost:1313/course/col100/</link>
     </image>
     
     <item>
       <title>Assignment 7</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign7/</link>
+      <link>http://localhost:1313/course/col100/assign7/</link>
       <pubDate>Sun, 08 Jan 2023 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign7/</guid>
+      <guid>http://localhost:1313/course/col100/assign7/</guid>
       <description>&lt;h4 id=&#34;object-oriented-programming&#34;&gt;Object Oriented Programming&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -42,9 +42,9 @@ python. In Tetris, any object has three states: rotation (by 90 degrees), shape 
     
     <item>
       <title>Assignment 6</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign6/</link>
+      <link>http://localhost:1313/course/col100/assign6/</link>
       <pubDate>Mon, 26 Dec 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign6/</guid>
+      <guid>http://localhost:1313/course/col100/assign6/</guid>
       <description>&lt;h4 id=&#34;more-on-imperative-programming-with-loops&#34;&gt;More on Imperative Programming with Loops&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -113,9 +113,9 @@ Else, update the length, position of maximum and the maximum length so far.&lt;/
     
     <item>
       <title>Assignment 5 -- Sorting and Searching</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign5/</link>
+      <link>http://localhost:1313/course/col100/assign5/</link>
       <pubDate>Sun, 11 Dec 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign5/</guid>
+      <guid>http://localhost:1313/course/col100/assign5/</guid>
       <description>&lt;h4 id=&#34;sorting&#34;&gt;Sorting&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Implement Quicksort recursively in python and compare run times of Quicksort and Insertion sort on large data-sets by plotting
@@ -146,9 +146,9 @@ your results (Time vs listSize).&lt;/li&gt;
     
     <item>
       <title>Assignment 4 -- Lists, Searching, Sorting</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign4/</link>
+      <link>http://localhost:1313/course/col100/assign4/</link>
       <pubDate>Sun, 27 Nov 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign4/</guid>
+      <guid>http://localhost:1313/course/col100/assign4/</guid>
       <description>&lt;h4 id=&#34;lists&#34;&gt;Lists&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -169,9 +169,9 @@ change their access permissions to &lt;code&gt;755&lt;/code&gt;. Use Python&amp;
     
     <item>
       <title>Assignment 3 -- More on Recursion</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign3/</link>
+      <link>http://localhost:1313/course/col100/assign3/</link>
       <pubDate>Mon, 14 Nov 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign3/</guid>
+      <guid>http://localhost:1313/course/col100/assign3/</guid>
       <description>&lt;h4 id=&#34;more-on-recursion&#34;&gt;More on Recursion&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -195,9 +195,9 @@ to compute $\Sigma_{i = a}^{b}\Sigma_{j=c}^{d}$. Provide proof of correctness an
     
     <item>
       <title>Assignment 2 -- Introduction to Python</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign2/</link>
+      <link>http://localhost:1313/course/col100/assign2/</link>
       <pubDate>Sun, 06 Nov 2022 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign2/</guid>
+      <guid>http://localhost:1313/course/col100/assign2/</guid>
       <description>&lt;h4 id=&#34;basic-python&#34;&gt;Basic Python&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -229,7 +229,7 @@ a single value. If you want to use the result of an evaluated expression later i
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;https://subodhvsharma.github.io/col100-classnotes-2022/Valid-Invalid-Vars.png&#34; alt=&#34;Valid and Invalid Variable Names&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;http://localhost:1313/col100-classnotes-2022/Valid-Invalid-Vars.png&#34; alt=&#34;Valid and Invalid Variable Names&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ul&gt;
@@ -286,9 +286,9 @@ algorithm.&lt;/li&gt;
     
     <item>
       <title>Assignment 1</title>
-      <link>https://subodhvsharma.github.io/course/col100/assign1/</link>
+      <link>http://localhost:1313/course/col100/assign1/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/assign1/</guid>
+      <guid>http://localhost:1313/course/col100/assign1/</guid>
       <description>&lt;h4 id=&#34;1-learn-the-following-basics-of-unix&#34;&gt;1. Learn the following basics of Unix:&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;What is a Unix terminal and how to open one? Reference: &lt;a href=&#34;http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Unix Introduction&lt;/a&gt;&lt;/li&gt;
@@ -316,9 +316,9 @@ algorithm.&lt;/li&gt;
     
     <item>
       <title></title>
-      <link>https://subodhvsharma.github.io/course/col100/faq/</link>
+      <link>http://localhost:1313/course/col100/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://subodhvsharma.github.io/course/col100/faq/</guid>
+      <guid>http://localhost:1313/course/col100/faq/</guid>
       <description>&lt;h1 id=&#34;col100-frequently-asked-questions&#34;&gt;COL100 Frequently Asked Questions&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;
