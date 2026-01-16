@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Event Structures | Academic</title>
-    <link>http://localhost:1313/tag/event-structures/</link>
-      <atom:link href="http://localhost:1313/tag/event-structures/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/tag/event-structures/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/event-structures/index.xml" rel="self" type="application/rss+xml" />
     <description>Event Structures</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2015 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>Event Structures</title>
-      <link>http://localhost:1313/tag/event-structures/</link>
+      <link>https://subodhvsharma.github.io/tag/event-structures/</link>
     </image>
     
     <item>
       <title>Unfolding-based Partial Order Reduction</title>
-      <link>http://localhost:1313/publication/concur15/</link>
+      <link>https://subodhvsharma.github.io/publication/concur15/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/concur15/</guid>
+      <guid>https://subodhvsharma.github.io/publication/concur15/</guid>
       <description>&lt;!-- 
 
 &lt;div class=&#34;alert alert-note&#34;&gt;

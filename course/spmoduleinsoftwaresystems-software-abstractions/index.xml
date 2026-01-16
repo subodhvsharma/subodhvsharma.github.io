@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>COV 882 Special Module in Software Systems -- Software Abstractions | Academic</title>
-    <link>http://localhost:1313/course/spmoduleinsoftwaresystems-software-abstractions/</link>
-      <atom:link href="http://localhost:1313/course/spmoduleinsoftwaresystems-software-abstractions/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/</link>
+      <atom:link href="https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/index.xml" rel="self" type="application/rss+xml" />
     <description>COV 882 Special Module in Software Systems -- Software Abstractions</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>COV 882 Special Module in Software Systems -- Software Abstractions</title>
-      <link>http://localhost:1313/course/spmoduleinsoftwaresystems-software-abstractions/</link>
+      <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/</link>
     </image>
     
     <item>
       <title>Assignment 1</title>
-      <link>http://localhost:1313/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</link>
+      <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</guid>
+      <guid>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign1/</guid>
       <description>&lt;h4 id=&#34;1-spanning-tree&#34;&gt;1. Spanning Tree&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Implement a predicate that takes a binary relation as input (on &lt;strong&gt;univ&lt;/strong&gt; set) and tests whether or not the relation is a &lt;em&gt;tree&lt;/em&gt;.&lt;/li&gt;
@@ -32,9 +32,9 @@
     
     <item>
       <title>Assignment 2</title>
-      <link>http://localhost:1313/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</link>
+      <link>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</guid>
+      <guid>https://subodhvsharma.github.io/course/spmoduleinsoftwaresystems-software-abstractions/assign2/</guid>
       <description>&lt;h3 id=&#34;modeling-fsms-finite-state-machines-easy&#34;&gt;Modeling FSMs (Finite State Machines) [EASY]&lt;/h3&gt;
 &lt;p&gt;A FSM has non-empty set of initial states and a transition relation which connects each
 state to its successors. Construct an Alloy model of FSMs by adding constraints and having the analyzer solve

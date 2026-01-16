@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>COL 765 Introduction to Logic and Functional Programming | Academic</title>
-    <link>http://localhost:1313/course/col765/</link>
-      <atom:link href="http://localhost:1313/course/col765/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/course/col765/</link>
+      <atom:link href="https://subodhvsharma.github.io/course/col765/index.xml" rel="self" type="application/rss+xml" />
     <description>COL 765 Introduction to Logic and Functional Programming</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>COL 765 Introduction to Logic and Functional Programming</title>
-      <link>http://localhost:1313/course/col765/</link>
+      <link>https://subodhvsharma.github.io/course/col765/</link>
     </image>
     
   </channel>

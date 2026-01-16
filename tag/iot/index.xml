@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IoT | Academic</title>
-    <link>http://localhost:1313/tag/iot/</link>
-      <atom:link href="http://localhost:1313/tag/iot/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/tag/iot/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/iot/index.xml" rel="self" type="application/rss+xml" />
     <description>IoT</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Nov 2020 21:38:57 +0530</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>IoT</title>
-      <link>http://localhost:1313/tag/iot/</link>
+      <link>https://subodhvsharma.github.io/tag/iot/</link>
     </image>
     
     <item>
       <title>Security Types for Synchronous Data Flow Systems.</title>
-      <link>http://localhost:1313/publication/memocode20/</link>
+      <link>https://subodhvsharma.github.io/publication/memocode20/</link>
       <pubDate>Tue, 10 Nov 2020 21:38:57 +0530</pubDate>
-      <guid>http://localhost:1313/publication/memocode20/</guid>
+      <guid>https://subodhvsharma.github.io/publication/memocode20/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IoT Security</title>
-      <link>http://localhost:1313/project/iot-security/</link>
+      <link>https://subodhvsharma.github.io/project/iot-security/</link>
       <pubDate>Tue, 10 Nov 2020 21:09:11 +0530</pubDate>
-      <guid>http://localhost:1313/project/iot-security/</guid>
+      <guid>https://subodhvsharma.github.io/project/iot-security/</guid>
       <description>&lt;p&gt;IoT space is expanding at a tremendous pace and security in IoT systems
 has been identified as one of the critical areas which require attention. In this project we are developing
 a secure and trusted application layer framework for IoT systems. We, at

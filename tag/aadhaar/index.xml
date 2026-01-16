@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aadhaar | Academic</title>
-    <link>http://localhost:1313/tag/aadhaar/</link>
-      <atom:link href="http://localhost:1313/tag/aadhaar/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/tag/aadhaar/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/aadhaar/index.xml" rel="self" type="application/rss+xml" />
     <description>Aadhaar</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Nov 2020 21:24:53 +0530</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>Aadhaar</title>
-      <link>http://localhost:1313/tag/aadhaar/</link>
+      <link>https://subodhvsharma.github.io/tag/aadhaar/</link>
     </image>
     
     <item>
       <title>Privacy concerns with Aadhaar</title>
-      <link>http://localhost:1313/publication/cacm19/</link>
+      <link>https://subodhvsharma.github.io/publication/cacm19/</link>
       <pubDate>Tue, 10 Nov 2020 21:24:53 +0530</pubDate>
-      <guid>http://localhost:1313/publication/cacm19/</guid>
+      <guid>https://subodhvsharma.github.io/publication/cacm19/</guid>
       <description></description>
     </item>
     

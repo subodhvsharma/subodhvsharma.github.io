@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blockchain | Academic</title>
-    <link>http://localhost:1313/tag/blockchain/</link>
-      <atom:link href="http://localhost:1313/tag/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/tag/blockchain/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <description>Blockchain</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Nov 2020 21:09:11 +0530</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>Blockchain</title>
-      <link>http://localhost:1313/tag/blockchain/</link>
+      <link>https://subodhvsharma.github.io/tag/blockchain/</link>
     </image>
     
     <item>
       <title>IoT Security</title>
-      <link>http://localhost:1313/project/iot-security/</link>
+      <link>https://subodhvsharma.github.io/project/iot-security/</link>
       <pubDate>Tue, 10 Nov 2020 21:09:11 +0530</pubDate>
-      <guid>http://localhost:1313/project/iot-security/</guid>
+      <guid>https://subodhvsharma.github.io/project/iot-security/</guid>
       <description>&lt;p&gt;IoT space is expanding at a tremendous pace and security in IoT systems
 has been identified as one of the critical areas which require attention. In this project we are developing
 a secure and trusted application layer framework for IoT systems. We, at
@@ -32,9 +32,9 @@ IITD, are investigating two important subproblems in the context of security of 
     
     <item>
       <title>Zeus: Analyzing Safety of Smart Contracts.</title>
-      <link>http://localhost:1313/publication/ndss18/</link>
+      <link>https://subodhvsharma.github.io/publication/ndss18/</link>
       <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/ndss18/</guid>
+      <guid>https://subodhvsharma.github.io/publication/ndss18/</guid>
       <description></description>
     </item>
     

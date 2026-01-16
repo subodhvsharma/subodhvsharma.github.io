@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Academic</title>
-    <link>http://localhost:1313/project/</link>
-      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/project/</link>
+      <atom:link href="https://subodhvsharma.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Nov 2020 10:37:59 +0530</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>Projects</title>
-      <link>http://localhost:1313/project/</link>
+      <link>https://subodhvsharma.github.io/project/</link>
     </image>
     
     <item>
       <title>Privacy and Digitisation</title>
-      <link>http://localhost:1313/project/privacy-and-digitisation/</link>
+      <link>https://subodhvsharma.github.io/project/privacy-and-digitisation/</link>
       <pubDate>Wed, 11 Nov 2020 10:37:59 +0530</pubDate>
-      <guid>http://localhost:1313/project/privacy-and-digitisation/</guid>
+      <guid>https://subodhvsharma.github.io/project/privacy-and-digitisation/</guid>
       <description>&lt;p&gt;India is arguably the biggest deployer of digitization in public life with large public service applications (in-use or contemplated) like national identity, electronic voting, health registry, national population and voter registries, public credit registry, income and other tax registries, face recognition based access control to airports and other facilities, bluetooth based contact tracing and a national intelligence grid.&lt;/p&gt;
 &lt;p&gt;In this project, we are investigating the core privacy requirements in large public service
 applications (such as eVoting, Aadhaar, etc.). In particular the two focussed activities under the project are:&lt;/p&gt;
@@ -33,9 +33,9 @@ applications (such as eVoting, Aadhaar, etc.). In particular the two focussed ac
     
     <item>
       <title>IoT Security</title>
-      <link>http://localhost:1313/project/iot-security/</link>
+      <link>https://subodhvsharma.github.io/project/iot-security/</link>
       <pubDate>Tue, 10 Nov 2020 21:09:11 +0530</pubDate>
-      <guid>http://localhost:1313/project/iot-security/</guid>
+      <guid>https://subodhvsharma.github.io/project/iot-security/</guid>
       <description>&lt;p&gt;IoT space is expanding at a tremendous pace and security in IoT systems
 has been identified as one of the critical areas which require attention. In this project we are developing
 a secure and trusted application layer framework for IoT systems. We, at
@@ -51,9 +51,9 @@ IITD, are investigating two important subproblems in the context of security of 
     
     <item>
       <title>Verification of Message Passing Systems</title>
-      <link>http://localhost:1313/project/verification-of-message-passing-systems/</link>
+      <link>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</link>
       <pubDate>Tue, 10 Nov 2020 18:32:22 +0530</pubDate>
-      <guid>http://localhost:1313/project/verification-of-message-passing-systems/</guid>
+      <guid>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</guid>
       <description>&lt;p&gt;Message passing is pervasive &amp;ndash; from inter processs communication in multicores to high performance computing, message passing plays a central role. In this project, we envison to create a&lt;br&gt;
 framework to analyse message passing systems. In particular:&lt;/p&gt;
 &lt;ul&gt;
@@ -70,9 +70,9 @@ framework to analyse message passing systems. In particular:&lt;/p&gt;
     
     <item>
       <title>Verification of C11 Concurrency</title>
-      <link>http://localhost:1313/project/verification-of-c11-concurrency/</link>
+      <link>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</link>
       <pubDate>Tue, 10 Nov 2020 15:00:53 +0530</pubDate>
-      <guid>http://localhost:1313/project/verification-of-c11-concurrency/</guid>
+      <guid>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</guid>
       <description>&lt;p&gt;Verification of parallel systems is a complex exercise. The large state spaces created due to thread interleavings complicates the verification of such parallel systems. The problem becomes even harder in case of parallel programs executed under relaxed memory models. Under this project we are investigating two directions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A runtime analysis that uses dynamic partial order reduction (DPOR) to verify other multi-copy atomic (oMCA) behaviors of C++11 programs&lt;/li&gt;
@@ -84,9 +84,9 @@ framework to analyse message passing systems. In particular:&lt;/p&gt;
     
     <item>
       <title>Example Project</title>
-      <link>http://localhost:1313/project/example/</link>
+      <link>https://subodhvsharma.github.io/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/example/</guid>
+      <guid>https://subodhvsharma.github.io/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -97,9 +97,9 @@ framework to analyse message passing systems. In particular:&lt;/p&gt;
     
     <item>
       <title>External Project</title>
-      <link>http://localhost:1313/project/external-project/</link>
+      <link>https://subodhvsharma.github.io/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/external-project/</guid>
+      <guid>https://subodhvsharma.github.io/project/external-project/</guid>
       <description></description>
     </item>
     

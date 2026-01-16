@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abstract Interpretation | Academic</title>
-    <link>http://localhost:1313/tag/abstract-interpretation/</link>
-      <atom:link href="http://localhost:1313/tag/abstract-interpretation/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/tag/abstract-interpretation/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/abstract-interpretation/index.xml" rel="self" type="application/rss+xml" />
     <description>Abstract Interpretation</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Nov 2020 15:00:53 +0530</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>Abstract Interpretation</title>
-      <link>http://localhost:1313/tag/abstract-interpretation/</link>
+      <link>https://subodhvsharma.github.io/tag/abstract-interpretation/</link>
     </image>
     
     <item>
       <title>Verification of C11 Concurrency</title>
-      <link>http://localhost:1313/project/verification-of-c11-concurrency/</link>
+      <link>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</link>
       <pubDate>Tue, 10 Nov 2020 15:00:53 +0530</pubDate>
-      <guid>http://localhost:1313/project/verification-of-c11-concurrency/</guid>
+      <guid>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</guid>
       <description>&lt;p&gt;Verification of parallel systems is a complex exercise. The large state spaces created due to thread interleavings complicates the verification of such parallel systems. The problem becomes even harder in case of parallel programs executed under relaxed memory models. Under this project we are investigating two directions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A runtime analysis that uses dynamic partial order reduction (DPOR) to verify other multi-copy atomic (oMCA) behaviors of C++11 programs&lt;/li&gt;

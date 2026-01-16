@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Concurrency | Academic</title>
-    <link>http://localhost:1313/category/concurrency/</link>
-      <atom:link href="http://localhost:1313/category/concurrency/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/category/concurrency/</link>
+      <atom:link href="https://subodhvsharma.github.io/category/concurrency/index.xml" rel="self" type="application/rss+xml" />
     <description>Concurrency</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 11 Apr 2021 21:34:27 +0530</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>Concurrency</title>
-      <link>http://localhost:1313/category/concurrency/</link>
+      <link>https://subodhvsharma.github.io/category/concurrency/</link>
     </image>
     
     <item>
       <title>Synthesizing Multi-threaded Tests from Sequential Traces to Detect Communication Deadlocks</title>
-      <link>http://localhost:1313/publication/icst21/</link>
+      <link>https://subodhvsharma.github.io/publication/icst21/</link>
       <pubDate>Sun, 11 Apr 2021 21:34:27 +0530</pubDate>
-      <guid>http://localhost:1313/publication/icst21/</guid>
+      <guid>https://subodhvsharma.github.io/publication/icst21/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Verifying and Testing Concurrent Programs using Constraint Solver based Approaches</title>
-      <link>http://localhost:1313/publication/icsme20/</link>
+      <link>https://subodhvsharma.github.io/publication/icsme20/</link>
       <pubDate>Tue, 10 Nov 2020 21:34:27 +0530</pubDate>
-      <guid>http://localhost:1313/publication/icsme20/</guid>
+      <guid>https://subodhvsharma.github.io/publication/icsme20/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Verification of Message Passing Systems</title>
-      <link>http://localhost:1313/project/verification-of-message-passing-systems/</link>
+      <link>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</link>
       <pubDate>Tue, 10 Nov 2020 18:32:22 +0530</pubDate>
-      <guid>http://localhost:1313/project/verification-of-message-passing-systems/</guid>
+      <guid>https://subodhvsharma.github.io/project/verification-of-message-passing-systems/</guid>
       <description>&lt;p&gt;Message passing is pervasive &amp;ndash; from inter processs communication in multicores to high performance computing, message passing plays a central role. In this project, we envison to create a&lt;br&gt;
 framework to analyse message passing systems. In particular:&lt;/p&gt;
 &lt;ul&gt;
@@ -49,9 +49,9 @@ framework to analyse message passing systems. In particular:&lt;/p&gt;
     
     <item>
       <title>Verification of C11 Concurrency</title>
-      <link>http://localhost:1313/project/verification-of-c11-concurrency/</link>
+      <link>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</link>
       <pubDate>Tue, 10 Nov 2020 15:00:53 +0530</pubDate>
-      <guid>http://localhost:1313/project/verification-of-c11-concurrency/</guid>
+      <guid>https://subodhvsharma.github.io/project/verification-of-c11-concurrency/</guid>
       <description>&lt;p&gt;Verification of parallel systems is a complex exercise. The large state spaces created due to thread interleavings complicates the verification of such parallel systems. The problem becomes even harder in case of parallel programs executed under relaxed memory models. Under this project we are investigating two directions:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A runtime analysis that uses dynamic partial order reduction (DPOR) to verify other multi-copy atomic (oMCA) behaviors of C++11 programs&lt;/li&gt;

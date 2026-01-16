@@ -824,6 +824,6 @@ collections:
     name: terms
   label: Pages
   name: pages
-local_backend: true
+local_backend: false
 media_folder: assets/media
 public_folder: /media

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GPU | Academic</title>
-    <link>http://localhost:1313/tag/gpu/</link>
-      <atom:link href="http://localhost:1313/tag/gpu/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/tag/gpu/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/gpu/index.xml" rel="self" type="application/rss+xml" />
     <description>GPU</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Sep 2014 17:06:05 +0530</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>GPU</title>
-      <link>http://localhost:1313/tag/gpu/</link>
+      <link>https://subodhvsharma.github.io/tag/gpu/</link>
     </image>
     
     <item>
       <title>Accelerated Test Execution using GPUs</title>
-      <link>http://localhost:1313/publication/ase14/</link>
+      <link>https://subodhvsharma.github.io/publication/ase14/</link>
       <pubDate>Mon, 15 Sep 2014 17:06:05 +0530</pubDate>
-      <guid>http://localhost:1313/publication/ase14/</guid>
+      <guid>https://subodhvsharma.github.io/publication/ase14/</guid>
       <description></description>
     </item>
     

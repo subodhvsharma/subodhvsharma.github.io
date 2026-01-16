@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: January 15, 2026 --><html lang="en-us" >
+<!-- Last Published: January 16, 2026 --><html lang="en-us" >
 
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -73,7 +73,7 @@
 
   
 
-  <link rel="stylesheet" href="/css/vendor-bundle.min.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
 
   
   
@@ -215,7 +215,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/wowchemy.css" />
+  <link rel="stylesheet" href="/css/wowchemy.7d60edcb4bae3bf36be51bd0fc5fc31a.css" />
 
   
   
@@ -290,8 +290,8 @@ algorithmic description of the problem." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="http://localhost:1313/course/col100/assign6/" />
-<link rel="canonical" href="http://localhost:1313/course/col100/assign6/" />
+<link rel="alternate" hreflang="en-us" href="https://subodhvsharma.github.io/course/col100/assign6/" />
+<link rel="canonical" href="https://subodhvsharma.github.io/course/col100/assign6/" />
 
 
 
@@ -325,9 +325,9 @@ algorithmic description of the problem." />
 
   <meta property="twitter:site" content="@subodhsharma" />
   <meta property="twitter:creator" content="@subodhsharma" />
-<meta property="twitter:image" content="http://localhost:1313/media/icon_hu_729f4604415becdb.png" />
+<meta property="twitter:image" content="https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png" />
 <meta property="og:site_name" content="Academic" />
-<meta property="og:url" content="http://localhost:1313/course/col100/assign6/" />
+<meta property="og:url" content="https://subodhvsharma.github.io/course/col100/assign6/" />
 <meta property="og:title" content="Assignment 6 | Academic" />
 <meta property="og:description" content="More on Imperative Programming with Loops
 
@@ -337,7 +337,7 @@ elements into two subsets such that elements less than $x$ are in one
 subset and elements greater than $x$ are in separate subset. For
 instance, $|28|26|25|11|16|12|24|29|6|10|$ and $x = 17$ lead to the
 array $|10|6|12|11|16|25|24|29|26|28|$. We provide here a high level
-algorithmic description of the problem." /><meta property="og:image" content="http://localhost:1313/media/icon_hu_729f4604415becdb.png" /><meta property="og:locale" content="en-us" />
+algorithmic description of the problem." /><meta property="og:image" content="https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
@@ -402,7 +402,7 @@ algorithmic description of the problem." /><meta property="og:image" content="ht
   
   
   
-  <script src="/js/wowchemy-init.min.js"></script>
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
 
   
 
@@ -1027,9 +1027,141 @@ Else, update the length, position of maximum and the maximum length so far.</li>
 
 
 
+<style>
+  .btn-feedback {
+    display: inline-block;
+  }
+  .btn-feedback-negative {
+    margin-left: 1em;
+  }
+  .feedback--response {
+    display: none;
+    margin-top: 1em;
+  }
+  .feedback--response__visible {
+    display: block;
+  }
+</style>
+<div class="d-print-none widget--feedback">
+  <h2 class="feedback--title">Feedback</h2>
+  <p class="feedback--question">Was this page helpful?</p>
+  <p class="feedback--response feedback--response-positive">
+    🙏
+  </p>
+  <p class="feedback--response feedback--response-negative">
+    🙏
+  </p>
+  <button class="btn btn-primary mb-4 btn-feedback btn-feedback-positive">
+    😍 Yes
+  </button>
+  <button class="btn btn-primary mb-4 btn-feedback btn-feedback-negative">
+    😡 No
+  </button>
+</div>
+<script>
+  const btnYes = document.querySelector('.btn-feedback-positive');
+  const btnNo = document.querySelector('.btn-feedback-negative');
+  const responseYes = document.querySelector('.feedback--response-positive');
+  const responseNo = document.querySelector('.feedback--response-negative');
+  const disableButtons = () => {
+    btnYes.disabled = true;
+    btnNo.disabled = true;
+  };
+  const sendFeedback = (value) => {
+    if (typeof gtag !== 'function') return;
+    gtag('event', 'click', {
+      'event_category': 'page_rating',
+      'event_label': window.location.pathname,
+      'value': value,
+      'transport_type': 'beacon',
+      'event_callback': function () {
+        console.debug(`✅ Feedback sent ${value}`);
+      }
+    });
+  };
+  btnYes.addEventListener('click', () => {
+    console.debug('Feedback response: 😍');
+    responseYes.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback(1);
+  });
+  btnNo.addEventListener('click', () => {
+    console.debug('Feedback response: 😡');
+    responseNo.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback(0);
+  });
+</script>
 
 
 
+
+
+<style>
+  .btn-feedback {
+    display: inline-block;
+  }
+  .btn-feedback-negative {
+    margin-left: 1em;
+  }
+  .feedback--response {
+    display: none;
+    margin-top: 1em;
+  }
+  .feedback--response__visible {
+    display: block;
+  }
+</style>
+<div class="d-print-none widget--feedback">
+  <h2 class="feedback--title">Feedback</h2>
+  <p class="feedback--question">Was this page helpful?</p>
+  <p class="feedback--response feedback--response-positive">
+    🙏
+  </p>
+  <p class="feedback--response feedback--response-negative">
+    🙏
+  </p>
+  <button class="btn btn-primary mb-4 btn-feedback btn-feedback-positive">
+    😍 Yes
+  </button>
+  <button class="btn btn-primary mb-4 btn-feedback btn-feedback-negative">
+    😡 No
+  </button>
+</div>
+<script>
+  const btnYes = document.querySelector('.btn-feedback-positive');
+  const btnNo = document.querySelector('.btn-feedback-negative');
+  const responseYes = document.querySelector('.feedback--response-positive');
+  const responseNo = document.querySelector('.feedback--response-negative');
+  const disableButtons = () => {
+    btnYes.disabled = true;
+    btnNo.disabled = true;
+  };
+  const sendFeedback = (value) => {
+    if (typeof gtag !== 'function') return;
+    gtag('event', 'click', {
+      'event_category': 'page_rating',
+      'event_label': window.location.pathname,
+      'value': value,
+      'transport_type': 'beacon',
+      'event_callback': function () {
+        console.debug(`✅ Feedback sent ${value}`);
+      }
+    });
+  };
+  btnYes.addEventListener('click', () => {
+    console.debug('Feedback response: 😍');
+    responseYes.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback(1);
+  });
+  btnNo.addEventListener('click', () => {
+    console.debug('Feedback response: 😡');
+    responseNo.classList.add('feedback--response__visible');
+    disableButtons();
+    sendFeedback(0);
+  });
+</script>
 
 
 
@@ -1181,7 +1313,7 @@ Else, update the length, position of maximum and the maximum length so far.</li>
   
 
 
-<script src="/js/vendor-bundle.min.js"></script>
+<script src="/js/vendor-bundle.min.1c73d04beb2a812936df7c476a550f0d.js"></script>
 
 
 
@@ -1274,11 +1406,11 @@ Else, update the length, position of maximum and the maximum length so far.</li>
   
 
 
-<script src="/en/js/wowchemy.min.js"></script>
+<script src="/en/js/wowchemy.min.276cc19119b7b9d8be065ad32097b98c.js"></script>
 
 
 
-  <script src="/js/wowchemy-map.js" type="module"></script>
+  <script src="/js/wowchemy-map.a26e9d2f7238ba5b868384f1c5bc6477.js" type="module"></script>
 
 
 
@@ -1311,7 +1443,7 @@ Else, update the length, position of maximum and the maximum length so far.</li>
 </div>
 
 
-  <script src="/js/wowchemy-publication.js" type="module"></script>
+  <script src="/js/wowchemy-publication.af9327db0521d4a01354bfc8b77a4324.js" type="module"></script>
 
 
 

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Verification | Academic</title>
-    <link>http://localhost:1313/tag/verification/</link>
-      <atom:link href="http://localhost:1313/tag/verification/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://subodhvsharma.github.io/tag/verification/</link>
+      <atom:link href="https://subodhvsharma.github.io/tag/verification/index.xml" rel="self" type="application/rss+xml" />
     <description>Verification</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_729f4604415becdb.png</url>
+      <url>https://subodhvsharma.github.io/media/icon_hu_729f4604415becdb.png</url>
       <title>Verification</title>
-      <link>http://localhost:1313/tag/verification/</link>
+      <link>https://subodhvsharma.github.io/tag/verification/</link>
     </image>
     
     <item>
       <title>Efficient Verification of Concurrent Programs over TSO Memory Model</title>
-      <link>http://localhost:1313/publication/arxiv16-concurrencyproofs/</link>
+      <link>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/arxiv16-concurrencyproofs/</guid>
+      <guid>https://subodhvsharma.github.io/publication/arxiv16-concurrencyproofs/</guid>
       <description></description>
     </item>
     
