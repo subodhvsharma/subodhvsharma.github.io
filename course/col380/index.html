@@ -970,7 +970,14 @@
 </li>
 </ul>
 <h2 id="class-notes-and-programs-developed-in-the-class">Class notes and Programs developed in the class</h2>
-<table class="fixed">
+<style>
+table.fixed th,
+table.fixed td {
+  border: 1px solid #999;
+  padding: 4px;
+}
+</style>
+<table class="fixed" style="border-collapse: collapse;">
     <col width="100px" />
     <col width="300px" />
     <col width="300px" />
@@ -978,9 +985,9 @@
     <col width="300px" />
 <tr bgcolor=CornflowerBlue>
  <th> Week</th>
-  <th>Monday</th>
-  <th>Tuesday</th>
-  <th> Friday </th>
+  <th>Lec 1</th>
+  <th>Lec 2</th>
+  <th> Lec 3 </th>
   <th> Reading </th>
 </tr>
 <!-- Week 1-->
@@ -1008,33 +1015,46 @@
 <ul>
 <li> Read sections 2.3 and 2.4 of GKKG</li>
 <li> Read chapter 5 of PP </li>
-<li> Read chapter 2 of HS </li>
+<li> Read chapter 2 and 3 of HS </li>
 </ul></td>
 </tr>
 <!-- WEEK 3 -->
 <tr>
   <td> 3 </td>
  <!-- Mon --> <td><i>Jan 16</i><br><a href="/col380-classnotes-2025/Lec6-OpenMP.pdf" target="_blank"> L6: Software Paralleism: More on OpenMP (atomicity, critical)</a> <br></td>
-<td> <i>Jan 20</i><br><a href="/col380-classnotes-2025/lec6-OpenMP.pdf" target="_blank"> L7: Software Paralleism: More on OpenMP (worksharing - FOR, Performance Opt)</a> <br></td>
-<td> <i>Jan 23</i><br><a href="/col380-classnotes-2025/lec6-OpenMP.pdf" target="_blank"> L7: Software Paralleism: More on OpenMP (Tasks), Memory Consistency (Linearisability)</a> <br></td>
+<td> <i>Jan 20</i><br><a href="/col380-classnotes-2025/lec7-OpenMP.pdf" target="_blank"> L7: Software Paralleism: More on OpenMP (worksharing - FOR, Performance Opt)</a> <br></td>
+<td> <i>Jan 23</i><br><a href="/col380-classnotes-2025/lec8-MemoryConsistency.pdf" target="_blank"> L8: Software Paralleism: More on OpenMP (Tasks), Memory Consistency (Linearisability)</a> <br></td>
 <!-- Reading--> <td> 
 <ul>
-<li> OpenMP -- [Tim Mattson's Videos](https://www.youtube.com/watch?v=nE-xN4Bf8XI&list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG) </li>
+<li> OpenMP -- <a href="https://www.youtube.com/watch?v=nE-xN4Bf8XI&list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG" target="_blank"> Tim Mattson's Videos</a> </li>
+<li> Read Chapter 4.3 of SK</li>
+<li> Linearisability & SC - Read chapter 3 of HS</li>
 </ul></td>
 </tr>
-<!-- <tr>
+<!-- WEEK 4 -->
+<tr>
   <td> 4 </td>
-  <td><i>Nov 21</i><br><a href="https://moodle.iitd.ac.in/" target="_blank"> L7:More on Higher order functions, Imperative programming -- data storage stuctures: tuples and lists </a><br></td>
-  <td><i>Nov 24</i><br><a href="https://moodle.iitd.ac.in/" target="_blank"> L8: More on lists -- Application of Higher order functions (Maps, filters and Fold functions), Dictionaries </a><br></td>
-  <td> Read Chapter sections 4.1, 6.1, 6.2, 7.1, 7.2 and 7.3 of the <a href=/col100-classnotes-2022/lecture-notes.pdf>Lecture Notes</a> and 
-  solve all back of the chapter problems </td>
-  <td> 
-  <ul>
-  <li> <a href="https://moodle.iitd.ac.in/" target="_blank">
-  Higher order functions, Tuples and Lists</a>
-  </ul>
-  </td>
-</tr> -->
+ <!-- Mon --> <td> <i>Jan 27</i><br><a href="/col380-classnotes-2025/lec9-MemoryConsistency.pdf" target="_blank"> L9: Memory Consistency - Linearisability & SC</a> <br></td>
+<td> <i>Feb 02</i><br><a href="/col380-classnotes-2025/lec10.pdf" target="_blank"> L10: Memory Consistency (Causal and Processor)</a> <br></td>
+<td> <i>Feb 03</i><br><a href="/col380-classnotes-2025/lec11-Synchronisations.pdf" target="_blank"> L11: Synchronisations (TAS, FAS, CAS)</a> <br></td>
+<!-- Reading--> <td> 
+<ul>
+<li> <a href="https://www.youtube.com/watch?v=dHgvQXnZ7Gw" target="_blank">Causal Consistency</a> </li>
+<li> <a href="https://www.youtube.com/watch?v=eYexvtCUSEU" target="_blank">Processor Consistency</a></li>
+<li> <a href="https://www.cs.cmu.edu/afs/cs/academic/class/15418-f19/www/lectures/sync-handout.pdf" target="_blank"> Synchronisation notes</li>
+</ul></td>
+</tr>
+<!-- WEEK 5 -->
+<tr>
+  <td> 5 </td>
+ <!-- Mon --> <td> <i>Feb 09</i><br><a href="/col380-classnotes-2025/lec12-MutualExclusion.pdf" target="_blank"> L12: Mutual Exclusion (Peterson's Algorithm)</a> <br></td>
+<td> <i>Feb 13</i><br><a href="/col380-classnotes-2025/q1.pdf" target="_blank"> QUIZ 1</a> <br></td>
+<td> <i>Feb 16</i><br><a href="/col380-classnotes-2025/lec13-Bakery.pdf" target="_blank"> Lec13: Mutual Exclusion (Bakery Algorithm)</a> <br></td>
+<!-- Reading--> <td> 
+<ul>
+<li> <a href="https://www.cs.rice.edu/~vs3/comp422/lecture-notes/comp422-lec19-s08-v1.pdf" target="_blank" >Bills notes on Locks and ME </a></li>
+</ul></td>
+</tr>
 </table>
 
 
